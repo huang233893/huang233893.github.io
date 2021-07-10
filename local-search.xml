@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Supermini UI 17 Pro Beta2更新！</title>
+    <link href="/2021/07/10/Supermini-UI-17-Pro/"/>
+    <url>/2021/07/10/Supermini-UI-17-Pro/</url>
+    
+    <content type="html"><![CDATA[<p>VMOS ROM Supermini UI 17 Pro Beta2更新！<br>时隔两个星期的摸鱼更新，我们Supermini团队带来了最新的VMOS Pro ROM Supermini UI 17 Pro Beta2</p><h3 id="更新内容："><a href="#更新内容：" class="headerlink" title="更新内容："></a>更新内容：</h3><p>1.全新的黑色UI，显示更可观<br>2.处处的圆角，跟上时代潮流（音量条和通知面板圆角将于Beta2更新）<br>3.简洁的导航栏<br>4.状态栏时间居左（通知显示还有一点bug，Beta3修复）<br>5.全新设置<br>6.精简再加一步，再精简4个软件，ROM仅490mb<br>7.全新通知面板图标，可视度更高<br>8.全新锁屏，仿安卓11<br>9.全新安装器</p><h3 id="特点："><a href="#特点：" class="headerlink" title="特点："></a>特点：</h3><p>1.完整root<br>2.打开即可以用的蝰蛇音效<br>3.适当精简<br>4.具有特色的美化<br>5.轻量的预装</p><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p>请加🐧qq群下载，群号在关于界面里面</p><h3 id="注："><a href="#注：" class="headerlink" title="注："></a>注：</h3><p>此ROM仅在VMOS Pro软件上运行！！！！！请勿当成刷机包使用！！！！</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Supermini UI</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2021/07/09/hello-world/"/>
+    <url>/2021/07/09/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>

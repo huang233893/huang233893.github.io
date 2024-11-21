@@ -13,11 +13,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -44,11 +40,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -75,11 +67,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -106,11 +94,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -137,11 +121,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -168,11 +148,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -199,11 +175,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -230,11 +202,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -261,11 +229,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -292,11 +256,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -323,11 +283,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -354,11 +310,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -385,11 +337,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -478,11 +426,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -509,11 +453,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -540,7 +480,7 @@
       
       <categories>
           
-          <category> 网络 </category>
+          <category> 思科 </category>
           
       </categories>
       
@@ -567,11 +507,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -598,11 +534,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -629,11 +561,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -660,11 +588,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -691,11 +615,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -722,7 +642,7 @@
       
       <categories>
           
-          <category> 网络 </category>
+          <category> 思科 </category>
           
       </categories>
       
@@ -749,11 +669,7 @@
       
       <categories>
           
-          <category> 网络 </category>
-          
           <category> 思科 </category>
-          
-          <category> 笔记 </category>
           
       </categories>
       
@@ -782,8 +698,6 @@
           
           <category> 杂项 </category>
           
-          <category> 指令 </category>
-          
       </categories>
       
       
@@ -808,8 +722,6 @@
       <categories>
           
           <category> Linux </category>
-          
-          <category> 指令 </category>
           
       </categories>
       
@@ -838,8 +750,6 @@
           
           <category> Linux </category>
           
-          <category> 指令 </category>
-          
       </categories>
       
       
@@ -866,8 +776,6 @@
       <categories>
           
           <category> Linux </category>
-          
-          <category> 指令 </category>
           
       </categories>
       
@@ -896,10 +804,6 @@
           
           <category> 华为 </category>
           
-          <category> 指令 </category>
-          
-          <category> 网络 </category>
-          
       </categories>
       
       
@@ -926,10 +830,6 @@
       <categories>
           
           <category> 刷机 </category>
-          
-          <category> Linux </category>
-          
-          <category> 华为 </category>
           
       </categories>
       

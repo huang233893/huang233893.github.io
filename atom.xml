@@ -6,7 +6,7 @@
   <link href="https://huang233893.github.io/atom.xml" rel="self"/>
   
   <link href="https://huang233893.github.io/"/>
-  <updated>2024-11-21T08:37:32.889Z</updated>
+  <updated>2024-11-22T01:49:42.910Z</updated>
   <id>https://huang233893.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>酥米的碎碎念（1）</title>
+    <link href="https://huang233893.github.io/2024/11/22/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B51/"/>
+    <id>https://huang233893.github.io/2024/11/22/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B51/</id>
+    <published>2024-11-22T01:18:32.000Z</published>
+    <updated>2024-11-22T01:49:42.910Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h3><p>唉 ……最近好纠结啊，自从去年加入竞赛队以来，由于我的性格原因（不太喜欢一直呆在一个地方），感觉哪哪都不舒服，学习竞赛内容时也不太得劲，老是集中不到精力，因为我是在网搭竞赛队嘛，而且我是负责网络部分的，每当我看到满当的市赛题题目，会产生一种恐惧感，甚至之前我自己都没意识到这样的感觉，久而久之，想退队的感觉也越来越强烈，我不再把全部身心投入到竞赛，而是带了一种摆烂性质的态度在学习内容。</p><p>直到10月底，老师确定了具体的竞赛日期，是12.7-12.27左右竞赛，并且竞赛改革了，是三位同学一队去参加嘛（我被分到了二队），然后三个同学分工合作设计方案并且把方案实操出来。我本想和两位队友一起努力努力，市赛拿个三等奖啥的，然后我自己申请退队，回到教室学习。</p><h3 id="意外之外"><a href="#意外之外" class="headerlink" title="意外之外"></a>意外之外</h3><p>没想到，才过了一周不到，老师就告诉我们，我们这个项目没有开市赛，而是得等明年的省赛，于是我原来的打算也破裂了。而且最近考了期中考试，我的三科语文英语还好，但是数学已经低的不能再低了，三科总分450，我加起来才210分左右，退步很明显，我意识到我不能再这么下去了，下一年3+证书考试如果考不好真的连公办大专都没得上了。</p><p>唉！我现在真的好纠结，是等明年的市赛，才是抽身退队回教室学习？或者说还有什么别的办法吗？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h3&gt;&lt;p&gt;唉 ……最近好纠结啊，自从去年加入竞赛队以来，由于我的性格原因（不太喜欢一直呆在一个地方），感觉哪哪都不舒服，学习竞赛内容时也不太得劲，老是</summary>
+      
+    
+    
+    
+    <category term="长篇碎碎念" scheme="https://huang233893.github.io/categories/%E9%95%BF%E7%AF%87%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="长篇碎碎念" scheme="https://huang233893.github.io/tags/%E9%95%BF%E7%AF%87%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>DHCP协议详解和配置</title>
@@ -528,34 +552,6 @@
     <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
 
 &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.</summary>
-      
-    
-    
-    
-    <category term="思科" scheme="https://huang233893.github.io/categories/%E6%80%9D%E7%A7%91/"/>
-    
-    
-    <category term="网络" scheme="https://huang233893.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="CCNA" scheme="https://huang233893.github.io/tags/CCNA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VLSM&amp;子网划分基础</title>
-    <link href="https://huang233893.github.io/2024/10/17/CCNA/VLSM&amp;%E5%AD%90%E7%BD%91%E5%88%92%E5%88%86%E5%9F%BA%E7%A1%80/"/>
-    <id>https://huang233893.github.io/2024/10/17/CCNA/VLSM&amp;%E5%AD%90%E7%BD%91%E5%88%92%E5%88%86%E5%9F%BA%E7%A1%80/</id>
-    <published>2024-10-17T07:01:46.000Z</published>
-    <updated>2024-11-21T08:37:25.505Z</updated>
-    
-    <content type="html"><![CDATA[<meta name="referrer" content="no-referrer" /><h2 id="什么是IP（v4）地址？"><a href="#什么是IP（v4）地址？" class="headerlink" title="什么是IP（v4）地址？"></a>什么是IP（v4）地址？</h2><ul><li>32位</li><li>点分十进制</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1728346483856-c5afe761-4939-4551-9121-403cde372526.png"></p><ul><li>十进制与二进制的转换</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1728346736794-9facc6d2-b099-4632-ba63-1fff0cc06538.png"></p><h2 id="IP地址的类别"><a href="#IP地址的类别" class="headerlink" title="IP地址的类别"></a>IP地址的类别</h2><ul><li>详解见附件表格</li></ul><h3 id="特殊地址"><a href="#特殊地址" class="headerlink" title="特殊地址"></a>特殊地址</h3><ul><li>127.0.0.1 回环</li><li>0.0.0.0 空地址</li></ul><h3 id="通讯类型"><a href="#通讯类型" class="headerlink" title="通讯类型"></a>通讯类型</h3><ul><li>单播</li><li>组播</li><li>广播</li></ul><h3 id="地址类型"><a href="#地址类型" class="headerlink" title="地址类型"></a>地址类型</h3><ul><li><strong><font style="color:#DF2A3F;">网络地址：</font></strong> 代指网络的地址。在网络的IPv4地址范围内，最小地址保留为网络地址。此地址的主机部分的每个主机位为0</li><li><strong><font style="color:#DF2A3F;">广播地址：</font></strong> 用于向网络中的所有主机发送数据的特殊地址。广播地址使用该网络范围内的最大地址。即主机部分的各比特位全部为1的地址</li><li><strong><font style="color:#DF2A3F;">主机地址：</font></strong> 分配给网络中终端设备的地址</li></ul><h3 id="公网、私有地址"><a href="#公网、私有地址" class="headerlink" title="公网、私有地址"></a>公网、私有地址</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1728351711647-589eb4fc-6491-4c49-a018-a5f006366124.png"></p><h2 id="为什么要划分子网？"><a href="#为什么要划分子网？" class="headerlink" title="为什么要划分子网？"></a>为什么要划分子网？</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1728348829408-7687d102-2ca3-4736-9b17-d553c72c65df.png"></p><ul><li>一个A或B类地址，网络主机过多，划分子网可以有效解决管理的问题</li><li>划分子网也可以解决效率和性能的问题</li></ul><h3 id="掩码的作用"><a href="#掩码的作用" class="headerlink" title="掩码的作用"></a>掩码的作用</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1728349082195-118bf88e-93f0-4dba-9d1b-32d81556acea.png"></p><h3 id="如何划分"><a href="#如何划分" class="headerlink" title="如何划分"></a>如何划分</h3><ul><li>向主机位借位</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1728349853356-7a427b0e-819e-4cf5-9194-66190b055562.png"></p><ul><li>判断类别 找掩码</li><li>变更掩码 找子网</li><li>得出子网号</li><li>得出主机段</li><li>得出广播号</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
-
-&lt;h2 id=&quot;什么是IP（v4）地址？&quot;&gt;&lt;a href=&quot;#什么是IP（v4）地址？&quot; class=&quot;headerlink&quot; title=&quot;什么是IP（v4）地址？&quot;&gt;&lt;/a&gt;什么</summary>
       
     
     

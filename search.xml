@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>每一步都是意外之外！荣耀平板5 10.1英寸版本的各种折腾 （总结篇）</title>
+      <link href="/2024/12/17/%E5%88%B7%E6%9C%BA/Agassi2-W09BHN/"/>
+      <url>/2024/12/17/%E5%88%B7%E6%9C%BA/Agassi2-W09BHN/</url>
+      
+        <content type="html"><![CDATA[<h3 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h3><p>三天前，我在闲鱼相中了一台荣耀平板5 10英寸，并且以155的低价购入屏幕带线版，当时卖家是说除了屏幕顶上有线其他正常，结果到手三天意外就发生了，屏幕直接被被竖纹给霸占，找商家追诉，返了55块<br><img src="https://img.picgo.net/2024/12/17/_20241217223405c0da039bcf71b87f.jpg"><br><img src="https://img.picgo.net/2024/12/17/_20241217223419881daab9e6bec84e.jpg"><br>小嘴一句，这个卖家本来还不想理我，直接未读但闲鱼在线，还把简介的非质量问题改成了不退不换，想耍闲鱼小花招，没门！我直接给他甩追差评+投诉+拉黑小连招，让卖家怂的返了一部分的钱款<br><img src="https://img.picgo.net/2024/12/17/_202412172233485e717c8557a033f4.jpg"></p><h3 id="麒麟659在鸿蒙下"><a href="#麒麟659在鸿蒙下" class="headerlink" title="麒麟659在鸿蒙下"></a>麒麟659在鸿蒙下</h3><p>真的好卡！！！！！！我已经不能用言语形容卡顿，是那种没法正常用的卡顿，鸿蒙的对于老机型的优化真的很垃圾，我不明白套壳emui9为什么还能这么卡，在鸿蒙下没装软件滑动桌面都会卡，更别说了装了软件了，我还跑了个娱乐兔跑分，这颗u跑分在14-15w分左右，和625不分伯仲，但是这个价位要什么自行车？&#x2F;doge<br><img src="https://img.picgo.net/2024/12/17/_20241217232010d995688d2c5a2243.jpg"><br><img src="https://img.picgo.net/2024/12/17/_20241217232016f2f0fcd1c4710d83.jpg"></p><h3 id="降级"><a href="#降级" class="headerlink" title="降级"></a>降级</h3><h4 id="官方渠道无法正常降级"><a href="#官方渠道无法正常降级" class="headerlink" title="官方渠道无法正常降级"></a>官方渠道无法正常降级</h4><p>OKOK扯远了，回到正题，于是我就开启了我的难崩降级之旅，因为华为的解bl和刷机嘛，需要在emui下实现，所以得从鸿蒙降级下来。<br>华为也很鸡贼，明明之前说好升了鸿蒙可以随便降回emui，但是从Harmony Next之后，华为就取消了所以老机型的降级通道，这意味着唯一的官方通道被彻底覆灭，我也尝试过像代理降级的办法，都是无法正常降级的</p><h4 id="三件强刷"><a href="#三件强刷" class="headerlink" title="三件强刷"></a>三件强刷</h4><p>所幸，我在万维论坛找到了高维禁用的emui9强刷包，食用方法也很简单：</p><ul><li>下载之后直接解压dload放在sd卡目录（一定是sd卡或者otg，不能是内部存储）</li><li>然后打开系统自带的计算器输入()()2846579()()进入工程菜单<br><img src="https://img.picgo.net/2024/12/17/3g7drk4od44a83caabd2cba8.png" alt="3g7drk4o"></li><li>选择软件升级——存储卡升级，旁边就会重启到rec自动降级emui9.1了<br><img src="https://img.picgo.net/2024/12/17/_20241217223423256b09ccbe013b82.jpg"></li><li>注：由于万维论坛的注册是邀请制，并且限制分享，所以要强刷包下载链接的可以点击右下角三个选项中间的小气泡按钮找我要链接下载</li></ul><h4 id="Bingo"><a href="#Bingo" class="headerlink" title="Bingo"></a>Bingo</h4><p>恭喜你完成第一步，降级EMUI9，降完级你会得到一个可以正常使用流畅度也还行的麒麟659设备</p><h3 id="拆机解锁BL"><a href="#拆机解锁BL" class="headerlink" title="拆机解锁BL"></a>拆机解锁BL</h3><p>但是还不够，我的终极目标是解锁BL刷入LineageOS GSI！达到真正的流畅使用！</p><h4 id="拆机"><a href="#拆机" class="headerlink" title="拆机"></a>拆机</h4><p>太晚了，我想睡觉，明天再写，欲知后事如何，请听下回分解！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 刷机 </tag>
+            
+            <tag> 玩机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MacOS X 10.0 Developer Preview 3安装教程（附酥米的MacOS的小记说说）</title>
       <link href="/2024/11/26/%E6%95%99%E7%A8%8B/MacOSXDP3install/"/>
       <url>/2024/11/26/%E6%95%99%E7%A8%8B/MacOSXDP3install/</url>

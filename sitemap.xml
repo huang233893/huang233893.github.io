@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.sumi233.top/Fun/index.html</loc>
+    
+    <lastmod>2025-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/game/index.html</loc>
+    
+    <lastmod>2025-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/2024/11/21/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E5%92%8C%E8%B7%AF%E5%BE%84/</loc>
     
     <lastmod>2025-08-03</lastmod>
@@ -327,15 +345,6 @@
   
   <url>
     <loc>https://www.sumi233.top/categories/index.html</loc>
-    
-    <lastmod>2024-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/game/index.html</loc>
     
     <lastmod>2024-11-21</lastmod>
     

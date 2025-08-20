@@ -1,3 +1,56 @@
 var posts=["2024/10/17/CCNA/ACL基础/","2024/10/17/CCNA/DOD（TCP_IP）/","2024/10/17/CCNA/EIGRP基础/","2024/10/17/CCNA/OSI基础/","2024/10/17/CCNA/RIP基础/","2024/10/17/CCNA/OSPF基础/","2024/10/17/CCNA/STP基础/","2024/10/17/CCNA/Spanning Tree And More/","2024/10/17/CCNA/VLAN基础/","2024/10/17/CCNA/NAT基础/","2024/10/17/CCNA/VLSM和子网划分基础/","2024/10/17/CCNA/帧中继FrameDelay/","2024/10/17/CCNA/WAN广域网和PPP/","2024/10/17/CCNA/静态路由+思科系统操作/","2024/11/21/CCNP/CCNP交换 DHCP协议详解及配置/","2024/11/21/CCNP/CCNP交换 EtherChannel/","2024/11/21/CCNP/CCNP交换 HSRP VRRP GLBP/","2024/10/17/CCNP/CCNP交换 Lay2 Switching and VLAN/","2024/11/21/CCNP/CCNP交换 VLAN间的路由及三层交换机的部署/","2024/10/17/CCNP/CCNP交换 Trunk VTP and pVLAN/","2024/11/21/CCNP/CCNP路由 EIGRP部分/","2024/11/21/CCNP/CCNP路由 BGP/","2024/11/21/CCNP/CCNP路由 OSPF和LSA部分/","2024/11/21/CCNP/CCNP路由 路由和路径/","2024/05/27/Linux/Linux Bash Shell 脚本编写/","2024/11/21/CCNP/CCNP路由 路由选择原理/","2024/05/27/Linux/Linux RAID磁盘阵列/","2024/05/27/Linux/Linux服务器基础/","2024/05/27/eNSP/eNSP指令及基础/","2024/12/26/刷机/Agassi2-W09BHN/","2024/02/16/刷机/kiwi-downdate/","2024/11/26/教程/MacOSXDP3install/","2025/08/02/教程/dnscloudflare/","2020/06/02/测试/hello-world/","2024/11/22/酥米的碎碎念/酥米的碎碎念1/","2025/08/19/教程/redmi2linux/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
-  };
+  };var friend_link_list=[{"name":"Hexo","link":"https://hexo.io/zh-tw/","avatar":"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg","descr":"快速、简单且强大的网站框架"},{"name":"anzhiyu主题","link":"https://blog.anheyu.com/","avatar":"https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg","descr":"生活明朗，万物可爱","siteshot":"https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg"},{"name":"酥米的小站","link":"https://www.sumi233.top/","avatar":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/userfb6a1018b84ce485.jpg","descr":"终有一日，寻梦中人","siteshot":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/link%20(2).png","color":"vip","tag":"技术"},{"name":"安知鱼博客","link":"https://blog.anheyu.com/","avatar":"https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg","descr":"生活明朗，万物可爱","siteshot":"https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg","color":"vip","tag":"技术"},{"name":"萝卜子的小屋","link":"https://www.ptilopsis.xyz/","avatar":"https://www.ptilopsis.xyz/wp-content/uploads/2024/12/20241212152832.webp","descr":"GcYJdRniC1's Blog!","siteshot":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/link%20(3).png","color":"vip","tag":"技术"},{"name":"槿鸢茶屋","link":"https://ipox.cn/","avatar":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/link%20(1).png","descr":"槿鸢茶屋 —— 咕咕咕","siteshot":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/link%20(2).png","color":"vip","tag":"技术"},{"name":"天影大侠的小站","link":"https://blog.skyshadow.fun","avatar":"https://weavatar.com/avatar/7388ea4765a319d5f83fea61c3236384?s=1000","descr":"天影大侠的小站","siteshot":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-08-18%20221212.jpg","color":"vip","tag":"友链"},{"name":"Lanke's blog","link":"https://www.blueke.top","avatar":"https://www.blueke.top/favicon/logo.png","descr":"请为一切不真实之物骄傲，因为我们高于这个世界！","siteshot":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-08-18%20223556.jpg","color":"vip","tag":"友链"},{"name":"酥米","link":"https://www.sumi233.top/","avatar":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/userfb6a1018b84ce485.jpg","descr":"终有一日，寻梦中人","recommend":true},{"name":"安知鱼","link":"https://blog.anheyu.com/","avatar":"https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg","descr":"生活明朗，万物可爱","recommend":true},{"name":"GcYJdRniC1","link":"https://www.ptilopsis.xyz/","avatar":"https://www.ptilopsis.xyz/wp-content/uploads/2024/12/20241212152832.webp","descr":"GcYJdRniC1's Blog!","recommend":true},{"name":"槿鸢","link":"https://ipox.cn/","avatar":"https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/link%20(1).png","descr":"槿鸢茶屋 —— 咕咕咕","recommend":true}];
+    var refreshNum = 1;
+    function friendChainRandomTransmission() {
+      const randomIndex = Math.floor(Math.random() * friend_link_list.length);
+      const { name, link } = friend_link_list.splice(randomIndex, 1)[0];
+      Snackbar.show({
+        text:
+          "点击前往按钮进入随机一个友链，不保证跳转网站的安全性和可用性。本次随机到的是本站友链：「" + name + "」",
+        duration: 8000,
+        pos: "top-center",
+        actionText: "前往",
+        onActionClick: function (element) {
+          element.style.opacity = 0;
+          window.open(link, "_blank");
+        },
+      });
+    }
+    function addFriendLinksInFooter() {
+      var footerRandomFriendsBtn = document.getElementById("footer-random-friends-btn");
+      if(!footerRandomFriendsBtn) return;
+      footerRandomFriendsBtn.style.opacity = "0.2";
+      footerRandomFriendsBtn.style.transitionDuration = "0.3s";
+      footerRandomFriendsBtn.style.transform = "rotate(" + 360 * refreshNum++ + "deg)";
+      const finalLinkList = [];
+  
+      let count = 0;
+
+      while (friend_link_list.length && count < 2) {
+        const randomIndex = Math.floor(Math.random() * friend_link_list.length);
+        const { name, link, avatar } = friend_link_list.splice(randomIndex, 1)[0];
+  
+        finalLinkList.push({
+          name,
+          link,
+          avatar,
+        });
+        count++;
+      }
+  
+      let html = finalLinkList
+        .map(({ name, link }) => {
+          const returnInfo = "<a class='footer-item' href='" + link + "' target='_blank' rel='noopener nofollow'>" + name + "</a>"
+          return returnInfo;
+        })
+        .join("");
+  
+      html += "<a class='footer-item' href='/link/'>更多</a>";
+
+      document.getElementById("friend-links-in-footer").innerHTML = html;
+
+      setTimeout(()=>{
+        footerRandomFriendsBtn.style.opacity = "1";
+      }, 300)
+    };

@@ -6,7 +6,7 @@
   <link href="https://www.sumi233.top/atom.xml" rel="self"/>
   
   <link href="https://www.sumi233.top/"/>
-  <updated>2025-08-19T13:26:52.251Z</updated>
+  <updated>2025-09-07T13:06:05.586Z</updated>
   <id>https://www.sumi233.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows 11 DEV 26220.5790 更新日志：AI赋能更智能的PC体验</title>
+    <link href="https://www.sumi233.top/Windows/win11dev/"/>
+    <id>https://www.sumi233.top/Windows/win11dev/</id>
+    <published>2025-09-07T12:45:08.000Z</published>
+    <updated>2025-09-07T13:06:05.586Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>系统版本：Windows 11 25H2</p><p>内核版本：26220.5790</p><p>频道：Dev Channel</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/1-1.jpg"></p><blockquote><p>微软最新发布的Windows 11 25H2 Build 26220.5790预览版为Copilot+ PC带来了一系列AI驱动的新功能，让操作系统变得更加智能高效。</p></blockquote><p>近日，微软向Dev频道的Windows Insider项目成员发布了Windows 11 Insider Preview Build 26220.5790（KB5065779），作为即将到来的25H2版本的一部分。</p><p>这个版本主要集中在提升Copilot+ PC的体验上，引入了智能语音听写、扩展的Studio Effects支持以及文件资源管理器的改进。</p><hr><h1 id="智能语音听写：更流畅的语音输入体验"><a href="#智能语音听写：更流畅的语音输入体验" class="headerlink" title="智能语音听写：更流畅的语音输入体验"></a>智能语音听写：更流畅的语音输入体验</h1><p>Build 26220.5790 为Copilot+ PC带来了<strong>流体听写（Fluid Dictation）</strong> 功能。它通过设备端的小型语言模型（SLMs）实时自动纠正语法、标点符号和填充词，从而减少手动编辑的需要。</p><p>这意味着用户在使用语音输入时可以获得更流畅、更智能的体验。</p><p>此功能在任何支持文本输入的应用中都能工作，但在密码或PIN等安全字段中会自动禁用以保护隐私。目前流体听写支持<strong>所有英语 locales</strong>。</p><p>要使用此功能，用户只需启动语音访问（Voice Access）并完成设置（如果是首次使用），流体听写默认即为启用状态。</p><h1 id="Studio-Effects扩展支持更多摄像头"><a href="#Studio-Effects扩展支持更多摄像头" class="headerlink" title="Studio Effects扩展支持更多摄像头"></a>Studio Effects扩展支持更多摄像头</h1><p>本次更新另一个亮点是 <strong>Windows Studio Effects 开始支持更多类型的摄像头硬件</strong>。</p><p>此前Studio Effects主要限于集成式笔记本电脑摄像头，现在，在支持的Copilot+ PC上，用户可以在<strong>额外的备用摄像头</strong>（如USB网络摄像头或笔记本电脑的内置后置摄像头）上使用AI加持的摄像头增强功能了。</p><p>要启用该功能，只需导航到 <strong>“设置”&gt;“蓝牙和设备”&gt;“摄像头”</strong>，从已连接的摄像头列表中选择首选摄像头，然后打开高级摄像头选项菜单，找到新的“使用Windows Studio Effects”切换开关即可。</p><p>需要注意的是，该功能所需的Windows Studio Effects驱动程序更新将<strong>首先推送给基于Intel的Copilot+ PC</strong>，基于AMD和Snapdragon的Copilot+ PC则在未来几周内陆续获得支持。</p><h1 id="文件资源管理器的新悬停操作"><a href="#文件资源管理器的新悬停操作" class="headerlink" title="文件资源管理器的新悬停操作"></a>文件资源管理器的新悬停操作</h1><p>文件资源管理器的“主页”现在提供了<strong>新的悬停操作</strong>，以便更快地进行文件管理。</p><p>当用户在文件资源管理器主页中将鼠标悬停在文件上时，会显示“打开文件位置”和“向Copilot询问此文件”等命令。这使得用户能更轻松地尝试Copilot集成并附加文件。</p><p>不过此体验目前仅限使用<strong>Microsoft帐户登录</strong>的用户。对未来工作或学校账户（Entra ID）的支持将在未来的版本中推出，并且此更改尚未向欧洲经济区（EEA）的Windows Insider成员推出。</p><h1 id="底层优化和问题修复"><a href="#底层优化和问题修复" class="headerlink" title="底层优化和问题修复"></a>底层优化和问题修复</h1><p>除了引入新功能，Build 26220.5790 也带来了一系列修复，提升了系统的稳定性和性能：</p><ul><li><strong>常规性修复</strong>：解决了某些设备上各种场景中出现的意外延迟增加问题，包括与文件资源管理器和任务栏的交互（单击可能需要500毫秒才能处理）以及浏览器窗口（尤其是在观看视频时）。</li><li><strong>任务栏和系统托盘</strong>：修复了更改显示分辨率后，任务栏中的应用预览窗口可能与单击&#x2F;悬停的应用图标<strong>不对齐的问题</strong>。</li><li><strong>文件资源管理器</strong>：修复了安装某些应用程序后，右键单击时上下文菜单可能在正常初始视图和“显示更多选项”之间意外切换的问题。</li><li><strong>设置</strong>：解决了“设置”&gt;“系统”&gt;“存储”&gt;“临时文件”页面在文件扫描阶段<strong>卡住的问题</strong>。</li><li><strong>其他</strong>：修复了导致某些Insiders的事件查看器中出现“Microsoft Pluton加密提供程序未加载，因为初始化失败”并出现错误57的问题。</li></ul><h1 id="已知问题"><a href="#已知问题" class="headerlink" title="已知问题"></a>已知问题</h1><p>目前仍存在一些已知问题，微软正在调查解决：</p><ul><li>一些PC在<strong>休眠期间</strong>可能会遇到bugcheck（绿屏），建议用户暂时避免使PC休眠。</li><li>文件资源管理器主页中的“共享”部分对某些用户可能<strong>显示为空</strong>。</li><li>一些Insiders遇到<strong>音频问题</strong>（音频停止工作，设备管理器中设备显示黄色感叹号），可尝试通过更新设备驱动程序来缓解。</li><li>正在调查<strong>通过蓝牙使用Xbox控制器</strong>导致PC bugcheck的问题。</li></ul><hr><p>Build 26220.5790预览版展现了Windows 11 25H2在<strong>AI与操作系统深度融合</strong>方面的探索。流体听写、扩展的Studio Effects以及更便捷的文件操作悬停菜单，都预示着更智能、更高效的个人计算体验。</p><p>由于此版本是测试版，<strong>稳定性可能受到影响</strong>，不建议在生产环境中使用。</p><h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><p>本文章使用Deepseek V3润色而成，如有错误，请指出，酥米将会及时更改。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;系统版本：Windows 11 25H2&lt;/p&gt;
+&lt;p&gt;内核版本：26220.5790&lt;/p&gt;
+&lt;p&gt;频道：Dev Channel&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="系统" scheme="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="指令" scheme="https://www.sumi233.top/tags/%E6%8C%87%E4%BB%A4/"/>
+    
+    <category term="ensp" scheme="https://www.sumi233.top/tags/ensp/"/>
+    
+  </entry>
   
   <entry>
     <title>红米2？Linux？ | 手把手教你刷入PostmarketOS Linux！老机换新颜！</title>
@@ -517,33 +546,6 @@
       
     <summary type="html">&lt;hr&gt;
 &lt;h2 id=&quot;模型结构&quot;&gt;&lt;a href=&quot;#模型结构&quot; class=&quot;headerlink&quot; title=&quot;模型结构&quot;&gt;&lt;/a&gt;模型结构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sumi233.top/gh/huang233893/blog-ima</summary>
-      
-    
-    
-    
-    <category term="思科" scheme="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/"/>
-    
-    
-    <category term="网络" scheme="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="CCNA" scheme="https://www.sumi233.top/tags/CCNA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OSPF基础</title>
-    <link href="https://www.sumi233.top/CCNA/OSPF%E5%9F%BA%E7%A1%80/"/>
-    <id>https://www.sumi233.top/CCNA/OSPF%E5%9F%BA%E7%A1%80/</id>
-    <published>2024-10-17T07:01:46.000Z</published>
-    <updated>2025-08-02T10:16:12.989Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>1.OSPF是一种链路状态路由协议，无路由循环（全局拓扑），RFC 2328</p><p>2.OSPF采用开放的协议，并非EIGRP一类仅思科可用的专有协议，这意味着OSPF可以在所有支持的路由器上运行</p><p>3.管理性距离：110</p><h3 id="采用SPF算法计算达到目的地的最短路径"><a href="#采用SPF算法计算达到目的地的最短路径" class="headerlink" title="采用SPF算法计算达到目的地的最短路径"></a>采用SPF算法计算达到目的地的最短路径</h3><ul><li>什么是链路（link）？&#x3D; 路由器的接口</li><li>什么叫状态（State）？&#x3D; 是指接口以及其与邻居路由器之间的关系</li></ul><h2 id="基本运行步骤"><a href="#基本运行步骤" class="headerlink" title="基本运行步骤"></a>基本运行步骤</h2><p>1.建立邻接关系（Establish router adjacencies）</p><p>2.必要的时候进行DR的选举（Elect the DR &#x2F; BDR）</p><p>3.发现路由（Discover routes）</p><p>4.选择合适的路由器（Select appropriate routes）</p><p>5.维护路由信息（Maintain routing information）</p><h2 id="网络类型"><a href="#网络类型" class="headerlink" title="网络类型"></a>网络类型</h2><h3 id="DMA"><a href="#DMA" class="headerlink" title="DMA"></a>DMA</h3><p> DMA 广播型多路访问</p><p id="ub2915ced" class="ne-p"><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(9).png" width="434" id="uc4008158" class="ne-image"></p><p></p><h3 id="Point-To-Point"><a href="#Point-To-Point" class="headerlink" title="Point-To-Point"></a>Point-To-Point</h3><p> Point-to-Point 点对点<br> <img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(6).png" width="413" id="u0f335e14" class="ne-image"></p><p></p><h3 id="NBMA"><a href="#NBMA" class="headerlink" title="NBMA"></a>NBMA</h3><p> NBMA 非广播型多路访问</p><p id="u0783e427" class="ne-p"><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(7).png" width="432" id="u22677836" class="ne-image"></p><p></p><h3 id="报文类型"><a href="#报文类型" class="headerlink" title="报文类型"></a>报文类型</h3><ul><li><strong>Hello</strong> 建立和维护OSPF邻居关系</li><li><strong>DBD</strong> 链路状态数据库描述信息（描述LSDB中LSA头部信息）</li><li><strong>LSR</strong> 链路状态请求，向OSPF邻居请求链路状态信息</li><li><strong>LSU</strong> 链路状态更新（包含一条或多条LSA）</li><li><strong>LSAck</strong> 对LSU中的LSA进行确认</li></ul><h2 id="OSPF三张表类型"><a href="#OSPF三张表类型" class="headerlink" title="OSPF三张表类型"></a>OSPF三张表类型</h2><h3 id="邻居表（neighbor-table）"><a href="#邻居表（neighbor-table）" class="headerlink" title="邻居表（neighbor table）"></a>邻居表（neighbor table）</h3><ul><li>OSPF用邻居机制来发现和维持路由的存在，邻居表储存了双向通信的邻居关系OSPF路由器列表信息。</li></ul><h3 id="拓扑表（topology-table）"><a href="#拓扑表（topology-table）" class="headerlink" title="拓扑表（topology table）"></a>拓扑表（topology table）</h3><ul><li>OSPF用LSA（link state Advertisement 链路状态通告）来描述网络拓扑信息，然后OSPF路由器用拓扑数据库来存储网络的这些LSA。</li></ul><h3 id="OSPF路由表（routing-table）"><a href="#OSPF路由表（routing-table）" class="headerlink" title="OSPF路由表（routing table）"></a>OSPF路由表（routing table）</h3><ul><li>对链路状态数据库进行SPF（Dijkstra）计算，而得出OSPF路由表。</li></ul><h2 id="RouterID"><a href="#RouterID" class="headerlink" title="RouterID"></a>RouterID</h2><ul><li>用于标识OSPF路由器的ID，全网唯一性；可手动配置，也可以动态选举（有Loopback接口时，选择最高的Loopback IP地址；否则，选择最高活跃物理接口的IP地址）。</li></ul><blockquote><p>Router ID演示图<img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(5).png"></p></blockquote><h2 id="DR和BDR"><a href="#DR和BDR" class="headerlink" title="DR和BDR"></a>DR和BDR</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(12).png"></p><ul><li>为减小多路访问网络中的OSPF流量，OSPF会选举一个指定路由器（DR）和一个备用指定路由器（BDR）。</li><li>选举规则：最高接口优先级被选作DR，如果优先级相等（默认为1），具有最高的路由器ID（Router-ID）的路由器被选举成DR，而且DR具有非抢占性</li><li>指定路由器（DR）：DR负责使用该变化信息更新其他所有OSPF路由器（DRouter）</li><li>备用指定路由器（BDR）：BDR会监控DR的状态，并在当前DR发生故障时接替其角色</li></ul><h2 id="建立邻接关系-Hello包"><a href="#建立邻接关系-Hello包" class="headerlink" title="建立邻接关系-Hello包"></a>建立邻接关系-Hello包</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(10).png"></p><ul><li>Hello包用来发现OSPF邻居并建立相邻关系，通过组播地址：224.0.0.5 发送给 ALLSPFRouters</li><li>通告两台路由器建立相邻关系所必须统一的参数</li><li>在以太网和帧中继网络等多路访问网络中选举指定路由器（DR）和备用指定路由器（BDR）</li></ul><h2 id="OSPF-metric"><a href="#OSPF-metric" class="headerlink" title="OSPF metric"></a>OSPF metric</h2><ul><li>每个路由器都把自己当作根，并且给予累积成本（Cost值）来计算到达目的地的最短路径。</li><li>Cost &#x3D; 参考带宽（10^8）&#x2F;接口带宽（b&#x2F;s）</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(11).png"></p><h2 id="LSA"><a href="#LSA" class="headerlink" title="LSA"></a>LSA</h2><h3 id="LSU"><a href="#LSU" class="headerlink" title="LSU"></a>LSU</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(1).png"></p><ul><li>路由器收到包含变化后的LSA的LSU后，更新自己的链路状态数据库，过一段时间（SPF延迟），对更新的链路状态数据库执行SPF算法，必要时更新路由表。</li></ul><h3 id="LSA的泛洪-示例1"><a href="#LSA的泛洪-示例1" class="headerlink" title="LSA的泛洪-示例1"></a>LSA的泛洪-示例1</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(2).png"></p><ul><li>路由器R3用224.0.0.6通知DR路由器及BDR的路由器</li><li>DR、BDR监听224.0.0.6这一组播地址</li></ul><h3 id="LSA的泛洪-示例2"><a href="#LSA的泛洪-示例2" class="headerlink" title="LSA的泛洪-示例2"></a>LSA的泛洪-示例2</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(3).png"></p><ul><li>DR利用组播地址224.0.0.5通知其它路由器</li><li>所有的OSPF路由器监听224.0.0.5这一组播地址</li></ul><h2 id="OSPF区域"><a href="#OSPF区域" class="headerlink" title="OSPF区域"></a>OSPF区域</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(8).png"></p><ul><li>在区域边界可以做路由汇总，减小了路由表</li><li>减少了LSA泛洪的范围，有效的把拓扑变化控制在区域内，提高了网络的稳定性</li><li>拓扑的变化影响可以只限制涉及本区域</li><li>多区域提高了网络的扩展性，有利于组建大规模的网络</li></ul><h2 id="配置实践"><a href="#配置实践" class="headerlink" title="配置实践"></a>配置实践</h2><h3 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router ospf process-id #开启OSPF进程，process-id为进程id</span><br><span class="line">Router(config-router)# network address wildcard-mask area area-id #宣告特定网络到OSPF区域</span><br></pre></td></tr></table></figure><h4 id="通配符掩码"><a href="#通配符掩码" class="headerlink" title="通配符掩码"></a>通配符掩码</h4><ul><li>通配符是一个用于决定哪些IP地址位该精准匹配（0代表精准匹配）那些地址为被忽略的32位数值，通常用于处理访问控制列表（ACL）、OSPF、EIGRP等路由协议的网络通告。</li></ul><h5 id="掩码"><a href="#掩码" class="headerlink" title="- 掩码"></a>- 掩码</h5><p>1位表示网络位；0位表示主机位。掩码用于区分IP地址中的网络及主机部分</p><h5 id="通配符"><a href="#通配符" class="headerlink" title="- 通配符"></a>- 通配符</h5><p>1位表示无所谓；0位表示需要严格匹配。通配符用于决定一个IP中的哪些位应该匹配</p><h3 id="基本配置-单区域-实例"><a href="#基本配置-单区域-实例" class="headerlink" title="基本配置 单区域-实例"></a>基本配置 单区域-实例</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/OSPF%20(4).png"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router ospf 1</span><br><span class="line">Router(config-if)# network 192.168.12.0 0.0.0.255 area 0</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router ospf 1</span><br><span class="line">Router(config-if)# network 192.168.12.0 0.0.0.255 area 0</span><br><span class="line">Router(config-if)# network 192.168.23.0 0.0.0.255 area 0</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router ospf 1</span><br><span class="line">Router(config-if)# network 192.168.23.0 0.0.0.255 area 0</span><br></pre></td></tr></table></figure><p>最后，使用<code>show ip ospf neighbor</code>命令，可以查看ospf配置是否成功配置生效。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;1.OSPF是一种链路状态路由协议，无路由循环（全局拓扑），RFC 2328&lt;/p&gt;
-&lt;p&gt;2.OSPF采用开放的协议，并非EIGRP一类仅</summary>
       
     
     

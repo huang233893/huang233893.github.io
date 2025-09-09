@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.sumi233.top/link/index.html</loc>
+    
+    <lastmod>2025-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/update/index.html</loc>
     
     <lastmod>2025-09-09</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://www.sumi233.top/charts/index.html</loc>
-    
-    <lastmod>2025-09-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/link/index.html</loc>
     
     <lastmod>2025-09-08</lastmod>
     

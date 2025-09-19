@@ -4,6 +4,7 @@ Allow: /archives/
 Allow: /categories/
 Allow: /tags/
 Allow: /about/
+Allow: /atom.xml
 
 Sitemap: https://www.sumi233.top/sitemap.xml
 

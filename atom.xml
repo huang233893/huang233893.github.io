@@ -6,7 +6,7 @@
   <link href="https://www.sumi233.top/atom.xml" rel="self"/>
   
   <link href="https://www.sumi233.top/"/>
-  <updated>2025-09-19T03:09:48.974Z</updated>
+  <updated>2025-09-21T08:40:24.863Z</updated>
   <id>https://www.sumi233.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows 11 Insider Preview Build 26220.6690 更新日志：Copilot 整合再深化</title>
+    <link href="https://www.sumi233.top/Windows/win11dev2/"/>
+    <id>https://www.sumi233.top/Windows/win11dev2/</id>
+    <published>2025-09-21T08:30:00.000Z</published>
+    <updated>2025-09-21T08:40:24.863Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="版本信息"><a href="#版本信息" class="headerlink" title="版本信息"></a>版本信息</h1><p>系统版本：Windows 11 25H2</p><p>内核版本：26220.6690</p><p>频道：Dev Channel</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/1-3.jpg"></p><blockquote><p>微软于2025年9月19日向Dev频道的Windows Insider项目成员推送了Windows 11 Insider Preview Build 26220.6690 (KB5065786) 版本更新。本次更新继续深化Copilot与系统壳层的整合，并带来多项体验优化和问题修复。</p></blockquote><hr><h1 id="1-Click-to-Do-预览版-翻译功能"><a href="#1-Click-to-Do-预览版-翻译功能" class="headerlink" title="1. Click to Do (预览版) 翻译功能"></a>1. Click to Do (预览版) 翻译功能</h1><ul><li>为 <strong>Copilot+ PC</strong> 引入了由 <strong>Microsoft Copilot 提供支持的翻译功能</strong>。</li><li>当选择的文本与Windows显示语言或首选语言设置不同时，会<strong>出现翻译建议</strong>。</li><li>选定的文本会发送到Copilot应用，并在体验中<strong>无缝提供翻译</strong>。</li><li>⚠️ 注意：此功能需要已在之前版本中推出的新Copilot提示框，且<strong>目前尚未向欧洲经济区(EEA)或中国的Insiders推送</strong>。</li></ul><h1 id="2-任务栏与系统托盘：分享到-Copilot"><a href="#2-任务栏与系统托盘：分享到-Copilot" class="headerlink" title="2. 任务栏与系统托盘：分享到 Copilot"></a>2. 任务栏与系统托盘：分享到 Copilot</h1><ul><li>鼠标悬停在任务栏上已打开的应用窗口时，会出现一个“<strong>分享给 Copilot</strong>”（Share with Copilot）选项。</li><li>此功能允许快速与Copilot开始新对话，并使用 <strong>Copilot Vision 扫描、分析</strong>屏幕上的应用内容。</li></ul><h1 id="3-Desktop-Spotlight-上下文菜单选项"><a href="#3-Desktop-Spotlight-上下文菜单选项" class="headerlink" title="3. Desktop Spotlight 上下文菜单选项"></a>3. Desktop Spotlight 上下文菜单选项</h1><ul><li>若在“设置”&gt;“个性化”&gt;“背景”中选择 <strong>Windows Spotlight 作为桌面背景</strong>，右键单击桌面时，上下文菜单会添加“<strong>了解有关此背景的更多信息</strong>”和“<strong>下一个桌面背景</strong>”选项。</li></ul><h1 id="4-设置账户管理优化"><a href="#4-设置账户管理优化" class="headerlink" title="4. 设置账户管理优化"></a>4. 设置账户管理优化</h1><ul><li>“设置”&gt;“账户”下的“<strong>电子邮件和账户</strong>”部分现已更名为“<strong>您的账户</strong>”（Your accounts）。</li><li>这反映了在Windows和应用中保持连接的<strong>更统一和简化的方式</strong>。</li></ul><h1 id="逐步推出的修复"><a href="#逐步推出的修复" class="headerlink" title="逐步推出的修复"></a>逐步推出的修复</h1><p>以下修复正逐步向开启了“在最新更新可用时立即获取”选项的Dev频道用户推送：</p><table><thead><tr><th align="left">组件</th><th align="left">修复描述</th></tr></thead><tbody><tr><td align="left"><strong>文件资源管理器</strong></td><td align="left">修复了在地址栏中直接输入UNC服务器名称可能导致文件资源管理器<strong>无响应的问题</strong></td></tr><tr><td align="left"><strong>Windows Update</strong></td><td align="left">修复了近期部分Insider安装最新版本时<strong>失败并出现错误0x80070002</strong>的问题</td></tr><tr><td align="left"><strong>音频</strong></td><td align="left">解决了近期更新后可能出现的<strong>音频无法正常工作的问题</strong></td></tr><tr><td align="left"><strong>设置</strong></td><td align="left">修复了启用管理员保护后，“设置”&gt;“系统”&gt;“可选功能”&gt;“添加可选功能”可能<strong>无法加载的问题</strong></td></tr></tbody></table><h1 id="已知问题"><a href="#已知问题" class="headerlink" title="已知问题"></a>已知问题</h1><p>微软正在调查此版本中存在的以下问题：</p><ul><li><strong>Click to Do</strong>：通过右边缘手势在主显示器上启动Click to Do会导致<strong>滑动视觉效果显示在错误的显示器上</strong>。</li><li><strong>锁定和登录屏幕</strong>：此版本中<strong>锁定屏幕上可能不显示媒体控件</strong>。</li><li><strong>任务栏</strong>：由于问题，任务栏预览的<strong>新动画已被暂时禁用</strong>。</li></ul><h1 id="更新提示"><a href="#更新提示" class="headerlink" title="更新提示"></a>更新提示</h1><ul><li>该版本通过<strong>受控功能推送 (CFR)</strong> 方式分发。</li><li>建议Dev频道用户在“设置”&gt;“Windows更新”中<strong>开启“在最新更新可用时立即获取”</strong> 切换开关，以逐步体验到所有新功能。</li><li><strong>Copilot+ PC 的特定功能需要符合相应规格的硬件支持</strong>。</li></ul><blockquote><p>⚠️ <strong>注意事项</strong>：此版本为开发预览版，<strong>稳定性无法与正式版相比</strong>，不建议在生产环境中使用。部分新功能可能需要特定硬件支持，且推送范围可能受地区限制。</p></blockquote><h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><p>本文章使用Deepseek V3基于微软官方更新日志润色编写而成，具体功能体验可能因设备配置和区域设置而有所不同，如有错误，请指出，酥米将会及时更改。</p>]]></content>
+    
+    
+    <summary type="html">Windows 11 Insider Preview Build 26220.6690预览版的更新内容</summary>
+    
+    
+    
+    <category term="系统" scheme="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="系统" scheme="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="Windows" scheme="https://www.sumi233.top/tags/Windows/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows 11 Insider Preview Build 26220.6682 更新日志：AI功能持续增强</title>
@@ -494,32 +517,6 @@
       
       
     <summary type="html">&lt;h2 id=&quot;模型结构&quot;&gt;&lt;a href=&quot;#模型结构&quot; class=&quot;headerlink&quot; title=&quot;模型结构&quot;&gt;&lt;/a&gt;模型结构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sumi233.top/gh/huang233893/blog-image-be</summary>
-      
-    
-    
-    
-    <category term="思科" scheme="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/"/>
-    
-    
-    <category term="网络" scheme="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="CCNA" scheme="https://www.sumi233.top/tags/CCNA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NAT基础</title>
-    <link href="https://www.sumi233.top/CCNA/NAT%E5%9F%BA%E7%A1%80/"/>
-    <id>https://www.sumi233.top/CCNA/NAT%E5%9F%BA%E7%A1%80/</id>
-    <published>2024-10-17T07:01:46.000Z</published>
-    <updated>2025-08-02T10:16:12.990Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>即Network Address Translation，网络地址转换。于1994年被提出。当在专业网内部的一些主机本来已经分配到了本地IP地址（即在本专用网内使用的专用地址），但现在又想和因特网上的主机通信（不需要加密的）的时候，就可以使用NAT技术。<br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/NAT%20(4).png"></p><h2 id="为什么需要NAT"><a href="#为什么需要NAT" class="headerlink" title="为什么需要NAT"></a>为什么需要NAT</h2><ul><li>主要为了解决IPv4地址紧缺的问题，通过将一个公网IP地址和多个私网IP相对应，从而解决IP地址不够用的情况，但是这种技术只是起到了缓解的作用，真正的方法还是得使用IPv6来解决。</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/NAT%20(5).pngg"></p><h2 id="NAT技术的优缺点"><a href="#NAT技术的优缺点" class="headerlink" title="NAT技术的优缺点"></a>NAT技术的优缺点</h2><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>节省合法的公有的IP地址</li><li>地址重叠时，提供一个较为完善的解决方法</li><li>网络发生变化时，避免重新编址</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>无法进行端对端的ip追踪（破坏了端对端通讯的平等性）</li><li>很多应用层无法识别（例如FTP协议）</li></ul><h2 id="NAT的三种类型"><a href="#NAT的三种类型" class="headerlink" title="NAT的三种类型"></a>NAT的三种类型</h2><h3 id="静态NAT"><a href="#静态NAT" class="headerlink" title="静态NAT"></a>静态NAT</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/NAT%20(1).png"></p><ul><li>将内部本地地址与内部全局地址进行一对一的明确转换。这种方法主要用于内部网络中有对外提供服务的服务器，如WEB、MAIL服务器时。该方法的缺点是需要独占宝贵的合法IP地址。即如果某个合法IP地址已经被NAT静态地址转换定义，即使该地址当前没有被使用，也不能用作其他的地址转换。</li></ul><h3 id="动态NAT"><a href="#动态NAT" class="headerlink" title="动态NAT"></a>动态NAT</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/NAT%20(2).png"></p><ul><li>动态地址转换也是将内部本地地址与内部全局地址进行一对一的转换。但是，是从内部全局地址池中动态地选择一个未使用的地址对内部本地地址进行转换。该地址是由未被使用的地址组成的地址池中在定义时排在最前面的一个。当数据传输完毕后，路由器将把使用完的内部全局地址放回到地址池中，以供其它内部本地地址进行转换。但是在该地址被使用时，不能用该地址再进行一次转换。</li></ul><h3 id="端口复用PAT"><a href="#端口复用PAT" class="headerlink" title="端口复用PAT"></a>端口复用PAT</h3><ul><li>复用地址转换也称为端口地址转换(PortAddressTranslation，PAT)，首先是一种动态地址转换。路由器将通过记录地址、应用程序端口等唯一标识一个转换。通过这种转换，可以使多个内部本地地址同时与同一个内部全局地址进行转换并对外部网络进行访问。对于只申请到少量IP地址甚至只有一个合法IP地址，却经常有很多用户同时要求上网的情况，这种转换方式非常有用</li><li>理想状况下，一个单一的IP地址可以使用的端口数为4000个</li></ul><h2 id="私有空间地址"><a href="#私有空间地址" class="headerlink" title="私有空间地址"></a>私有空间地址</h2><ul><li>A类：10.0.0.0 - 10.255.255.255</li><li>B类：172.16.0.0 - 172.31.255.255</li><li>C类：192.168.0.0 - 192.168.255.255</li></ul><h2 id="NAT术语"><a href="#NAT术语" class="headerlink" title="NAT术语"></a>NAT术语</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/NAT%20(3).png"></p><ul><li>内部本地——转换之前内部源地址的名字</li><li>外部本地——转换之前目标主机的名字</li><li>内部全局——转换之后内部主机的名字</li><li>外部全局——转换之后外部目标主机名字</li></ul><h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# ip nat inside source static local-ip global-ip</span><br><span class="line">Router(config)# ip nat inside</span><br><span class="line">Router(config)# ip nat outside</span><br><span class="line">Router# show ip nat translations #查看配置情况</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# ip nat pool name start-ip end-ip &#123;netmask netmask | prefix-length prefix-length&#125;</span><br><span class="line">Router(config)# access-list access-list-number permit source [source-wildcard]</span><br><span class="line">Router(config)# ip nat inside source list access-list-number pool name</span><br><span class="line">Router# show ip nat translations #查看配置情况</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Router(conflg)# access-list access-list-number permit source source-wildcard</span><br><span class="line">Router(config)# ip nat inside source list access-list-number interface interface overload</span><br><span class="line">Router# show ip nat translations #查看配置情况</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;即Network Address Translation，网络地址转换。于1994年被提出。当在专业网内部的一些主机本来已经分配到了本地IP</summary>
       
     
     

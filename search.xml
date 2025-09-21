@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 系统 </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -40,7 +40,7 @@
       
       <categories>
           
-          <category> 系统 </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -67,7 +67,7 @@
       
       <categories>
           
-          <category> 系统 </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -94,7 +94,7 @@
       
       <categories>
           
-          <category> 系统 </category>
+          <category> 搞机类 </category>
           
       </categories>
       
@@ -130,7 +130,7 @@
       
         <tags>
             
-            <tag> 教程 </tag>
+            <tag> 教程类 </tag>
             
         </tags>
       
@@ -148,7 +148,7 @@
       
       <categories>
           
-          <category> 刷机 </category>
+          <category> 搞机类 </category>
           
       </categories>
       
@@ -175,7 +175,7 @@
       
       <categories>
           
-          <category> 系统 </category>
+          <category> 教程类 </category>
           
       </categories>
       
@@ -202,7 +202,7 @@
       
       <categories>
           
-          <category> 长篇碎碎念 </category>
+          <category> 个人记录类 </category>
           
       </categories>
       
@@ -902,7 +902,7 @@
       
       <categories>
           
-          <category> Linux </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -929,7 +929,7 @@
       
       <categories>
           
-          <category> Linux </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -956,7 +956,7 @@
       
       <categories>
           
-          <category> Linux </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -983,7 +983,7 @@
       
       <categories>
           
-          <category> 华为 </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -1010,11 +1010,7 @@
       
       <categories>
           
-          <category> 刷机 </category>
-          
-          <category> 系统 </category>
-          
-          <category> Linux </category>
+          <category> 搞机类 </category>
           
       </categories>
       
@@ -1045,9 +1041,7 @@
       
       <categories>
           
-          <category> Linux </category>
-          
-          <category> 系统 </category>
+          <category> 系统类 </category>
           
       </categories>
       
@@ -1074,7 +1068,7 @@
       
       <categories>
           
-          <category> 刷机 </category>
+          <category> 搞机类 </category>
           
       </categories>
       
@@ -1101,7 +1095,7 @@
       
       <categories>
           
-          <category> 杂项 </category>
+          <category> 杂项类 </category>
           
       </categories>
       

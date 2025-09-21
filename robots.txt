@@ -1,13 +1,14 @@
 User-agent: *
+
 Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
-Allow: /about/
-Allow: /atom.xml
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+Disallow: /archives/
+Disallow: /page/
+Disallow: /schedule/
+Disallow: /tags/
 
 Sitemap: https://www.sumi233.top/sitemap.xml
-
-User-agent: Baiduspider
-
 Sitemap: https://www.sumi233.top/baidusitemap.xml

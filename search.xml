@@ -96,6 +96,8 @@
           
           <category> 搞机类 </category>
           
+          <category> 教程类 </category>
+          
       </categories>
       
       
@@ -123,14 +125,14 @@
       
       <categories>
           
-          <category> 网络 </category>
+          <category> 教程类 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 教程类 </tag>
+            <tag> 网络 </tag>
             
         </tags>
       
@@ -149,6 +151,8 @@
       <categories>
           
           <category> 搞机类 </category>
+          
+          <category> 教程类 </category>
           
       </categories>
       
@@ -184,7 +188,7 @@
             
             <tag> 系统 </tag>
             
-            <tag> 教程 </tag>
+            <tag> 苹果 </tag>
             
         </tags>
       

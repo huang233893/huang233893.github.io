@@ -27,7 +27,7 @@ var posts=["CCNA/ACL基础/","CCNA/EIGRP基础/","CCNA/DOD（TCP_IP）/","CCNA/N
   
       let count = 0;
 
-      while (friend_link_list.length && count < 2) {
+      while (friend_link_list.length && count < 3) {
         const randomIndex = Math.floor(Math.random() * friend_link_list.length);
         const { name, link, avatar } = friend_link_list.splice(randomIndex, 1)[0];
   

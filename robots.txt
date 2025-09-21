@@ -9,6 +9,9 @@ Disallow: /archives/
 Disallow: /page/
 Disallow: /schedule/
 Disallow: /tags/
+Disallow: /html-add/
+Disallow: /custom/
+Disallow: /charts/
 
 Sitemap: https://www.sumi233.top/sitemap.xml
 Sitemap: https://www.sumi233.top/baidusitemap.xml

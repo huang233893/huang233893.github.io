@@ -6,7 +6,6 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /images/
 Disallow: /archives/
-Disallow: /page/
 Disallow: /schedule/
 Disallow: /tags/
 Disallow: /html-add/

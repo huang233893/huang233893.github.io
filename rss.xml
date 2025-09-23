@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/custom/css/rss2.xsl" ?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>酥米的小站</title>
+    <link>https://www.sumi233.top/</link>
+    
+    <image>
+      <url>https://www.gravatar.com/avatar/46b6b3e8468d1458aecd06fa3b9081fb</url>
+      <title>酥米的小站</title>
+      <link>https://www.sumi233.top/</link>
+    </image>
+    
+    <atom:link href="https://www.sumi233.top/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>酥米的技术和生活分享地，这里分享前沿技术文章、开发实践心得，以及科技与日常交织的思考。从代码实现到生活洞察，用简洁的文字记录成长轨迹，搭建起技术与人文之间的桥梁。</description>
+    <pubDate>Sun, 21 Sep 2025 10:34:57 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Windows 11 Insider Preview Build 26220.6690 更新日志：Copilot 整合再深化</title>
+      <link>https://www.sumi233.top/Windows/win11dev2/</link>
+      <guid>https://www.sumi233.top/Windows/win11dev2/</guid>
+      <pubDate>Sun, 21 Sep 2025 08:30:00 GMT</pubDate>
+      
+      <description>Windows 11 Insider Preview Build 26220.6690预览版的更新内容</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
+      
+      
+      <comments>https://www.sumi233.top/Windows/win11dev2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows 11 Insider Preview Build 26220.6682 更新日志：AI功能持续增强</title>
+      <link>https://www.sumi233.top/Windows/win11dev1/</link>
+      <guid>https://www.sumi233.top/Windows/win11dev1/</guid>
+      <pubDate>Sat, 13 Sep 2025 16:15:00 GMT</pubDate>
+      
+      <description>Windows 11 25H2 Build 26220.6682预览版的更新内容</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
+      
+      
+      <comments>https://www.sumi233.top/Windows/win11dev1/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows 11 Insider Preview Build 26220.5790 更新日志：AI赋能更智能的PC体验</title>
+      <link>https://www.sumi233.top/Windows/win11dev/</link>
+      <guid>https://www.sumi233.top/Windows/win11dev/</guid>
+      <pubDate>Sun, 07 Sep 2025 12:45:08 GMT</pubDate>
+      
+      <description>Windows 11 25H2 Build 26220.5790预览版的更新内容</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
+      
+      
+      <comments>https://www.sumi233.top/Windows/win11dev/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>红米2？Linux？ | 手把手教你刷入PostmarketOS Linux！老机换新颜！</title>
+      <link>https://www.sumi233.top/%E6%95%99%E7%A8%8B/redmi2linux/</link>
+      <guid>https://www.sumi233.top/%E6%95%99%E7%A8%8B/redmi2linux/</guid>
+      <pubDate>Tue, 19 Aug 2025 11:05:13 GMT</pubDate>
+      
+      <description>酥米手把手教你把红米2刷入PostmarketOS Linux！</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/">搞机类</category>
+      
+      <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/%E6%95%99%E7%A8%8B%E7%B1%BB/">教程类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/%E5%88%B7%E6%9C%BA/">刷机</category>
+      
+      <category domain="https://www.sumi233.top/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://www.sumi233.top/%E6%95%99%E7%A8%8B/redmi2linux/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>使用CloudFlare加速Github Pages</title>
+      <link>https://www.sumi233.top/%E6%95%99%E7%A8%8B/dnscloudflare/</link>
+      <guid>https://www.sumi233.top/%E6%95%99%E7%A8%8B/dnscloudflare/</guid>
+      <pubDate>Sat, 02 Aug 2025 09:24:13 GMT</pubDate>
+      
+      <description>使用CloudFlare CDN进行加速您的github pages</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/">教程类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      
+      <comments>https://www.sumi233.top/%E6%95%99%E7%A8%8B/dnscloudflare/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>每一步都是意外之外！荣耀平板5 10.1英寸版本的各种折腾 （总结篇）</title>
+      <link>https://www.sumi233.top/%E5%88%B7%E6%9C%BA/Agassi2-W09BHN/</link>
+      <guid>https://www.sumi233.top/%E5%88%B7%E6%9C%BA/Agassi2-W09BHN/</guid>
+      <pubDate>Thu, 26 Dec 2024 12:21:46 GMT</pubDate>
+      
+      <description>每一步都是意外之外！荣耀平板5 10.1英寸版本的各种折腾 （总结篇）</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/">搞机类</category>
+      
+      <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/%E6%95%99%E7%A8%8B%E7%B1%BB/">教程类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E5%88%B7%E6%9C%BA/">刷机</category>
+      
+      <category domain="https://www.sumi233.top/tags/%E7%8E%A9%E6%9C%BA/">玩机</category>
+      
+      
+      <comments>https://www.sumi233.top/%E5%88%B7%E6%9C%BA/Agassi2-W09BHN/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>MacOS X 10.0 Developer Preview 3安装教程（附酥米的MacOS的小记说说）</title>
+      <link>https://www.sumi233.top/%E6%95%99%E7%A8%8B/MacOSXDP3install/</link>
+      <guid>https://www.sumi233.top/%E6%95%99%E7%A8%8B/MacOSXDP3install/</guid>
+      <pubDate>Tue, 26 Nov 2024 11:17:13 GMT</pubDate>
+      
+      <description>MacOS X 10.0 Developer Preview 3安装教程（附酥米的MacOS的小记说说）</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/">教程类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/%E8%8B%B9%E6%9E%9C/">苹果</category>
+      
+      
+      <comments>https://www.sumi233.top/%E6%95%99%E7%A8%8B/MacOSXDP3install/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>酥米的碎碎念（1）</title>
+      <link>https://www.sumi233.top/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B51/</link>
+      <guid>https://www.sumi233.top/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B51/</guid>
+      <pubDate>Fri, 22 Nov 2024 01:18:32 GMT</pubDate>
+      
+      <description>酥米关于竞赛队的碎碎念</description>
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95%E7%B1%BB/">个人记录类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E9%95%BF%E7%AF%87%E7%A2%8E%E7%A2%8E%E5%BF%B5/">长篇碎碎念</category>
+      
+      
+      <comments>https://www.sumi233.top/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B51/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DHCP协议详解和配置</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20DHCP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3%E5%8F%8A%E9%85%8D%E7%BD%AE/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20DHCP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3%E5%8F%8A%E9%85%8D%E7%BD%AE/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20DHCP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3%E5%8F%8A%E9%85%8D%E7%BD%AE/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EtherChannal详解</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>HSRP &amp; VRRP &amp; GLBP</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20HSRP%20VRRP%20GLBP/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20HSRP%20VRRP%20GLBP/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20HSRP%20VRRP%20GLBP/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>VLAN间的路由及三层交换机的部署</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20VLAN%E9%97%B4%E7%9A%84%E8%B7%AF%E7%94%B1%E5%8F%8A%E4%B8%89%E5%B1%82%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9A%84%E9%83%A8%E7%BD%B2/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20VLAN%E9%97%B4%E7%9A%84%E8%B7%AF%E7%94%B1%E5%8F%8A%E4%B8%89%E5%B1%82%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9A%84%E9%83%A8%E7%BD%B2/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20VLAN%E9%97%B4%E7%9A%84%E8%B7%AF%E7%94%B1%E5%8F%8A%E4%B8%89%E5%B1%82%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9A%84%E9%83%A8%E7%BD%B2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>BGP详解</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20BGP/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20BGP/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20BGP/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EIGRP详解</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>OSPF和LSA详解</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20OSPF%E5%92%8CLSA%E9%83%A8%E5%88%86/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20OSPF%E5%92%8CLSA%E9%83%A8%E5%88%86/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;OSPF&quot;&gt;&lt;a href=&quot;#OSPF&quot; class=&quot;hea</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20OSPF%E5%92%8CLSA%E9%83%A8%E5%88%86/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>路由和路径</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E5%92%8C%E8%B7%AF%E5%BE%84/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E5%92%8C%E8%B7%AF%E5%BE%84/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E5%92%8C%E8%B7%AF%E5%BE%84/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>路由选择原理</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E9%80%89%E6%8B%A9%E5%8E%9F%E7%90%86/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E9%80%89%E6%8B%A9%E5%8E%9F%E7%90%86/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E9%80%89%E6%8B%A9%E5%8E%9F%E7%90%86/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>ACL基础</title>
+      <link>https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/</link>
+      <guid>https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EIGRP基础</title>
+      <link>https://www.sumi233.top/CCNA/EIGRP%E5%9F%BA%E7%A1%80/</link>
+      <guid>https://www.sumi233.top/CCNA/EIGRP%E5%9F%BA%E7%A1%80/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/EIGRP%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DOD（TCP/IP）</title>
+      <link>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/</link>
+      <guid>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;模型结构&quot;&gt;&lt;a href=&quot;#模型结构&quot; class=&quot;hea</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>NAT基础</title>
+      <link>https://www.sumi233.top/CCNA/NAT%E5%9F%BA%E7%A1%80/</link>
+      <guid>https://www.sumi233.top/CCNA/NAT%E5%9F%BA%E7%A1%80/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/NAT%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>OSI基础</title>
+      <link>https://www.sumi233.top/CCNA/OSI%E5%9F%BA%E7%A1%80/</link>
+      <guid>https://www.sumi233.top/CCNA/OSI%E5%9F%BA%E7%A1%80/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;hr&gt;
+&lt;h2 id=&quot;模型结构&quot;&gt;&lt;a href=&quot;#模型结构&quot; class</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/OSI%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>OSPF基础</title>
+      <link>https://www.sumi233.top/CCNA/OSPF%E5%9F%BA%E7%A1%80/</link>
+      <guid>https://www.sumi233.top/CCNA/OSPF%E5%9F%BA%E7%A1%80/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/OSPF%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>RIP基础</title>
+      <link>https://www.sumi233.top/CCNA/RIP%E5%9F%BA%E7%A1%80/</link>
+      <guid>https://www.sumi233.top/CCNA/RIP%E5%9F%BA%E7%A1%80/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/RIP%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>STP基础</title>
+      <link>https://www.sumi233.top/CCNA/STP%E5%9F%BA%E7%A1%80/</link>
+      <guid>https://www.sumi233.top/CCNA/STP%E5%9F%BA%E7%A1%80/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/STP%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -4,14 +4,14 @@
 <xsl:output method="html" encoding="UTF-8" indent="yes" doctype-system="about:legacy-compat"/>
 
 <!-- 获取总项目数 -->
-<xsl:variable name="totalItems" select="count(/rss/channel/item)"/>
+<xsl:variable name="totalItems" select="count(rss/channel/item)"/>
 
 <xsl:template match="/">
     <html lang="zh-CN">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title><xsl:value-of select="/rss/channel/title"/></title>
+        <title><xsl:value-of select="rss/channel/title"/></title>
         <!-- 引入Tailwind CSS 4 -->
         <script src="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/tailwindcss-browser/4.1.11/index.global.min.js"></script>
         <!-- 引入Font Awesome -->
@@ -25,7 +25,7 @@
                 --color-accent: #FFE4B5;
                 --color-dark: #1e293b;
                 --color-light: #f8fafc;
-                --font-sans: "MiSans-Normal"
+                --font-sans: "MiSans-Normal";
             }
         </style>
 
@@ -80,18 +80,18 @@
                 <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                     <div class="text-center md:text-left">
                         <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 sm:mb-2">
-                            <xsl:value-of select="/rss/channel/title"/>
+                            <xsl:value-of select="rss/channel/title"/>
                         </h1>
                         <p class="text-blue-100 text-sm sm:text-base">
-                            <xsl:value-of select="/rss/channel/description"/>
+                            <xsl:value-of select="rss/channel/description"/>
                         </p>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-                        <a href="{/rss/channel/link}" target="_blank"
+                        <a href="{rss/channel/link}" target="_blank"
                            class="bg-white text-primary px-4 py-2 rounded-lg font-medium hover:bg-blue-50 transition-colors flex items-center justify-center">
                             <i class="fa fa-globe mr-2"></i> 访问网站
                         </a>
-                        <a href="{/rss/channel/atom:link[@rel='self']/@href}"
+                        <a href="{rss/channel/atom:link[@rel='self']/@href}"
                            class="bg-dark text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-800 transition-colors flex items-center justify-center">
                             <i class="fa fa-rss mr-2"></i> RSS 源
                         </a>
@@ -104,7 +104,7 @@
                         <i class="fa fa-calendar-o mr-2"></i>
                         最后更新:
                         <span class="formatted-time">
-                            <span class="original-time"><xsl:value-of select="/rss/channel/item[1]/pubDate"/></span>
+                            <span class="original-time"><xsl:value-of select="rss/channel/item[1]/pubDate"/></span>
                         </span>
                     </p>
                 </div>
@@ -115,7 +115,7 @@
         <main class="max-w-content mx-auto px-4 py-6 sm:py-8 md:py-12">
             <!-- 双栏文章列表（移动端为单栏） -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-6 content-auto">
-                <xsl:for-each select="/rss/channel/item">
+                <xsl:for-each select="rss/channel/item">
                     <article class="article-item bg-white rounded-xl overflow-hidden shadow-sm card-hover p-5 sm:p-6"
                              style="--item-index: {position()};"
                              role="article">
@@ -160,10 +160,10 @@
                     <!-- 关于站点 -->
                     <div>
                         <h3 class="text-xl font-bold text-white mb-4">
-                            <xsl:value-of select="/rss/channel/title"/>
+                            <xsl:value-of select="rss/channel/title"/>
                         </h3>
                         <p class="mb-5 text-sm sm:text-base leading-relaxed">
-                            <xsl:value-of select="/rss/channel/description"/>
+                            <xsl:value-of select="rss/channel/description"/>
                         </p>
                         <div class="flex flex-col sm:flex-row gap-5 mt-4 text-sm sm:text-base">
                             <!-- 个人主页 -->
@@ -191,21 +191,21 @@
                         <h3 class="text-lg font-semibold text-white mb-4">快速链接</h3>
                         <ul class="space-y-3 text-sm sm:text-base">
                             <li>
-                                <a href="{/rss/channel/link}" target="_blank"
+                                <a href="{rss/channel/link}" target="_blank"
                                    class="flex items-center hover:text-white transition-colors group">
                                     <i class="fa fa-external-link mr-2 text-gray group-hover:text-white"></i>
                                     访问网站
                                 </a>
                             </li>
                             <li>
-                                <a href="{/rss/channel/atom:link[@rel='self']/@href}"
+                                <a href="{rss/channel/atom:link[@rel='self']/@href}"
                                    class="flex items-center hover:text-white transition-colors group">
                                     <i class="fa fa-rss mr-2 text-gray group-hover:text-white"></i>
                                     RSS 源
                                 </a>
                             </li>
                             <li>
-                                <a href="{/rss/channel/link}/about" target="_blank"
+                                <a href="{rss/channel/link}/about" target="_blank"
                                    class="flex items-center hover:text-white transition-colors group">
                                     <i class="fa fa-envelope-o mr-2 text-gray group-hover:text-white"></i>
                                     联系我们
@@ -218,8 +218,8 @@
                 <!-- 版权信息 -->
                 <div class="border-t border-gray-700 mt-10 pt-8 text-center text-xs sm:text-sm text-gray-400">
                     <p>
-                        © <xsl:value-of select="substring(/rss/channel/lastBuildDate, 21, 4)"/>
-                        <xsl:value-of select="/rss/channel/title"/> 版权所有
+                        © <xsl:value-of select="substring(rss/channel/lastBuildDate, 21, 4)"/>
+                        <xsl:value-of select="rss/channel/title"/> 版权所有
                     </p>
                 </div>
             </div>

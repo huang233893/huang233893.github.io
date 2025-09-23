@@ -36,10 +36,7 @@
               </div>
               <div class="description">
                 <xsl:value-of select="atom:summary" disable-output-escaping="yes"/>
-              </div>
-                  <span>
-                    <xsl:value-of select="./@term" />
-                  </span>
+                
                 </xsl:for-each>
               </div>
             </div>

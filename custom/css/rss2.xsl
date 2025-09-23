@@ -70,21 +70,14 @@
             a:hover, button:hover {
                 outline: none;
             }
-            /* 背景图片样式 */
+
             body {
                 background-image: url('https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/rss_background.jpg');
                 background-attachment: fixed; /* 固定位置 */
                 background-size: cover; /* 覆盖显示 */
                 background-repeat: no-repeat; /* 不重复 */
                 background-position: center center; /* 居中显示 */
-                background-color: #f8fafc; /*  fallback 背景色 */
-            }
-
-            /* 为内容添加半透明背景以增强可读性 */
-            main, header > div, footer > div {
-                background-color: rgba(255, 255, 255, 0.92);
-                border-radius: 8px;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                background-color: #f8fafc; /* 备用背景色 */
             }
         </style>
     </head>

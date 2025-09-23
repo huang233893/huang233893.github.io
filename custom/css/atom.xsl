@@ -7,7 +7,7 @@
       <head>
         <title><xsl:value-of select="rss/channel/title"/></title>
         <style>
-          body { font-family: sans-serif; padding: 2em; background: #f8f8f8; }
+          body { font-family: sans-serif; padding: 2em; background: "https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/blog-banner.jpeg"; }
           h1 { text-align: center; padding: 5px 0 20px; border-bottom: 1px dashed lightgray; color: DarkTurquoise; }
           .author { text-align: center; margin: 1rem 0 1rem; }
           .desc { text-align: center; margin: 1rem 0 1rem; color: gray }

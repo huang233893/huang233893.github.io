@@ -11,15 +11,13 @@
           h1 { text-align: center; padding: 5px 0 20px; border-bottom: 1px dashed lightgray; color: Orange; }
           .author { text-align: center; margin: 1rem 0 1rem; color: Orange }
           .desc { text-align: center; margin: 1rem 0 1rem; color: Orange }
-          .pubdate { text-align: center; margin: 1rem 0 2rem; color: Orange }
-          .postcontainer { margin: 0 auto; max-width: 1000px; display: flex; flex-direction: column; gap: 1.5rem }
+          .pubdate { text-align: center; margin: 1rem 0 2rem; color: White }
+          .postcontainer { margin: 0 auto; max-width: 1000px; display: flex; flex-direction: column; gap: 1.5rem, color: White }
           .item { padding: 1.2em 2em; background: #464646ff; border-radius: 10px; }
           .title { font-size: 1.2em; font-weight: bold; margin-bottom: 12px }
           .title a { color: Orange; text-decoration: none; }
           .title:hover a { text-decoration: underline; }
           .date { font-size: 0.9em; color: gray; margin: 12px 0; }
-          .tags { margin: 18px 0 0; display: flex; gap: .5em }
-          .tags span { padding: 3px 10px; background: WhiteSmoke; border-radius: 8px; font-size: .9em; color: gray; }
         </style>
       </head>
       <body>
@@ -38,9 +36,6 @@
               </div>
               <div class="description">
                 <xsl:value-of select="atom:summary" disable-output-escaping="yes"/>
-              </div>
-              <div class="tags">
-                <xsl:for-each select="atom:category">
                   <span>
                     <xsl:value-of select="./@term" />
                   </span>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/custom/atom.xsl" ?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/custom/css/atom.xsl" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>酥米的小站</title>
   <icon>https://www.gravatar.com/avatar/46b6b3e8468d1458aecd06fa3b9081fb</icon>
@@ -31,9 +31,9 @@
     <category term="系统类" scheme="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/"/>
     
     
-    <category term="Windows" scheme="https://www.sumi233.top/tags/Windows/"/>
-    
     <category term="系统" scheme="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="Windows" scheme="https://www.sumi233.top/tags/Windows/"/>
     
   </entry>
   
@@ -52,9 +52,9 @@
     <category term="系统类" scheme="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/"/>
     
     
-    <category term="Windows" scheme="https://www.sumi233.top/tags/Windows/"/>
-    
     <category term="系统" scheme="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="Windows" scheme="https://www.sumi233.top/tags/Windows/"/>
     
   </entry>
   
@@ -73,9 +73,9 @@
     <category term="系统类" scheme="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/"/>
     
     
-    <category term="Windows" scheme="https://www.sumi233.top/tags/Windows/"/>
-    
     <category term="系统" scheme="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="Windows" scheme="https://www.sumi233.top/tags/Windows/"/>
     
   </entry>
   
@@ -403,30 +403,6 @@
   </entry>
   
   <entry>
-    <title>ACL基础</title>
-    <link href="https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/"/>
-    <id>https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/</id>
-    <published>2024-10-17T07:01:46.000Z</published>
-    <updated>2025-08-02T10:16:12.996Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</summary>
-      
-    
-    
-    
-    <category term="思科" scheme="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/"/>
-    
-    
-    <category term="网络" scheme="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="CCNA" scheme="https://www.sumi233.top/tags/CCNA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>DOD（TCP/IP）</title>
     <link href="https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/"/>
     <id>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/</id>
@@ -499,30 +475,6 @@
   </entry>
   
   <entry>
-    <title>RIP基础</title>
-    <link href="https://www.sumi233.top/CCNA/RIP%E5%9F%BA%E7%A1%80/"/>
-    <id>https://www.sumi233.top/CCNA/RIP%E5%9F%BA%E7%A1%80/</id>
-    <published>2024-10-17T07:01:46.000Z</published>
-    <updated>2025-08-02T10:16:12.986Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</summary>
-      
-    
-    
-    
-    <category term="思科" scheme="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/"/>
-    
-    
-    <category term="网络" scheme="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="CCNA" scheme="https://www.sumi233.top/tags/CCNA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>OSI基础</title>
     <link href="https://www.sumi233.top/CCNA/OSI%E5%9F%BA%E7%A1%80/"/>
     <id>https://www.sumi233.top/CCNA/OSI%E5%9F%BA%E7%A1%80/</id>
@@ -558,6 +510,54 @@
       
       
     <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    <category term="思科" scheme="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/"/>
+    
+    
+    <category term="网络" scheme="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="CCNA" scheme="https://www.sumi233.top/tags/CCNA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RIP基础</title>
+    <link href="https://www.sumi233.top/CCNA/RIP%E5%9F%BA%E7%A1%80/"/>
+    <id>https://www.sumi233.top/CCNA/RIP%E5%9F%BA%E7%A1%80/</id>
+    <published>2024-10-17T07:01:46.000Z</published>
+    <updated>2025-08-02T10:16:12.986Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    <category term="思科" scheme="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/"/>
+    
+    
+    <category term="网络" scheme="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="CCNA" scheme="https://www.sumi233.top/tags/CCNA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>STP基础</title>
+    <link href="https://www.sumi233.top/CCNA/STP%E5%9F%BA%E7%A1%80/"/>
+    <id>https://www.sumi233.top/CCNA/STP%E5%9F%BA%E7%A1%80/</id>
+    <published>2024-10-17T07:01:46.000Z</published>
+    <updated>2025-08-01T15:10:33.074Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</summary>
       
     
     

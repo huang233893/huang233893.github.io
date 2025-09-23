@@ -7,15 +7,15 @@
       <head>
         <title><xsl:value-of select="rss/channel/title"/></title>
         <style>
-          body { font-family: sans-serif; padding: 2em; background: url('https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/blog-banner.jpeg'); background-repeat: no-repeat;}
+          body { font-family: sans-serif; padding: 2em; background: url('https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/blog-banner.jpeg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
           h1 { text-align: center; padding: 5px 0 20px; border-bottom: 1px dashed lightgray; color: Orange; }
-          .author { text-align: center; margin: 1rem 0 1rem; }
+          .author { text-align: center; margin: 1rem 0 1rem; color: Orange }
           .desc { text-align: center; margin: 1rem 0 1rem; color: Orange }
           .pubdate { text-align: center; margin: 1rem 0 2rem; color: Orange }
           .postcontainer { margin: 0 auto; max-width: 1000px; display: flex; flex-direction: column; gap: 1.5rem }
-          .item { padding: 1.2em 2em; background: #fff; border-radius: 10px; }
+          .item { padding: 1.2em 2em; background: #464646ff; border-radius: 10px; }
           .title { font-size: 1.2em; font-weight: bold; margin-bottom: 12px }
-          .title a { color: DarkTurquoise; text-decoration: none; }
+          .title a { color: Orange; text-decoration: none; }
           .title:hover a { text-decoration: underline; }
           .date { font-size: 0.9em; color: gray; margin: 12px 0; }
           .tags { margin: 18px 0 0; display: flex; gap: .5em }

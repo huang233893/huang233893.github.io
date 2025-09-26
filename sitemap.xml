@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.sumi233.top/Fun/index.html</loc>
+    
+    <lastmod>2025-09-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/fish/index.html</loc>
+    
+    <lastmod>2025-09-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/custom/js/twikoo.json</loc>
     
     <lastmod>2025-09-26</lastmod>
@@ -311,15 +329,6 @@
     <loc>https://www.sumi233.top/collect/index.html</loc>
     
     <lastmod>2025-08-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/Fun/index.html</loc>
-    
-    <lastmod>2025-08-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

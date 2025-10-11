@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="icon" href="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/userfb6a1018b84ce485.jpg" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow"/>
+    <title>😃页面加载中，请稍候...</title>
+    <style type="text/css">
+        body {
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s ease;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .avatar-placeholder, .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 25px;
+            display: block;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .avatar {
+            display: none;
+            object-fit: cover;
+        }
+        
+        .description {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 30px;
+            border-radius: 25px;
+            animation: fadein 0.8s;
+            width: 450px;
+            max-width: 80%;
+            transition: all 0.3s ease-in-out;
+            position: relative;
+            transform: translateY(0);
+        }
+        
+        .loading:hover {
+            transform: translateY(-5px);
+        }
+        
+        @keyframes fadein {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .content {
+            margin-bottom: 20px;
+        }
+        
+        .url-text {
+            margin-bottom: 10px;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+        
+        .jump-url {
+            position: relative;
+            font-size: 16px;
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 25px;
+            padding: 15px 70px 15px 15px;
+            border-radius: 18px;
+            height: auto;
+            min-height: 25px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: all 0.3s ease;
+        }
+        
+        .copy-btn-container {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 100%;
+            width: 63px;
+            flex-direction: row-reverse;
+        }
+        
+        .copy-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            border: none;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .copy-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .copy-btn-container svg {
+            width: 20px;
+            height: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .copy-btn:hover svg {
+            transform: rotate(10deg);
+        }
+        
+        .countdown-text {
+            margin-top: 12px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        
+        /* 修复按钮居中的核心调整 */
+        .button-container {
+            display: flex;
+            justify-content: center; /* 强制水平居中 */
+            gap: 15px;
+            margin-top: 30px;
+            width: 100%; /* 让容器宽度充满父元素 */
+            max-width: 100%; /* 移除最大宽度限制，确保能完全居中 */
+            padding: 0 10px; /* 增加左右内边距，避免边缘溢出 */
+            box-sizing: border-box; /* 确保内边距不影响宽度计算 */
+        }
+        
+        .button {
+            padding: 12px 20px;
+            border-radius: 16px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            width: 120px; /* 固定按钮宽度，保持一致性 */
+            height: 45px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .button:active {
+            transform: translateY(0);
+        }
+        
+        .cancel-button {
+            color: white;
+        }
+        
+        .confirm-button {
+            color: white;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 8px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .progress {
+            width: 100%;
+            height: 100%;
+            transition: width 1s linear;
+        }
+
+        /* 深色模式 */
+        
+        /* 自动模式 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1a1a2e, #16213e);
+            }
+            
+            .loading {
+                border: 1px solid #333;
+                background: #252a41;
+                color: #EFEFEF;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+            
+            .description {
+                color: #F3F3F3;
+            }
+            
+            .subtitle {
+                color: #b8b8b8;
+            }
+            
+            .url-text, .countdown-text {
+                color: #EFEFEF;
+            }
+            
+            .jump-url {
+                border: 1px solid #444;
+                background-color: #1a1a2e;
+                color: #EFEFEF;
+            }
+            
+            .copy-btn-container {
+                background: linear-gradient(to left, #1a1a2e 75%, transparent 100%);
+            }
+            
+            .copy-btn {
+                background-color: #252a41;
+            }
+            
+            .copy-btn svg {
+                fill: #ff9f1c;
+            }
+            
+            .copy-btn:hover {
+                background-color: #303858;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            }
+            
+            .cancel-button {
+                background-color: #4a4a68;
+                color: #FFF;
+            }
+            
+            .confirm-button {
+                background-color: #ff9f1c;
+                color: #FFF;
+            }
+            
+            .progress-bar {
+                background-color: #444;
+            }
+            
+            .progress {
+                background-color: #ff9f1c;
+            }
+        }
+        
+        @media (prefers-color-scheme: light) {
+            body {
+                background: linear-gradient(135deg, #f7f9fc, #edf2f4);
+            }
+            
+            .loading {
+                border: 1px solid #e0e0e0;
+                background: rgba(255, 255, 255, 0.9);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            }
+            
+            .description {
+                color: #2d3142;
+            }
+            
+            .subtitle {
+                color: #777;
+            }
+            
+            .url-text {
+                color: #333;
+            }
+            
+            .jump-url {
+                border: 1px solid #e0e0e0;
+                background-color: #f9f9f9;
+                color: #333;
+            }
+            
+            .copy-btn-container {
+                background: linear-gradient(to left, #f9f9f9 75%, transparent 100%);
+            }
+            
+            .copy-btn {
+                background-color: #f1f1f1;
+            }
+            
+            .copy-btn svg {
+                fill: #ff9f1c;
+            }
+            
+            .copy-btn:hover {
+                background-color: #e8e8e8;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            }
+            
+            .countdown-text {
+                color: #515151;
+            }
+            
+            .cancel-button {
+                background-color: #e9ecef;
+                color: #333;
+            }
+            
+            .confirm-button {
+                background-color: #ff9f1c;
+            }
+            
+            .progress-bar {
+                background-color: #e0e0e0;
+            }
+            
+            .progress {
+                background-color: #ff9f1c;
+            }
+        }
+        
+    </style>
+    <script type="text/javascript">
+        const host = window.location.host;
+        
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            return r ? decodeURI(r[2]) : null
+        }
+        
+        function decodeSafeUrlParam(paramStr) {
+            const base64 = paramStr.replace(/-/g, '+').replace(/_/g, '/');
+            const decoded = decodeURIComponent(atob(base64).split('').map(c => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)).join(''));
+            return decoded
+        }
+        
+        let countdown = 15;
+        let jump_url = GetQueryString('u');
+        
+        jump_url = decodeSafeUrlParam(jump_url);
+        
+        const UrlReg = '^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)';
+        
+        if (!jump_url || !jump_url.match(UrlReg)) {
+            document.title = '参数错误，正在返回首页...';
+            jump_url = location.origin
+        }
+        
+        let progressElement;
+        let countdownElement;
+        let countdownTextElement;
+        let jumpUrlElement;
+        
+        function updateCountdown() {
+            if (countdown < 0) {
+                countdownTextElement.textContent = "💡自行点击跳转，请注意您的账号和财产安全";
+                return
+            }
+            countdownElement.textContent = countdown;
+            progressElement.style.width = (countdown / 15 * 100) + '%';
+            if (countdown === 0) {
+                jump()
+            } else {
+                countdown--;
+                setTimeout(updateCountdown, 1000)
+            }
+        }
+        
+        function jump() {
+            location.href = jump_url
+        }
+        
+        function closeWindow() {
+            function isWeChat() {
+                return /MicroMessenger/i.test(navigator.userAgent)
+            }
+            
+            function isQQ() {
+                return /QQ/i.test(navigator.userAgent) && !/MicroMessenger/i.test(navigator.userAgent)
+            }
+            
+            if (isWeChat()) {
+                if (typeof WeixinJSBridge !== "undefined") {
+                    WeixinJSBridge.call('closeWindow')
+                } else {
+                    document.addEventListener('WeixinJSBridgeReady', function () {
+                        WeixinJSBridge.call('closeWindow')
+                    }, false)
+                }
+            } else if (isQQ()) {
+                if (typeof mqq !== "undefined" && mqq.ui && mqq.ui.closeWebView) {
+                    mqq.ui.closeWebView()
+                } else {
+                    window.history.back()
+                }
+            } else {
+                window.opener = null;
+                window.open('', '_self');
+                window.close()
+            }
+        }
+        
+        function copyToClipboard() {
+            const urlText = document.getElementById('jump-url-text').textContent;
+            const tempInput = document.createElement('input');
+            tempInput.value = urlText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            
+            // 复制成功动画反馈
+            const copyBtn = document.querySelector('.copy-btn');
+            const originalSvg = copyBtn.innerHTML;
+            copyBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>';
+            copyBtn.style.backgroundColor = '#4CAF50';
+            copyBtn.querySelector('svg').style.fill = 'white';
+            
+            setTimeout(() => {
+                copyBtn.innerHTML = originalSvg;
+                // 恢复按钮样式
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    copyBtn.style.backgroundColor = '#252a41';
+                } else {
+                    copyBtn.style.backgroundColor = '#f1f1f1';
+                }
+                copyBtn.querySelector('svg').style.fill = '#ff9f1c';
+            }, 1500);
+        }
+        
+        async function loadAvatar() {
+            const avatarImg = document.querySelector('.avatar');
+            const placeholder = document.querySelector('.avatar-placeholder');
+            const img = new Image();
+            img.src = 'https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/userfb6a1018b84ce485.jpg';
+            img.onload = function () {
+                // 头像加载动画
+                avatarImg.src = img.src;
+                placeholder.style.opacity = '0';
+                setTimeout(() => {
+                    placeholder.style.display = 'none';
+                    avatarImg.style.display = 'block';
+                    avatarImg.style.opacity = '0';
+                    let opacity = 0;
+                    const interval = setInterval(() => {
+                        opacity += 0.1;
+                        avatarImg.style.opacity = opacity;
+                        if (opacity >= 1) {
+                            clearInterval(interval);
+                        }
+                    }, 20);
+                }, 300);
+            }
+        }
+        
+        window.addEventListener('load', function () {
+            loadAvatar();
+            progressElement = document.getElementById('progress');
+            countdownElement = document.getElementById('countdown');
+            countdownTextElement = document.querySelector('.countdown-text');
+            jumpUrlElement = document.getElementById('jump-url-text');
+            jumpUrlElement.textContent = jump_url;
+            
+            // 页面加载动画
+            const loadingCard = document.querySelector('.loading');
+            loadingCard.style.opacity = '0';
+            let opacity = 0;
+            const interval = setInterval(() => {
+                opacity += 0.1;
+                loadingCard.style.opacity = opacity;
+                if (opacity >= 1) {
+                    clearInterval(interval);
+                    updateCountdown();
+                }
+            }, 30);
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar-placeholder"></div>
+        <img src="" alt="头像" class="avatar">
+        <div class="description">酥米的小站</div>
+        <div class="subtitle">温馨提醒您</div>
+        <div class="loading">
+            <div class="content">
+                <div class="url-text">您即将离开本站，跳转到：</div>
+                <div class="jump-url" id="jump-url">
+                    <span id="jump-url-text"></span>
+                    <div class="copy-btn-container">
+                        <button class="copy-btn" onclick="copyToClipboard()">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M208 0L332.1 0c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9L448 336c0 26.5-21.5 48-48 48l-192 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48zM48 128l80 0 0 64-64 0 0 256 192 0 0-32 64 0 0 48c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 176c0-26.5 21.5-48 48-48z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="countdown-text">⚡将在<span id="countdown"></span>秒后跳转，请自行确认链接安全性</div>
+            
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            
+            <div class="button-container">
+                <button class="button cancel-button" onclick="closeWindow()">取消跳转</button>
+                <button class="button confirm-button" onclick="jump()">立即跳转</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

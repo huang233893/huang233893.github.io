@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://www.sumi233.top/manifest.json</loc>
+    
+    <lastmod>2025-10-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/link/index.html</loc>
     
     <lastmod>2025-10-12</lastmod>
@@ -347,15 +356,6 @@
     <loc>https://www.sumi233.top/baidu_verify_codeva-601VbOsahz.html</loc>
     
     <lastmod>2025-08-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/manifest.json</loc>
-    
-    <lastmod>2025-08-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -738,14 +738,14 @@
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/tags/CCNA/</loc>
+    <loc>https://www.sumi233.top/tags/CCNP/</loc>
     <lastmod>2025-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/tags/CCNP/</loc>
+    <loc>https://www.sumi233.top/tags/CCNA/</loc>
     <lastmod>2025-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

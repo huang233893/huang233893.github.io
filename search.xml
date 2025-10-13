@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>酥米小站微信小程序即将上线</title>
+      <link href="/%E5%85%B6%E4%BB%96/sumiblogappsup/"/>
+      <url>/%E5%85%B6%E4%BB%96/sumiblogappsup/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><p>最近看到彬红茶大佬更新了博客App，突发奇想（其实是眼馋了🌚），也想做一个属于Hexo的静态博客软件。</p><p>静态博客最被人诟病的是页面的刷新不及时，获取信息的速度没有动态博客快，于是我选择了ryanuo大佬的hexo-wx-api项目，通过直接抓取hexo-generator-restful生成的json文件，这样小程序里的文章更新就会比博客网站及时。俺选择微信小程序的原因是方便，不需要特别的打理，也不需要考虑多端适配，只需要打开微信搜索小程序就行了，方便了开发者也方便了用户。</p><h1 id="启动！开干！"><a href="#启动！开干！" class="headerlink" title="启动！开干！"></a>启动！开干！</h1><p>于是我花了大概8hours+，基于ryanuo大佬的hexo-wx-api项目，制作出了这个博客。修改了原项目70%+的代码，目前实现了基础功能</p><h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/wx-1.jpg"><br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/wx-2.jpg"><br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/wx-3.jpg"><br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/wx-4.jpg"><br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/wx-5.jpg"></p><h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><h2 id="目前可以使用的功能"><a href="#目前可以使用的功能" class="headerlink" title="目前可以使用的功能"></a>目前可以使用的功能</h2><ul><li>文章阅读</li><li>留言板</li><li>分类功能</li><li>博客实时刷新</li></ul><h2 id="未来完成的功能"><a href="#未来完成的功能" class="headerlink" title="未来完成的功能"></a>未来完成的功能</h2><ul><li><input disabled type="checkbox"> 暗色模式适配</li><li><input disabled type="checkbox"> Twikoo评论区</li><li><input disabled type="checkbox"> 文章界面优化</li><li><input checked disabled type="checkbox"> 添加登录功能（已经通过微信登录实现）</li><li><input disabled type="checkbox"> 微信文章通知（不知道静态博客可不可以实现，想试试）</li><li><input disabled type="checkbox"> 博客文章分享</li><li><input disabled type="checkbox"> 搜索功能（目前是半废状态，所以去除了）</li></ul><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul><li>有部分功能尚未完工，正在抓紧补全</li><li>部分ui出现拉伸情况，正在修复</li><li>搜索半废（去掉了）</li></ul><h1 id="遗憾"><a href="#遗憾" class="headerlink" title="遗憾"></a>遗憾</h1><p>本人差半个月成年，暂时无法进行小程序的发布，所以发布日期会在月底至下个月，大家敬请期待哦~</p><h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>感谢ryanuo大佬编写的hexo-wx-api项目，让静态博客小程序化成为了可能，谢谢您！</p><p>原项目：</p><div calss="anzhiyu-tag-link"><a class="tag-Link" target="_blank" href="https://github.com/ryanuo/hexo-wx-api">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style>          <i class="anzhiyufont anzhiyu-icon-link" style></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">ryanuo/hexo-wx-api</div>            <div class="tag-link-sitename">GitHub</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows 11 Insider Preview Build 26220.6780 更新日志：AI助手与拖拽托盘升级</title>
       <link href="/Windows/win11dev4/"/>
       <url>/Windows/win11dev4/</url>

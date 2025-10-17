@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>酥米周记一之平淡无聊的一周</title>
+      <link href="/Weekly/zhouji1/"/>
+      <url>/Weekly/zhouji1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了锻炼自己的写作能力，同时拯救一下语言细胞即将坏死的大脑，我决定开始尝试写写周记，今天是第一周周记啦～</p><div class="note orange anzhiyufont anzhiyu-icon-bullhorn flat"><p>📅：2025年10月13至10月17日 全程晴天</p></div><p>这周确实星期一到三没啥好说的，就是反复上下学然后回家😴。</p><h2 id="星期四"><a href="#星期四" class="headerlink" title="星期四"></a>星期四</h2><p>星期四课后，我实在闲的无聊，干脆直接给我的小站修修bug，正好提升一下访问速度，于是我把修改的魔爪伸到了f12控制台上，打开我才发现，原来网站里面这么多资源404的报错，一堆引用的js和css失效了，于是我一个个顺藤摸瓜把bug修了个遍（途中还挺麻烦的，差点放弃不搞了）。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-3.jpg"></p><p>还改了控制台的欢迎语哈哈，换成自己的啦😀～</p><p>我还顺带把CF的cdn ttl调了一下，但愿不会老是不刷新吧哈哈（如果俺滴博客不更新内容请各位俺 <code>ctrl+f5</code> 或者清理网页缓存进行硬刷新哦）</p><p>还好最后还是搞完了，不过还是有点问题。在线问问大佬怎么修复。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-2.jpg"></p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-1.jpg"></p><p>我只能分辨出一个是woff2字体的问题，另外一个我不是很清楚怎么修，而且网络请求上没有地址（我压根找不到错误的根源😭），所以各位大佬可以康康怎么搞吗？谢谢啦~</p><h2 id="星期五"><a href="#星期五" class="headerlink" title="星期五"></a>星期五</h2><p>这个星期五下午，朋友找我让我帮他跟他一起去自提在闲鱼买的二手梯子。可惜今天运气不佳，撞上了佛山一年一度的传统活动秋色巡游。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-4.jpg"></p><p>往年长这样，不过我不爱看，而且祖庙那边必定会人山人海，我最不喜欢的就是人山人海出不去的感觉，还不如在家里看直播吹空调舒服（有生之年试过一次，连佛山二号线三号线这种没人坐的地铁都塞满人，可想而知人流有多大😅）</p><p>佛山主干道佛山大道在高峰期+秋色巡游的双重Debuff下被堵的水泄不通，江湾立交下面的电鸡更是堪比广州中山路。最不巧的是他的小窝就在那旁边，没办法，堵了几分钟才过到去。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-5.jpg"></p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-6.jpg"></p><p>在小窝集合之后，我们一起前往交货的地点自提梯子。不巧的是，我们因为迷路在那里晃了好几圈，更不巧的是，过去取了梯子之后，才发现我两电鸡根本载不走，那梯子跟我车一样长，白开电鸡了属实是😂。后面是在没办法了，我朋友直接单手提着将近40斤重的梯子单手开共享回小窝（我只能说牛比）。事后他手都麻了（估计以后都不想再拿一次了🌝）。</p><p>把东西送他家还是其中一个任务（虽然是他自己搬的🤔），还有一个任务要做，那就是装机啦～</p><p>装机的时候也遇到了不少的麻烦，首先是机箱主板就给了我一个大礼，总所周知，ATX大板装不进最大支持atx的matx机箱……So……屌丝纸盒机箱😏，启动！（也是没有办法了，至少得点亮先🌚）。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-7.jpg"></p><p>然后又遇到了第二个麻烦，装完cpu涂硅脂的时候，用的tf02，那玩意比橡皮泥还硬，刮板直接失效了，后面直接弃用，上手抓，这玩意比橡皮泥还不粘cpu，搞得我差点红温😡，之后插了pcie无线网卡发现没有天线于是又换了usb无线网卡。前前后后折腾了大概1-2小时，这套b360也总算是以图吧佬最爱的形式出现：</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-9.jpg"></p><p>是的电源在外面（其实是鞋盒太小了，主板又大，塞不下电源，只能放旁边）。搞完硬件，糊糊涂涂装了个系统，打了驱动，差不多也够时间溜之大吉回家了，走之前还不忘顺了点喝的😍。（不过我周六还得去一趟帮他打打下手，这个就在动态更新啦）</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-10.jpg"></p><p>朋友还专门买了设备来玩音游（🌝不过我不咋玩音游），所以我也不知道是什么设备🌚</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-11.jpg"></p><p>凌乱的房间（其实是因为我们在同时装两台电脑，把整个小窝搞乱了🌝）</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-8.jpg"></p><p>朋友正在在装的电脑（应该是i3 8代没有记错的话）</p><p>这周周记就到这里啦！其实这周没啥特别的事发生哈哈，挺平淡无聊的哈哈，不过下周就精彩啦，下周我们学校举办校运会🌝，也是可以在校运会光明正大玩手机写东西啦~ 想想还有点期待哈哈。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人记录类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 长篇碎碎念 </tag>
+            
+            <tag> 酥米周记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>酥米小站微信小程序即将上线</title>
       <link href="/%E5%85%B6%E4%BB%96/sumiblogappsup/"/>
       <url>/%E5%85%B6%E4%BB%96/sumiblogappsup/</url>
@@ -383,8 +410,6 @@
           
           <category> 搞机类 </category>
           
-          <category> 教程类 </category>
-          
       </categories>
       
       
@@ -438,8 +463,6 @@
       <categories>
           
           <category> 搞机类 </category>
-          
-          <category> 教程类 </category>
           
       </categories>
       

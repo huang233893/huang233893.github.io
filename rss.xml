@@ -15,8 +15,33 @@
     <atom:link href="https://www.sumi233.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>酥米的技术和生活分享地，这里分享前沿技术文章、开发实践心得，以及科技与日常交织的思考。从代码实现到生活洞察，用简洁的文字记录成长轨迹，搭建起技术与人文之间的桥梁。</description>
-    <pubDate>Mon, 13 Oct 2025 16:13:14 GMT</pubDate>
+    <pubDate>Fri, 17 Oct 2025 15:56:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>酥米周记一之平淡无聊的一周</title>
+      <link>https://www.sumi233.top/Weekly/zhouji1/</link>
+      <guid>https://www.sumi233.top/Weekly/zhouji1/</guid>
+      <pubDate>Fri, 17 Oct 2025 15:30:00 GMT</pubDate>
+      
+      <description>酥米的生活周记，一周的生活记录</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了锻炼自己的写作能力，同时拯救一下语言细胞即将坏死的大脑，我决定开始尝试写写周记，今天是第一周周记啦～</p><div class="note orange anzhiyufont anzhiyu-icon-bullhorn flat"><p>📅：2025年10月13至10月17日 全程晴天</p></div><p>这周确实星期一到三没啥好说的，就是反复上下学然后回家😴。</p><h2 id="星期四"><a href="#星期四" class="headerlink" title="星期四"></a>星期四</h2><p>星期四课后，我实在闲的无聊，干脆直接给我的小站修修bug，正好提升一下访问速度，于是我把修改的魔爪伸到了f12控制台上，打开我才发现，原来网站里面这么多资源404的报错，一堆引用的js和css失效了，于是我一个个顺藤摸瓜把bug修了个遍（途中还挺麻烦的，差点放弃不搞了）。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-3.jpg"></p><p>还改了控制台的欢迎语哈哈，换成自己的啦😀～</p><p>我还顺带把CF的cdn ttl调了一下，但愿不会老是不刷新吧哈哈（如果俺滴博客不更新内容请各位俺 <code>ctrl+f5</code> 或者清理网页缓存进行硬刷新哦）</p><p>还好最后还是搞完了，不过还是有点问题。在线问问大佬怎么修复。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-2.jpg"></p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-1.jpg"></p><p>我只能分辨出一个是woff2字体的问题，另外一个我不是很清楚怎么修，而且网络请求上没有地址（我压根找不到错误的根源😭），所以各位大佬可以康康怎么搞吗？谢谢啦~</p><h2 id="星期五"><a href="#星期五" class="headerlink" title="星期五"></a>星期五</h2><p>这个星期五下午，朋友找我让我帮他跟他一起去自提在闲鱼买的二手梯子。可惜今天运气不佳，撞上了佛山一年一度的传统活动秋色巡游。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-4.jpg"></p><p>往年长这样，不过我不爱看，而且祖庙那边必定会人山人海，我最不喜欢的就是人山人海出不去的感觉，还不如在家里看直播吹空调舒服（有生之年试过一次，连佛山二号线三号线这种没人坐的地铁都塞满人，可想而知人流有多大😅）</p><p>佛山主干道佛山大道在高峰期+秋色巡游的双重Debuff下被堵的水泄不通，江湾立交下面的电鸡更是堪比广州中山路。最不巧的是他的小窝就在那旁边，没办法，堵了几分钟才过到去。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-5.jpg"></p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-6.jpg"></p><p>在小窝集合之后，我们一起前往交货的地点自提梯子。不巧的是，我们因为迷路在那里晃了好几圈，更不巧的是，过去取了梯子之后，才发现我两电鸡根本载不走，那梯子跟我车一样长，白开电鸡了属实是😂。后面是在没办法了，我朋友直接单手提着将近40斤重的梯子单手开共享回小窝（我只能说牛比）。事后他手都麻了（估计以后都不想再拿一次了🌝）。</p><p>把东西送他家还是其中一个任务（虽然是他自己搬的🤔），还有一个任务要做，那就是装机啦～</p><p>装机的时候也遇到了不少的麻烦，首先是机箱主板就给了我一个大礼，总所周知，ATX大板装不进最大支持atx的matx机箱……So……屌丝纸盒机箱😏，启动！（也是没有办法了，至少得点亮先🌚）。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-7.jpg"></p><p>然后又遇到了第二个麻烦，装完cpu涂硅脂的时候，用的tf02，那玩意比橡皮泥还硬，刮板直接失效了，后面直接弃用，上手抓，这玩意比橡皮泥还不粘cpu，搞得我差点红温😡，之后插了pcie无线网卡发现没有天线于是又换了usb无线网卡。前前后后折腾了大概1-2小时，这套b360也总算是以图吧佬最爱的形式出现：</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-9.jpg"></p><p>是的电源在外面（其实是鞋盒太小了，主板又大，塞不下电源，只能放旁边）。搞完硬件，糊糊涂涂装了个系统，打了驱动，差不多也够时间溜之大吉回家了，走之前还不忘顺了点喝的😍。（不过我周六还得去一趟帮他打打下手，这个就在动态更新啦）</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-10.jpg"></p><p>朋友还专门买了设备来玩音游（🌝不过我不咋玩音游），所以我也不知道是什么设备🌚</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-11.jpg"></p><p>凌乱的房间（其实是因为我们在同时装两台电脑，把整个小窝搞乱了🌝）</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/w1-8.jpg"></p><p>朋友正在在装的电脑（应该是i3 8代没有记错的话）</p><p>这周周记就到这里啦！其实这周没啥特别的事发生哈哈，挺平淡无聊的哈哈，不过下周就精彩啦，下周我们学校举办校运会🌝，也是可以在校运会光明正大玩手机写东西啦~ 想想还有点期待哈哈。</p>]]></content:encoded>
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95%E7%B1%BB/">个人记录类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E9%95%BF%E7%AF%87%E7%A2%8E%E7%A2%8E%E5%BF%B5/">长篇碎碎念</category>
+      
+      <category domain="https://www.sumi233.top/tags/%E9%85%A5%E7%B1%B3%E5%91%A8%E8%AE%B0/">酥米周记</category>
+      
+      
+      <comments>https://www.sumi233.top/Weekly/zhouji1/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>酥米小站微信小程序即将上线</title>
@@ -373,8 +398,6 @@
       
       <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/">搞机类</category>
       
-      <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/%E6%95%99%E7%A8%8B%E7%B1%BB/">教程类</category>
-      
       
       <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
       
@@ -424,8 +447,6 @@
       
       
       <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/">搞机类</category>
-      
-      <category domain="https://www.sumi233.top/categories/%E6%90%9E%E6%9C%BA%E7%B1%BB/%E6%95%99%E7%A8%8B%E7%B1%BB/">教程类</category>
       
       
       <category domain="https://www.sumi233.top/tags/%E5%88%B7%E6%9C%BA/">刷机</category>
@@ -762,34 +783,6 @@
       
       
       <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Lay2%20Switching%20and%20VLAN/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Trunk VTP and pVLAN</title>
-      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Trunk%20VTP%20and%20pVLAN/</link>
-      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Trunk%20VTP%20and%20pVLAN/</guid>
-      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h2 id=&quot;VLAN范围（Dot1Q）&quot;&gt;&lt;a href=&quot;#VLAN范围（</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="VLAN范围（Dot1Q）"><a href="#VLAN范围（Dot1Q）" class="headerlink" title="VLAN范围（Dot1Q）"></a>VLAN范围（Dot1Q）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(4).png"></p><ul><li>0，4095保留，系统使用</li><li>1思科默认vlan</li><li>2-1001For Ethernet VLANs</li><li>1002-1005思科默认为FDDI及TokenRing</li><li>1006-4094只能为Ethernet使用，在一些特殊平台使用</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(2).png"></p><h2 id="Trunking配置"><a href="#Trunking配置" class="headerlink" title="Trunking配置"></a>Trunking配置</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(3).png"></p><ul><li>Trunk可以手工静态配置或者通过DTP进行协商</li><li>DTP是的交换机之间能够进行trunk协商</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(5).png"></p><h2 id="Trunk相关配置"><a href="#Trunk相关配置" class="headerlink" title="Trunk相关配置"></a>Trunk相关配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# switchport mode access#接口设置access模式</span><br><span class="line">Switch(config)# switchport mode encapsulation &#123;dot1q | ISL&#125;#如果接口是trunk，设置干道协议类型</span><br><span class="line">Switch(config)# switchport mode dynamic &#123;auto | desirable&#125;#将接口设置为DTP动态协商，可选auto或者desirable</span><br><span class="line">Switch(config)# switchport nonegotiate#将接口设置为nonegotiate，不发送DTP帧，如果配置非协商，那么就必须手工配置接口模式，为access或者trunk</span><br></pre></td></tr></table></figure><h2 id="VTP（VLAN-Trunking-Protocol）"><a href="#VTP（VLAN-Trunking-Protocol）" class="headerlink" title="VTP（VLAN Trunking Protocol）"></a>VTP（VLAN Trunking Protocol）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(7).png"></p><ul><li>思科的私有协议</li><li>只能传递VLAN信息</li><li>简化大型园区网中VLAN信息库同步的问题（同一个VTP管理域中）</li><li>只同步VLAN信息</li><li>需要交换机之间的trunk链路支持</li></ul><h2 id="VTP模式"><a href="#VTP模式" class="headerlink" title="VTP模式"></a>VTP模式</h2><h3 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h3><ul><li>可创建修改删除VLAN</li><li>发送&#x2F;转发信息宣告</li><li>同步</li><li>VLAN信息存储于NVRAM</li><li>Catalyst交换机默认是server模式</li></ul><h3 id="Client"><a href="#Client" class="headerlink" title="Client"></a>Client</h3><ul><li>不能创建修改删除VLAN</li><li>发送&#x2F;转发信息宣告</li><li>同步</li><li>VLAN信息不会存贮于NVRAM</li></ul><h3 id="Transparent"><a href="#Transparent" class="headerlink" title="Transparent"></a>Transparent</h3><ul><li>可创建修改删除VLAN </li><li>转发信息宣告</li><li>不同步 不始发</li><li>VLAN信息存贮于NVRAM</li></ul><h3 id="Tips："><a href="#Tips：" class="headerlink" title="Tips："></a>Tips：</h3><ul><li>删除VLAN配置请使用<code>delete flash:config.text</code>，切勿使用<code>delete flash:</code>，这将会清除flash中的IOS固件</li></ul><h2 id="VTP的运作"><a href="#VTP的运作" class="headerlink" title="VTP的运作"></a>VTP的运作</h2><ul><li>VTP协议通过组播地址0100-0CCC-CCCC在trunk链路上发送VTP通告</li><li>VTP Server和clients通过最高的修订号来同步数据部</li><li>VTP协议每隔5分钟发送一次VTP通告或者有变化时发生</li></ul><p><img src="https://img.picgo.net/2024/11/19/image-5b89cbafacef6088c.png"></p><h2 id="VTP的配置"><a href="#VTP的配置" class="headerlink" title="VTP的配置"></a>VTP的配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# vtp domain cisco#配置VTP域名</span><br><span class="line">Switch(config)# vtp mode &#123; server | client | transparent &#125;#配置本机VTP模式</span><br><span class="line">Switch(config)# vtp password x#（可选）配置密码</span><br></pre></td></tr></table></figure><h2 id="私有VLAN（PVLAN）"><a href="#私有VLAN（PVLAN）" class="headerlink" title="私有VLAN（PVLAN）"></a>私有VLAN（PVLAN）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(1).png"></p><ul><li>主VLAN</li><li>辅助VLAN</li><li>团体VLANs</li><li>混杂端口</li></ul><h2 id="PVLANs"><a href="#PVLANs" class="headerlink" title="PVLANs"></a>PVLANs</h2><ul><li>将一个VLAN划分成几个单独的VLAN，这些VLAN都使用同一个IP网段</li><li>可以提高安全性，降低子网数目，提高IP利用率</li><li>尽管网络设备处于同一个子网中，但是他们属于不同的pVlan，pVlans之间的通信还是必须通过默认网关来实现。 </li><li>每个pVLAN包括一个主VLAN以及多个辅助VLAN。</li><li>所有的辅助VLAN都映射到主VLAN。辅助VLAN分为团体VLAN和隔离VLAN。</li><li>相同团体VLAN能够互相通信(lay2)，但是团体VLAN之间必须通过设置SV或者路由器接口才能通信。</li><li>相同隔离VLAN内部(端口之间)以及隔离VLAN之间都是不能够互相通信的，只能与混杂接口通信。</li><li>一个主VLAN只能有一个Isolate vlan</li><li>混杂端口能够与PVLAN中的任何设备通信，不管对方是处于主VLAN，还是辅助VLAN.</li></ul><h2 id="VLAN-port-types"><a href="#VLAN-port-types" class="headerlink" title="VLAN port types"></a>VLAN port types</h2><ul><li>独立（Isolated）<ul><li>仅与混杂端口通信</li></ul></li><li>混杂（Promiscuous）<ul><li>与所有其他端口通信</li></ul></li><li>团体模式（Community）<ul><li>与团体其他接口和所有混杂接口进行沟通</li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
-      
-      
-      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
-      
-      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
-      
-      
-      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Trunk%20VTP%20and%20pVLAN/#disqus_thread</comments>
       
     </item>
     

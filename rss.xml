@@ -738,34 +738,6 @@
     </item>
     
     <item>
-      <title>DOD（TCP/IP）</title>
-      <link>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/</link>
-      <guid>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/</guid>
-      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h2 id=&quot;模型结构&quot;&gt;&lt;a href=&quot;#模型结构&quot; class=&quot;hea</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="模型结构"><a href="#模型结构" class="headerlink" title="模型结构"></a>模型结构</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(11).png"></p><ul><li>4层：应用层</li><li>3层：传输层</li><li>2层：网际层</li><li>1层：物理层</li></ul><h2 id="各层级作用详解"><a href="#各层级作用详解" class="headerlink" title="各层级作用详解"></a>各层级作用详解</h2><ul><li>4层： 与OSI模型中的应用层类似，为用户提供各种应用服务，如电子邮件、文件传输等</li><li>3层：与OSI模型中的传输层类似，负责端到端之间的通信，处理数据包的分段与重组，以及数据传输的可靠性和正确性</li><li>2层：在TCP&#x2F;IP模型中相当于OSI模型的网络层，负责IP地址的分配和路由选择，实现不同网络之间的通信</li><li>1层：负责物理硬件设备间的通信，包括数据链路的操作、错误检测和纠正等功能</li></ul><h2 id="因特网层"><a href="#因特网层" class="headerlink" title="因特网层"></a>因特网层</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(8).png"></p><p>网络层也叫Internet层</p><ul><li>负责将分组报文从源端发送到目的端</li></ul><p>网络层作用</p><ul><li>为网络中设备提供逻辑地址</li><li>负责数据包的寻径和转发</li></ul><h3 id="因特网层协议"><a href="#因特网层协议" class="headerlink" title="因特网层协议"></a>因特网层协议</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(1).png"></p><h3 id="因特网层的工具"><a href="#因特网层的工具" class="headerlink" title="因特网层的工具"></a>因特网层的工具</h3><ul><li>Ping（ICMP）——测试ip与本机的连通性</li><li>Traceroute&#x2F;Tracert ——追踪数据包的每一跳</li></ul><h3 id="因特网层ip报文"><a href="#因特网层ip报文" class="headerlink" title="因特网层ip报文"></a>因特网层ip报文</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(9).png"></p><ul><li>简称TTL，作用是放置一个数据包在网络中无休无止的进行传输</li></ul><h3 id="ARP"><a href="#ARP" class="headerlink" title="ARP"></a>ARP</h3><p>ARP协议具有两种功能</p><ul><li>将IPV4地址解析为MAC地址</li><li>维护映射的缓存</li></ul><h3 id="ARP报文详解"><a href="#ARP报文详解" class="headerlink" title="ARP报文详解"></a>ARP报文详解</h3><ul><li>IP与MAC的关联需要ARP配合实现</li><li>思科中使用<code>show arp</code>查看arp表</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(2).png"></p><h2 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(7).png"></p><h3 id="常见应用的端口"><a href="#常见应用的端口" class="headerlink" title="常见应用的端口"></a>常见应用的端口</h3><ul><li>HTTP 80端口</li><li>HTTPS 443端口</li><li>Telnet 23端口</li><li>FTP 20、21端口</li><li>SMTP 25端口</li><li>POP3 110端口</li><li>TFTP 69端口</li></ul><h2 id="TCP-IP协议簇简解"><a href="#TCP-IP协议簇简解" class="headerlink" title="TCP&#x2F;IP协议簇简解"></a>TCP&#x2F;IP协议簇简解</h2><ul><li>传输控制协议&#x2F;IRI特网协议（TCP&#x2F;IP）组是由关国国防部（DoD）所创建的，主要用来确保数据的完整性及毁灭战争中维持通讯</li><li>是由一组不同功能的协议组合在一起构成的协议簇、</li><li>利用一组协议完成OSI所实现的功能</li></ul><h3 id="各层级代表协议"><a href="#各层级代表协议" class="headerlink" title="各层级代表协议"></a>各层级代表协议</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(3).png"></p><ul><li>4层：HTTP（Hypertext Transfer Protocol）、FTP（File Transfer Protocol）、SMTP（Simple Mail Transfer Protocol）</li><li>3层：TCP（Transmission Control Protocol）、UDP（User Datagram Protocol）</li><li>2层：IP（Internet Protocol）、ICMP（Internet Control Message Protocol）、ARP（Address Resolution Protocol）</li><li>1层：：Ethernet、PPP（Point-to-Point Protocol）、ARPANET</li></ul><h2 id="TCP-UDP"><a href="#TCP-UDP" class="headerlink" title="TCP &amp; UDP"></a>TCP &amp; UDP</h2><ul><li>TCP（传输控制协议） 属于面向连接的网络协议</li><li>UDP（用户报文协议） 属于无连接的网络协议</li></ul><h3 id="TCP到UDP"><a href="#TCP到UDP" class="headerlink" title="TCP到UDP"></a>TCP到UDP</h3><p>传统控制协议（TCP）</p><ul><li>面向连接</li><li>可靠传输</li><li>控流</li></ul><p>用户数据报协议（UDP）</p><ul><li><p>无连接</p></li><li><p>不可靠传输</p></li><li><p>尽力传输</p></li><li><p>使用TCP的应用：Web浏览器；电子邮件；文件传输程序</p></li><li><p>使用UDP的应用：域名系统（DNS）；视频流；IP语言（VoIP）</p></li><li><p>源端口随机分配，目标端口使用知名端口</p></li><li><p>应用客户端使用的源端口号一般为系统中未使用的且大于1023</p></li><li><p>目的端口号为服务器端应用服务的进程。如telnet为23</p></li></ul><h3 id="TCP包结构"><a href="#TCP包结构" class="headerlink" title="TCP包结构"></a>TCP包结构</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(4).png"></p><h3 id="TCP的三次握手"><a href="#TCP的三次握手" class="headerlink" title="TCP的三次握手"></a>TCP的三次握手</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(10).png"></p><ul><li>1.设备1发送 SYN 包</li><li>2.设备2收到了SYN包后再次发送回设备1带有ACK的包</li><li>3.设备1收到SYN包后验证成功</li></ul><h3 id="UDP包结构"><a href="#UDP包结构" class="headerlink" title="UDP包结构"></a>UDP包结构</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(5).png"></p>]]></content:encoded>
-      
-      
-      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
-      
-      
-      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
-      
-      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
-      
-      
-      <comments>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>ACL基础</title>
       <link>https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/</link>
       <guid>https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/</guid>
@@ -790,6 +762,34 @@
       
       
       <comments>https://www.sumi233.top/CCNA/ACL%E5%9F%BA%E7%A1%80/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DOD（TCP/IP）</title>
+      <link>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/</link>
+      <guid>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/</guid>
+      <pubDate>Thu, 17 Oct 2024 07:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;模型结构&quot;&gt;&lt;a href=&quot;#模型结构&quot; class=&quot;hea</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="模型结构"><a href="#模型结构" class="headerlink" title="模型结构"></a>模型结构</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(11).png"></p><ul><li>4层：应用层</li><li>3层：传输层</li><li>2层：网际层</li><li>1层：物理层</li></ul><h2 id="各层级作用详解"><a href="#各层级作用详解" class="headerlink" title="各层级作用详解"></a>各层级作用详解</h2><ul><li>4层： 与OSI模型中的应用层类似，为用户提供各种应用服务，如电子邮件、文件传输等</li><li>3层：与OSI模型中的传输层类似，负责端到端之间的通信，处理数据包的分段与重组，以及数据传输的可靠性和正确性</li><li>2层：在TCP&#x2F;IP模型中相当于OSI模型的网络层，负责IP地址的分配和路由选择，实现不同网络之间的通信</li><li>1层：负责物理硬件设备间的通信，包括数据链路的操作、错误检测和纠正等功能</li></ul><h2 id="因特网层"><a href="#因特网层" class="headerlink" title="因特网层"></a>因特网层</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(8).png"></p><p>网络层也叫Internet层</p><ul><li>负责将分组报文从源端发送到目的端</li></ul><p>网络层作用</p><ul><li>为网络中设备提供逻辑地址</li><li>负责数据包的寻径和转发</li></ul><h3 id="因特网层协议"><a href="#因特网层协议" class="headerlink" title="因特网层协议"></a>因特网层协议</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(1).png"></p><h3 id="因特网层的工具"><a href="#因特网层的工具" class="headerlink" title="因特网层的工具"></a>因特网层的工具</h3><ul><li>Ping（ICMP）——测试ip与本机的连通性</li><li>Traceroute&#x2F;Tracert ——追踪数据包的每一跳</li></ul><h3 id="因特网层ip报文"><a href="#因特网层ip报文" class="headerlink" title="因特网层ip报文"></a>因特网层ip报文</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(9).png"></p><ul><li>简称TTL，作用是放置一个数据包在网络中无休无止的进行传输</li></ul><h3 id="ARP"><a href="#ARP" class="headerlink" title="ARP"></a>ARP</h3><p>ARP协议具有两种功能</p><ul><li>将IPV4地址解析为MAC地址</li><li>维护映射的缓存</li></ul><h3 id="ARP报文详解"><a href="#ARP报文详解" class="headerlink" title="ARP报文详解"></a>ARP报文详解</h3><ul><li>IP与MAC的关联需要ARP配合实现</li><li>思科中使用<code>show arp</code>查看arp表</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(2).png"></p><h2 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(7).png"></p><h3 id="常见应用的端口"><a href="#常见应用的端口" class="headerlink" title="常见应用的端口"></a>常见应用的端口</h3><ul><li>HTTP 80端口</li><li>HTTPS 443端口</li><li>Telnet 23端口</li><li>FTP 20、21端口</li><li>SMTP 25端口</li><li>POP3 110端口</li><li>TFTP 69端口</li></ul><h2 id="TCP-IP协议簇简解"><a href="#TCP-IP协议簇简解" class="headerlink" title="TCP&#x2F;IP协议簇简解"></a>TCP&#x2F;IP协议簇简解</h2><ul><li>传输控制协议&#x2F;IRI特网协议（TCP&#x2F;IP）组是由关国国防部（DoD）所创建的，主要用来确保数据的完整性及毁灭战争中维持通讯</li><li>是由一组不同功能的协议组合在一起构成的协议簇、</li><li>利用一组协议完成OSI所实现的功能</li></ul><h3 id="各层级代表协议"><a href="#各层级代表协议" class="headerlink" title="各层级代表协议"></a>各层级代表协议</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(3).png"></p><ul><li>4层：HTTP（Hypertext Transfer Protocol）、FTP（File Transfer Protocol）、SMTP（Simple Mail Transfer Protocol）</li><li>3层：TCP（Transmission Control Protocol）、UDP（User Datagram Protocol）</li><li>2层：IP（Internet Protocol）、ICMP（Internet Control Message Protocol）、ARP（Address Resolution Protocol）</li><li>1层：：Ethernet、PPP（Point-to-Point Protocol）、ARPANET</li></ul><h2 id="TCP-UDP"><a href="#TCP-UDP" class="headerlink" title="TCP &amp; UDP"></a>TCP &amp; UDP</h2><ul><li>TCP（传输控制协议） 属于面向连接的网络协议</li><li>UDP（用户报文协议） 属于无连接的网络协议</li></ul><h3 id="TCP到UDP"><a href="#TCP到UDP" class="headerlink" title="TCP到UDP"></a>TCP到UDP</h3><p>传统控制协议（TCP）</p><ul><li>面向连接</li><li>可靠传输</li><li>控流</li></ul><p>用户数据报协议（UDP）</p><ul><li><p>无连接</p></li><li><p>不可靠传输</p></li><li><p>尽力传输</p></li><li><p>使用TCP的应用：Web浏览器；电子邮件；文件传输程序</p></li><li><p>使用UDP的应用：域名系统（DNS）；视频流；IP语言（VoIP）</p></li><li><p>源端口随机分配，目标端口使用知名端口</p></li><li><p>应用客户端使用的源端口号一般为系统中未使用的且大于1023</p></li><li><p>目的端口号为服务器端应用服务的进程。如telnet为23</p></li></ul><h3 id="TCP包结构"><a href="#TCP包结构" class="headerlink" title="TCP包结构"></a>TCP包结构</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(4).png"></p><h3 id="TCP的三次握手"><a href="#TCP的三次握手" class="headerlink" title="TCP的三次握手"></a>TCP的三次握手</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(10).png"></p><ul><li>1.设备1发送 SYN 包</li><li>2.设备2收到了SYN包后再次发送回设备1带有ACK的包</li><li>3.设备1收到SYN包后验证成功</li></ul><h3 id="UDP包结构"><a href="#UDP包结构" class="headerlink" title="UDP包结构"></a>UDP包结构</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/DoD%20(5).png"></p>]]></content:encoded>
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNA/">CCNA</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNA/DOD%EF%BC%88TCP_IP%EF%BC%89/#disqus_thread</comments>
       
     </item>
     

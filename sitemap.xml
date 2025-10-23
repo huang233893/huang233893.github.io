@@ -765,6 +765,13 @@
   </url>
   
   <url>
+    <loc>https://www.sumi233.top/tags/CCNA/</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/tags/CCNP/</loc>
     <lastmod>2025-10-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -772,7 +779,21 @@
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/tags/CCNA/</loc>
+    <loc>https://www.sumi233.top/tags/Linux/</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/tags/%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2025-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -794,27 +815,6 @@
   
   <url>
     <loc>https://www.sumi233.top/tags/Windows/</loc>
-    <lastmod>2025-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2025-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/Linux/</loc>
-    <lastmod>2025-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/%E6%8C%87%E4%BB%A4/</loc>
     <lastmod>2025-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -879,14 +879,14 @@
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95%E7%B1%BB/</loc>
+    <loc>https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/</loc>
     <lastmod>2025-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/</loc>
+    <loc>https://www.sumi233.top/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95%E7%B1%BB/</loc>
     <lastmod>2025-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

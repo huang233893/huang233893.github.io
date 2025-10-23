@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 系统 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -99,9 +99,9 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 系统 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -255,9 +255,9 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 系统 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -361,9 +361,9 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 系统 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -388,9 +388,9 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 系统 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -415,9 +415,9 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 系统 </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       
@@ -667,33 +667,6 @@
     
     
     <entry>
-      <title>EIGRP详解</title>
-      <link href="/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/"/>
-      <url>/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</url>
-      
-        <content type="html"><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul><li>思科私有的增强型的矢量路由协议</li><li>快速汇聚：采用DUAL来实现快速汇聚</li><li>触发更新</li><li>部分更新：EIGRP发送部分更新，把更新的部分传递给需要的路由器</li><li>使用多播和单播：使用多播和单播而不是广播，多播地址224.0.0.10</li><li>支持VLSM：支持无类</li><li>精密的度量值：能实现不等价的负载均衡</li></ul><h2 id="关键技术"><a href="#关键技术" class="headerlink" title="关键技术"></a>关键技术</h2><ul><li>邻居发现协议<ul><li>使用Hello包发现邻居，并动态的获悉其直连的网络中的其他路由器</li></ul></li><li>可靠传输协议（RTP）<ul><li>确保EIGRP分组按顺序以可靠的方式传输给所有邻居</li></ul></li><li>DUAL有限状态机<ul><li>选择最低的度量值和无环的路径到达目的网段</li></ul></li><li>协议无关模块<ul><li>EIGRP支持IP、IPv6、Appletalk和IPX，其都有独立EIGRP模块，负责处理网络层协议而异的需求。</li></ul></li></ul><h2 id="EIGRP的三张表"><a href="#EIGRP的三张表" class="headerlink" title="EIGRP的三张表"></a>EIGRP的三张表</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730161963616-a3e42c29-d0d2-4365-b3d0-f1e5f30550fc.png"></p><ul><li>邻居表</li><li>拓扑表</li><li>路由表</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162218489-49492311-099f-4492-ab81-1f7292fec172.png"></p><h2 id="EIGRP数据包"><a href="#EIGRP数据包" class="headerlink" title="EIGRP数据包"></a>EIGRP数据包</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162469491-ef6f6e0d-c93a-43a2-911c-db3f1413fa94.png"></p><h2 id="Metric的计算"><a href="#Metric的计算" class="headerlink" title="Metric的计算"></a>Metric的计算</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163258199-be43445b-6cd6-40ed-b80c-e8d37f27b360.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163274887-11941729-c27e-4e74-98e2-ef579f23049b.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163485100-1b7af06d-b867-41af-a48c-05d2e96f2577.png"></p><p>默认K1&#x3D;1,K2&#x3D;0,K3&#x3D;1,K4&#x3D;0,K5&#x3D;0</p><p>延迟取值沿路所有数据出接口(或路由入口)延迟的累加</p><p>DLY&#x3D; 延迟 (us) &#x2F; 10 x 256</p><p>带宽取值沿路所有数据出接口(或路由入口)带宽的最低值</p><p>BW&#x3D; [ 10000000 &#x2F; 带宽 (Kbps) ] x 256</p><p><strong>EIGRP路由metric默认为延迟+带宽</strong></p><hr><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163876261-21d8ff7a-5ece-432c-bf72-da5da25f67d7.png"></p><p>A路由器上，看到的3.3.3.0&#x2F;24的路由metric(路径1)?</p><p>BW&#x3D;10^7&#x2F;1544*256&#x3D;6476(去掉小数)*256&#x3D;1657856</p><p>DLY&#x3D;20000&#x2F;10<em>256+5000&#x2F;10</em>256&#x3D;640000</p><p>Metric&#x3D;640000+1657856&#x3D;2297856</p><h2 id="初始路由发现"><a href="#初始路由发现" class="headerlink" title="初始路由发现"></a>初始路由发现</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730164083165-6ad1f436-b29c-4e42-8178-0df9cd83b893.png"></p><p>机翻过程</p><ul><li>Hello包 1.我是路由器A，链接上是谁?</li><li>Hello包 2.你好，我是路由器B。</li><li>Update包 3.下面是我完整的路由信息。</li><li>ACK包 4.感谢提供的信息!</li><li>Update包 5.下面是我完整的路线信息。</li><li>ACK包 6.感谢提供的信息! （凝聚）</li></ul><h2 id="DUAL算法"><a href="#DUAL算法" class="headerlink" title="DUAL算法"></a>DUAL算法</h2><ul><li>Diffusing Update Algorithm 用于计算最佳无环路径和备用路径</li></ul><h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165228311-05385374-7357-431e-968e-97b968881d03.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165266167-e22f9b6a-06d3-4daa-b10a-16b88ae48a9f.png"></p><ul><li>将1.0的metric设置为不可达(-1表示不可达)</li><li>由于没有FS1.0被标记为Active状态</li><li>D向C及E发送查询信息，询问去往1.0的替代路径</li><li>D将C及E标记为未应答查询(q)</li><li>路由器C及E将经由D路由器前往网络1.0的路径标记为不可达</li><li>路由器C发送应答消息给D，指出到达1.0网段的路径没变</li><li>D收到C的应答，将C的查询未应答标记删除</li><li>保持前往1.0路由的active状态，同时等待E的应答</li><li>E由于从C前往1.0网段的AD值&#x3D;3，不小于原来的FD&#x3D;3，所以E将路由标记为active，且向C查询，并将C标记为查询未应答</li><li>D收到E的应答消息</li><li>删除E的查询未应答标记</li><li>计算新的FD将后继路由加入到拓扑表</li><li>将1.0路由切换到passive</li></ul><h2 id="几个术语"><a href="#几个术语" class="headerlink" title="几个术语"></a>几个术语</h2><p>后继路由器</p><p>可行距离(FD)</p><p>可行后继路由器(FS)</p><p>通告距离(AD)</p><p>可行条件，或称可行性条件(FC)</p><h2 id="配置和验证"><a href="#配置和验证" class="headerlink" title="配置和验证"></a>配置和验证</h2><h3 id="Passive-interface配置"><a href="#Passive-interface配置" class="headerlink" title="Passive-interface配置"></a>Passive-interface配置</h3><p><code>Router(config-router)#passive-interface &#123;type number&#125; | default</code></p><ul><li>该命令用于将特定接口设置为被动状态，defaut将所有路由器接白设置为被动状态</li></ul><p>被动接口作用如下</p><ul><li>禁止通过被动接口建立邻接关系</li><li>禁止通过被动接口接收或发送路由更新让EIGRP进程通告被动接口连接的子网查看:</li></ul><p><code>show ip protocols</code></p><p><code>show ip eigrp neighbor</code></p><h2 id="EIGRP路由汇总"><a href="#EIGRP路由汇总" class="headerlink" title="EIGRP路由汇总"></a>EIGRP路由汇总</h2><h3 id="EIGRP自动汇总"><a href="#EIGRP自动汇总" class="headerlink" title="EIGRP自动汇总"></a>EIGRP自动汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730170203332-86774a59-6816-4126-a00b-79a436b93c7e.png"></p><p><strong>关闭自动汇总</strong></p><p><code>Router(config-router)# no auto-summary</code></p><p><strong>配置手工汇总</strong></p><p><code>Router(config-if)# ip summary-address eigrp as-number address mask [admin-distance]</code></p><ul><li>手工配置汇总时，仅当路由选择表中至少有一条该汇总路由的明细路由时，汇总路由才被通告出去。</li><li>ip summary-address eigrp进行汇总的路由AD&#x3D;5</li></ul><h2 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h2><ul><li>等价负载均衡</li><li>EIGRP在度量值相同的所有路径之间分配数据流量，默认为4条等价路径之间均衡IP负载，最大可为16条</li><li><code>Router(config-router)# Maximum-paths maximum-path</code></li></ul><h3 id="非等价均衡"><a href="#非等价均衡" class="headerlink" title="非等价均衡"></a>非等价均衡</h3><p><strong>EIGRP也能在度量值不同的多条路径之间负载均衡</strong></p><p><code>Router(config-router)# Variance multiplier</code></p><ul><li>multplier默认值为1，范围1~128</li><li>只有可行路径才被用于负载均衡，可行条件为：<ul><li>路由必须是无环的。（即AD&lt;FD min）</li><li>FD&lt;&#x3D; FD min X multiplier</li></ul></li><li>注：variance不指定最大路径，而指定了度量值的范围</li></ul><h3 id="例："><a href="#例：" class="headerlink" title="例："></a>例：</h3><p><code>Router(config-router)# Variance 2</code></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188848991-445331a1-6714-448c-8a92-04f2e7af5376.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188866082-9c793dc2-be71-4394-9377-2c39b7231688.png"></p><h2 id="EIGRP认证"><a href="#EIGRP认证" class="headerlink" title="EIGRP认证"></a>EIGRP认证</h2><h3 id="路由器使用两种身份验证方式"><a href="#路由器使用两种身份验证方式" class="headerlink" title="路由器使用两种身份验证方式"></a>路由器使用两种身份验证方式</h3><ul><li>简单密码身份验证<ul><li>IS-IS</li><li>OSPF</li><li>RIPv2</li></ul></li><li>MD5身份验证<ul><li>OSPF</li><li>BGP</li><li>EIGRP</li><li>RIPv2</li></ul></li></ul><h3 id="EIGRP-MD5身份验证配置"><a href="#EIGRP-MD5身份验证配置" class="headerlink" title="EIGRP MD5身份验证配置"></a>EIGRP MD5身份验证配置</h3><ul><li>定义key chain（全局模式）<ul><li><code>Key chain name-of-chain</code></li><li><code>key key-id </code></li><li><code>key-string text</code></li><li><code>accept-lifetime start-time (infinite end-time duration seconds&#125;</code></li><li><code>send-lifetime start-time &#123;infinite | end-time | duration seconds&#125;</code></li></ul></li><li>关联key chain（接口模式）<ul><li><code>ip authentication key-chain eigrp autonomous-system name-of-chain</code></li></ul></li><li>启用认证（接口模式）<ul><li><code>ip authentication mode eigrp autonomous-system md5</code></li></ul></li></ul><h4 id="实例："><a href="#实例：" class="headerlink" title="实例："></a>实例：</h4><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730189387252-e032d95a-10b6-4916-a220-919f6941dd64.png"></p><p><code>show ip eigrp neighbors</code></p><p><code>show ip route</code></p><p><code>show ip eigrp interface detail</code></p><h2 id="大型网络EIGRP的可扩展性"><a href="#大型网络EIGRP的可扩展性" class="headerlink" title="大型网络EIGRP的可扩展性"></a>大型网络EIGRP的可扩展性</h2><p>大型EIGRP网络通常存在以下一些问题</p><ul><li>需要处理的路由表很大</li><li>大量的邻居，要维护庞大的拓扑表</li><li>需要交换大量的路由更新，发送大量的查询和应答</li></ul><p>这使得影响网络的可扩展性的变量变多，如：</p><ul><li>邻居间交换的信息量</li><li>路由器数量</li><li>拓扑深度</li><li>网络中的替代路径数</li></ul><h2 id="陷入主动状态"><a href="#陷入主动状态" class="headerlink" title="陷入主动状态"></a>陷入主动状态</h2><ul><li>路由器陷入主动状态并因此发起查询，仅当收到每个查询的应答后，该路由器才会脱离主动状态进入被动状态</li><li>如果路由器在3分钟肉没有收到查询应答，路由将陷入主动状态(SIA)此时路由器将重置与未应答的邻居之间的邻接关系。</li></ul><p>导致路由进入SIA的常见原因</p><ul><li>路由器太忙无法回答查询</li><li>路由器之间的链路质量低劣</li><li>单向链路</li></ul><h2 id="防范SIA"><a href="#防范SIA" class="headerlink" title="防范SIA"></a>防范SIA</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730249689117-deda2787-45c7-4c17-93c9-5d4919815bb5.png"></p><ul><li>EIGRP分组新增加了SIA-查询和SIA-应答，是由主动过程改进的</li></ul><p><strong>改进前</strong>:主动定时器到期后，A重置与B的邻接关系，但问题出在B和C之间的链路上</p><p><strong>改进后</strong>:主动定时器过半后，A发送SIA-查询，而B确认查询，从而保持邻接关系</p><h2 id="限制查询范围"><a href="#限制查询范围" class="headerlink" title="限制查询范围"></a>限制查询范围</h2><ul><li>确定好路由需求后，可提高EIGRP的可扩展性，使用以下两种方式<ul><li>在合适的路由器上使用路由汇总</li><li>将远程路由器设置有末节EIGRP路由器</li></ul></li><li>将远程路由器设置有末节EIGRP路由器</li><li>中央-分支网络拓扑中，stub路由器将所有非本地数据流转发给hub路由器，而无需保存完整的路由表。</li><li>对于hub路由器来说，不应将stub路由器最为中转路由器，禁止stub路由器将hub路由器通告给其他的hub。</li><li>stub路由器不会收到查询，与stub区域相连的hub路由器将代表末节i由器对查询做出应答。</li><li>未节路由器时指:该路由器与网络核心相连，且不会被用来中转数据未节路由器的EIGRP邻居全部都是中央路由器:</li></ul><h3 id="使用路由汇总"><a href="#使用路由汇总" class="headerlink" title="使用路由汇总"></a>使用路由汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730250750824-bcc81bb9-9bfe-45ec-a6ff-82e841cd2b18.png"></p><ul><li>查询在收到汇总路由的路由器结束</li><li>仅当路由表中有被查询的网络完全匹配的路由时，远程路由器才会进一步传播查询</li></ul><h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router eigrp autonomous-system</span><br><span class="line">#EIGRP将autonomous-system参数称为“自治系统”编号。</span><br><span class="line">Router(config-router)# network network-number [wildcard-mask]</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# lp default-network network-number</span><br><span class="line">#将路由表中某个网络宣告为缺省网络</span><br><span class="line">Router(config-router)# network network-number</span><br><span class="line">#将指定的网络号通告给其他的路由器</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 思科 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网络 </tag>
-            
-            <tag> CCNP </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>BGP详解</title>
       <link href="/CCNP/CCNP%E8%B7%AF%E7%94%B1%20BGP/"/>
       <url>/CCNP/CCNP%E8%B7%AF%E7%94%B1%20BGP/</url>
@@ -748,6 +721,33 @@
     
     
     <entry>
+      <title>EIGRP详解</title>
+      <link href="/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/"/>
+      <url>/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</url>
+      
+        <content type="html"><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul><li>思科私有的增强型的矢量路由协议</li><li>快速汇聚：采用DUAL来实现快速汇聚</li><li>触发更新</li><li>部分更新：EIGRP发送部分更新，把更新的部分传递给需要的路由器</li><li>使用多播和单播：使用多播和单播而不是广播，多播地址224.0.0.10</li><li>支持VLSM：支持无类</li><li>精密的度量值：能实现不等价的负载均衡</li></ul><h2 id="关键技术"><a href="#关键技术" class="headerlink" title="关键技术"></a>关键技术</h2><ul><li>邻居发现协议<ul><li>使用Hello包发现邻居，并动态的获悉其直连的网络中的其他路由器</li></ul></li><li>可靠传输协议（RTP）<ul><li>确保EIGRP分组按顺序以可靠的方式传输给所有邻居</li></ul></li><li>DUAL有限状态机<ul><li>选择最低的度量值和无环的路径到达目的网段</li></ul></li><li>协议无关模块<ul><li>EIGRP支持IP、IPv6、Appletalk和IPX，其都有独立EIGRP模块，负责处理网络层协议而异的需求。</li></ul></li></ul><h2 id="EIGRP的三张表"><a href="#EIGRP的三张表" class="headerlink" title="EIGRP的三张表"></a>EIGRP的三张表</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730161963616-a3e42c29-d0d2-4365-b3d0-f1e5f30550fc.png"></p><ul><li>邻居表</li><li>拓扑表</li><li>路由表</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162218489-49492311-099f-4492-ab81-1f7292fec172.png"></p><h2 id="EIGRP数据包"><a href="#EIGRP数据包" class="headerlink" title="EIGRP数据包"></a>EIGRP数据包</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162469491-ef6f6e0d-c93a-43a2-911c-db3f1413fa94.png"></p><h2 id="Metric的计算"><a href="#Metric的计算" class="headerlink" title="Metric的计算"></a>Metric的计算</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163258199-be43445b-6cd6-40ed-b80c-e8d37f27b360.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163274887-11941729-c27e-4e74-98e2-ef579f23049b.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163485100-1b7af06d-b867-41af-a48c-05d2e96f2577.png"></p><p>默认K1&#x3D;1,K2&#x3D;0,K3&#x3D;1,K4&#x3D;0,K5&#x3D;0</p><p>延迟取值沿路所有数据出接口(或路由入口)延迟的累加</p><p>DLY&#x3D; 延迟 (us) &#x2F; 10 x 256</p><p>带宽取值沿路所有数据出接口(或路由入口)带宽的最低值</p><p>BW&#x3D; [ 10000000 &#x2F; 带宽 (Kbps) ] x 256</p><p><strong>EIGRP路由metric默认为延迟+带宽</strong></p><hr><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163876261-21d8ff7a-5ece-432c-bf72-da5da25f67d7.png"></p><p>A路由器上，看到的3.3.3.0&#x2F;24的路由metric(路径1)?</p><p>BW&#x3D;10^7&#x2F;1544*256&#x3D;6476(去掉小数)*256&#x3D;1657856</p><p>DLY&#x3D;20000&#x2F;10<em>256+5000&#x2F;10</em>256&#x3D;640000</p><p>Metric&#x3D;640000+1657856&#x3D;2297856</p><h2 id="初始路由发现"><a href="#初始路由发现" class="headerlink" title="初始路由发现"></a>初始路由发现</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730164083165-6ad1f436-b29c-4e42-8178-0df9cd83b893.png"></p><p>机翻过程</p><ul><li>Hello包 1.我是路由器A，链接上是谁?</li><li>Hello包 2.你好，我是路由器B。</li><li>Update包 3.下面是我完整的路由信息。</li><li>ACK包 4.感谢提供的信息!</li><li>Update包 5.下面是我完整的路线信息。</li><li>ACK包 6.感谢提供的信息! （凝聚）</li></ul><h2 id="DUAL算法"><a href="#DUAL算法" class="headerlink" title="DUAL算法"></a>DUAL算法</h2><ul><li>Diffusing Update Algorithm 用于计算最佳无环路径和备用路径</li></ul><h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165228311-05385374-7357-431e-968e-97b968881d03.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165266167-e22f9b6a-06d3-4daa-b10a-16b88ae48a9f.png"></p><ul><li>将1.0的metric设置为不可达(-1表示不可达)</li><li>由于没有FS1.0被标记为Active状态</li><li>D向C及E发送查询信息，询问去往1.0的替代路径</li><li>D将C及E标记为未应答查询(q)</li><li>路由器C及E将经由D路由器前往网络1.0的路径标记为不可达</li><li>路由器C发送应答消息给D，指出到达1.0网段的路径没变</li><li>D收到C的应答，将C的查询未应答标记删除</li><li>保持前往1.0路由的active状态，同时等待E的应答</li><li>E由于从C前往1.0网段的AD值&#x3D;3，不小于原来的FD&#x3D;3，所以E将路由标记为active，且向C查询，并将C标记为查询未应答</li><li>D收到E的应答消息</li><li>删除E的查询未应答标记</li><li>计算新的FD将后继路由加入到拓扑表</li><li>将1.0路由切换到passive</li></ul><h2 id="几个术语"><a href="#几个术语" class="headerlink" title="几个术语"></a>几个术语</h2><p>后继路由器</p><p>可行距离(FD)</p><p>可行后继路由器(FS)</p><p>通告距离(AD)</p><p>可行条件，或称可行性条件(FC)</p><h2 id="配置和验证"><a href="#配置和验证" class="headerlink" title="配置和验证"></a>配置和验证</h2><h3 id="Passive-interface配置"><a href="#Passive-interface配置" class="headerlink" title="Passive-interface配置"></a>Passive-interface配置</h3><p><code>Router(config-router)#passive-interface &#123;type number&#125; | default</code></p><ul><li>该命令用于将特定接口设置为被动状态，defaut将所有路由器接白设置为被动状态</li></ul><p>被动接口作用如下</p><ul><li>禁止通过被动接口建立邻接关系</li><li>禁止通过被动接口接收或发送路由更新让EIGRP进程通告被动接口连接的子网查看:</li></ul><p><code>show ip protocols</code></p><p><code>show ip eigrp neighbor</code></p><h2 id="EIGRP路由汇总"><a href="#EIGRP路由汇总" class="headerlink" title="EIGRP路由汇总"></a>EIGRP路由汇总</h2><h3 id="EIGRP自动汇总"><a href="#EIGRP自动汇总" class="headerlink" title="EIGRP自动汇总"></a>EIGRP自动汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730170203332-86774a59-6816-4126-a00b-79a436b93c7e.png"></p><p><strong>关闭自动汇总</strong></p><p><code>Router(config-router)# no auto-summary</code></p><p><strong>配置手工汇总</strong></p><p><code>Router(config-if)# ip summary-address eigrp as-number address mask [admin-distance]</code></p><ul><li>手工配置汇总时，仅当路由选择表中至少有一条该汇总路由的明细路由时，汇总路由才被通告出去。</li><li>ip summary-address eigrp进行汇总的路由AD&#x3D;5</li></ul><h2 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h2><ul><li>等价负载均衡</li><li>EIGRP在度量值相同的所有路径之间分配数据流量，默认为4条等价路径之间均衡IP负载，最大可为16条</li><li><code>Router(config-router)# Maximum-paths maximum-path</code></li></ul><h3 id="非等价均衡"><a href="#非等价均衡" class="headerlink" title="非等价均衡"></a>非等价均衡</h3><p><strong>EIGRP也能在度量值不同的多条路径之间负载均衡</strong></p><p><code>Router(config-router)# Variance multiplier</code></p><ul><li>multplier默认值为1，范围1~128</li><li>只有可行路径才被用于负载均衡，可行条件为：<ul><li>路由必须是无环的。（即AD&lt;FD min）</li><li>FD&lt;&#x3D; FD min X multiplier</li></ul></li><li>注：variance不指定最大路径，而指定了度量值的范围</li></ul><h3 id="例："><a href="#例：" class="headerlink" title="例："></a>例：</h3><p><code>Router(config-router)# Variance 2</code></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188848991-445331a1-6714-448c-8a92-04f2e7af5376.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188866082-9c793dc2-be71-4394-9377-2c39b7231688.png"></p><h2 id="EIGRP认证"><a href="#EIGRP认证" class="headerlink" title="EIGRP认证"></a>EIGRP认证</h2><h3 id="路由器使用两种身份验证方式"><a href="#路由器使用两种身份验证方式" class="headerlink" title="路由器使用两种身份验证方式"></a>路由器使用两种身份验证方式</h3><ul><li>简单密码身份验证<ul><li>IS-IS</li><li>OSPF</li><li>RIPv2</li></ul></li><li>MD5身份验证<ul><li>OSPF</li><li>BGP</li><li>EIGRP</li><li>RIPv2</li></ul></li></ul><h3 id="EIGRP-MD5身份验证配置"><a href="#EIGRP-MD5身份验证配置" class="headerlink" title="EIGRP MD5身份验证配置"></a>EIGRP MD5身份验证配置</h3><ul><li>定义key chain（全局模式）<ul><li><code>Key chain name-of-chain</code></li><li><code>key key-id </code></li><li><code>key-string text</code></li><li><code>accept-lifetime start-time (infinite end-time duration seconds&#125;</code></li><li><code>send-lifetime start-time &#123;infinite | end-time | duration seconds&#125;</code></li></ul></li><li>关联key chain（接口模式）<ul><li><code>ip authentication key-chain eigrp autonomous-system name-of-chain</code></li></ul></li><li>启用认证（接口模式）<ul><li><code>ip authentication mode eigrp autonomous-system md5</code></li></ul></li></ul><h4 id="实例："><a href="#实例：" class="headerlink" title="实例："></a>实例：</h4><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730189387252-e032d95a-10b6-4916-a220-919f6941dd64.png"></p><p><code>show ip eigrp neighbors</code></p><p><code>show ip route</code></p><p><code>show ip eigrp interface detail</code></p><h2 id="大型网络EIGRP的可扩展性"><a href="#大型网络EIGRP的可扩展性" class="headerlink" title="大型网络EIGRP的可扩展性"></a>大型网络EIGRP的可扩展性</h2><p>大型EIGRP网络通常存在以下一些问题</p><ul><li>需要处理的路由表很大</li><li>大量的邻居，要维护庞大的拓扑表</li><li>需要交换大量的路由更新，发送大量的查询和应答</li></ul><p>这使得影响网络的可扩展性的变量变多，如：</p><ul><li>邻居间交换的信息量</li><li>路由器数量</li><li>拓扑深度</li><li>网络中的替代路径数</li></ul><h2 id="陷入主动状态"><a href="#陷入主动状态" class="headerlink" title="陷入主动状态"></a>陷入主动状态</h2><ul><li>路由器陷入主动状态并因此发起查询，仅当收到每个查询的应答后，该路由器才会脱离主动状态进入被动状态</li><li>如果路由器在3分钟肉没有收到查询应答，路由将陷入主动状态(SIA)此时路由器将重置与未应答的邻居之间的邻接关系。</li></ul><p>导致路由进入SIA的常见原因</p><ul><li>路由器太忙无法回答查询</li><li>路由器之间的链路质量低劣</li><li>单向链路</li></ul><h2 id="防范SIA"><a href="#防范SIA" class="headerlink" title="防范SIA"></a>防范SIA</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730249689117-deda2787-45c7-4c17-93c9-5d4919815bb5.png"></p><ul><li>EIGRP分组新增加了SIA-查询和SIA-应答，是由主动过程改进的</li></ul><p><strong>改进前</strong>:主动定时器到期后，A重置与B的邻接关系，但问题出在B和C之间的链路上</p><p><strong>改进后</strong>:主动定时器过半后，A发送SIA-查询，而B确认查询，从而保持邻接关系</p><h2 id="限制查询范围"><a href="#限制查询范围" class="headerlink" title="限制查询范围"></a>限制查询范围</h2><ul><li>确定好路由需求后，可提高EIGRP的可扩展性，使用以下两种方式<ul><li>在合适的路由器上使用路由汇总</li><li>将远程路由器设置有末节EIGRP路由器</li></ul></li><li>将远程路由器设置有末节EIGRP路由器</li><li>中央-分支网络拓扑中，stub路由器将所有非本地数据流转发给hub路由器，而无需保存完整的路由表。</li><li>对于hub路由器来说，不应将stub路由器最为中转路由器，禁止stub路由器将hub路由器通告给其他的hub。</li><li>stub路由器不会收到查询，与stub区域相连的hub路由器将代表末节i由器对查询做出应答。</li><li>未节路由器时指:该路由器与网络核心相连，且不会被用来中转数据未节路由器的EIGRP邻居全部都是中央路由器:</li></ul><h3 id="使用路由汇总"><a href="#使用路由汇总" class="headerlink" title="使用路由汇总"></a>使用路由汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730250750824-bcc81bb9-9bfe-45ec-a6ff-82e841cd2b18.png"></p><ul><li>查询在收到汇总路由的路由器结束</li><li>仅当路由表中有被查询的网络完全匹配的路由时，远程路由器才会进一步传播查询</li></ul><h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router eigrp autonomous-system</span><br><span class="line">#EIGRP将autonomous-system参数称为“自治系统”编号。</span><br><span class="line">Router(config-router)# network network-number [wildcard-mask]</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# lp default-network network-number</span><br><span class="line">#将路由表中某个网络宣告为缺省网络</span><br><span class="line">Router(config-router)# network network-number</span><br><span class="line">#将指定的网络号通告给其他的路由器</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 思科 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络 </tag>
+            
+            <tag> CCNP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>路由和路径</title>
       <link href="/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E5%92%8C%E8%B7%AF%E5%BE%84/"/>
       <url>/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E5%92%8C%E8%B7%AF%E5%BE%84/</url>
@@ -780,60 +780,6 @@
       <url>/CCNP/CCNP%E8%B7%AF%E7%94%B1%20%E8%B7%AF%E7%94%B1%E9%80%89%E6%8B%A9%E5%8E%9F%E7%90%86/</url>
       
         <content type="html"><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="路由选择原理"><a href="#路由选择原理" class="headerlink" title="路由选择原理"></a>路由选择原理</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729556630961-3d015d9f-3ae5-4c13-80fd-44414035a0ed.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729556639379-05e1075f-512e-4609-9792-e21fcde11d20.png"></p><ul><li>路由信息来源</li><li>管理距离（AD值）</li><li>有类及无类路由查找</li><li>最长匹配原则</li><li>递归查询</li></ul><h2 id="路由信息的来源"><a href="#路由信息的来源" class="headerlink" title="路由信息的来源"></a>路由信息的来源</h2><ul><li>直连路由<ul><li>接口配置IP，该接口的物理层和数据链路层UP</li><li>通过接口感知到的直连网络</li></ul></li><li>静态路由<ul><li>使用静态路由命令手工配置的路由</li></ul></li><li>动态路由<ul><li>通过动态路由协议学习</li><li>常见路由协议：RIP、OSPF、IS-IS、EIGRP、BGP</li></ul></li></ul><h2 id="管理距离（AD值）"><a href="#管理距离（AD值）" class="headerlink" title="管理距离（AD值）"></a>管理距离（AD值）</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729557010043-46b3011e-6b27-48c8-9f06-c8b053d29574.png"></p><h2 id="有类及无类路由查找"><a href="#有类及无类路由查找" class="headerlink" title="有类及无类路由查找"></a>有类及无类路由查找</h2><ul><li><strong>无类路由查找</strong>：路由器不会注意目的地址的类别，它会在目的地址和所有己知的路由之间逐位(bit by bit)执行最长匹配</li><li><strong>有类路由查找</strong>（no ip classless）：路由器收到一个数据包时，先查找目的地址所属主类网络，如果路由表中存在该主类网络的路由，则继续找子网，如果没有子网路由则丢弃数据包（即使本地有默认路由，也同样丢弃），如果有则正常转发;而如果本地路由表里没有该目的地址所属主类网络的路由，则看是否有默认路由，如果有，则转发，如果没有，则丢弃。</li></ul><h2 id="最长匹配原则"><a href="#最长匹配原则" class="headerlink" title="最长匹配原则"></a>最长匹配原则</h2><ul><li>主机地址（主机路径）</li><li>子网</li><li>一组子网（汇总路由）</li><li>主网号</li><li>超网（CIDR）</li><li>缺省地址</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729557446146-ebde076d-6d67-4744-b602-f3af3c202b25.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729558543372-6f0ce184-42bb-46e0-b9de-9f3f89514936.png"></p><h2 id="路由表的查找"><a href="#路由表的查找" class="headerlink" title="路由表的查找"></a>路由表的查找</h2><ul><li>不同的前缀，在路由表中属于不同的路由</li><li>相同的前缀，先比AD，后比metric</li><li>匹配，转发；不匹配，丢弃</li><li>路由器的行为是逐跳的，到目标网络的沿路径每个路由器都必须有关于目标的路由</li><li>数据是双向的，考虑流量的时候，要关注流量的往返</li></ul><h2 id="路由表的递归查询"><a href="#路由表的递归查询" class="headerlink" title="路由表的递归查询"></a>路由表的递归查询</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729558770399-0145f42d-3b34-47d4-8415-b50b98eeaf42.png"></p><h2 id="协议分类"><a href="#协议分类" class="headerlink" title="协议分类"></a>协议分类</h2><ul><li>有类路由选择协议：RIPv1、IGRP<ul><li><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729565436293-0236dbc1-1d8c-4bd1-a0c3-df14ecd55870.png"></li></ul></li><li>无类路由选择协议：OSPF、EIGRP、ISIS、BGP等</li><li>根本区别在于：更新消息中是否含有网络掩码</li></ul><h2 id="浮动的静态路由"><a href="#浮动的静态路由" class="headerlink" title="浮动的静态路由"></a>浮动的静态路由</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729566091093-7800b4ae-dc55-4da4-b7c4-0c96f54807fc.png"></p><ul><li>通过修改缺省的管理具体实现路由冗余</li></ul><h3 id="静态路由汇总"><a href="#静态路由汇总" class="headerlink" title="静态路由汇总"></a>静态路由汇总</h3><ul><li>改变子网掩码，通过汇总路由匹配明细，从而简化路由表</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729578966077-6f787972-1326-45fc-b640-0408a427dc5e.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729580677499-e739e627-2e8e-4eb7-9a22-19a2caf8e673.png"></p><h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729565692870-f2f68474-85ac-4f44-b6ff-8ff47e689483.png"></p><p><code>Ip route 192.168.10.0 255.255.255.0 192.168.1.1</code></p><p>使用指向下一跳的静态路由</p><p><code>Ip route 192.168.10.0 255.255.255.0 fa 0/0</code></p><p>使用指向出接口的静态路由该条目将作为直连网络输入到路由表中如果出接口为广播型接口，可能会给接口下的节点造成额外的负担(ARP)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Router# show ip route</span><br><span class="line">Gateway of last resort is not set </span><br><span class="line">9.0.0.0/2 4 is subnetted,2 subnets</span><br><span class="line">C9.9.12.0 is directly connected, FastEthernet0/0</span><br><span class="line">S9.9.23.0 is directly connected, FastEthernet0/0</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 思科 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网络 </tag>
-            
-            <tag> CCNP </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Lay2 Switching and VLAN</title>
-      <link href="/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Lay2%20Switching%20and%20VLAN/"/>
-      <url>/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Lay2%20Switching%20and%20VLAN/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Lay2-Switching"><a href="#Lay2-Switching" class="headerlink" title="Lay2 Switching"></a>Lay2 Switching</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul><li>基于硬件的交换</li><li>线速转发性能</li><li>低延迟</li><li>定义MAC地址</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(10).png"></p><h3 id="Lay2-Frame"><a href="#Lay2-Frame" class="headerlink" title="Lay2 Frame"></a>Lay2 Frame</h3><ul><li>类型字段取值为0800的帧代表IP协议</li><li>类型字段取值为0806的帧代表ARP协议帧</li><li>类型字段取值为0835的帧代表RARP协议帧</li><li>类型字段取值为8137的帧代表IPX和SPX传输协议帧</li></ul><p>Ethernet II帧</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(9).png"></p><p>802.3帧</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(8).png"></p><p>MAC<br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(7).png"></p><ul><li>MAC地址有48位，通常被表示为点分十六进制数</li><li>MAC地址全球唯一，由IEEE对这些地址进行管理和分配</li><li>每个地址由两部分组成，分别是供应商代码和序列号。其中前24位二进制代表该供应商代码。剩下的24位由厂商自己分配</li></ul><h2 id="VLAN概率回顾"><a href="#VLAN概率回顾" class="headerlink" title="VLAN概率回顾"></a>VLAN概率回顾</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(6).png"></p><ul><li>形成逻辑的广播域，不同之间的VLAN互相隔离</li><li>一个VLAN中所有设备都是在同一广播域内，不同的VLAN为不同的广播域VLAN之间互相隔离，广播不能跨越VLAN传播，因此不同VLAN之间的设备一般无法互访，不同VLAN间需通过三层设备实现相互通信</li><li>一个VLAN一般为一个逻辑子网，由被配置为此VLAN成员的设备组成VLAN中成员多基于交换机的端口分配，划分VLAN就是对交换机的接口划分</li><li>VLAN工作于OSI参考模型的第二层</li><li>VLAN是二层交换机的一个非常根本的工作机制</li></ul><h2 id="Trunk概念回顾"><a href="#Trunk概念回顾" class="headerlink" title="Trunk概念回顾"></a>Trunk概念回顾</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(5).png"></p><ul><li>当一条链路，需要承载多VLAN信息的时候，需使用trunk来实现</li><li>Trunk两端的交换机需擦用相同的干道协议</li><li>一般见于交换机之间或交换机与路由器、服务器之间</li></ul><h2 id="ISL与802-1Q"><a href="#ISL与802-1Q" class="headerlink" title="ISL与802.1Q"></a>ISL与802.1Q</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(4).png"></p><h3 id="ISL"><a href="#ISL" class="headerlink" title="ISL"></a>ISL</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(3).png"></p><ul><li>思科私有协议</li><li>支持PVST</li><li>在原始数据帧基础上封装ISL头及新的FCS</li><li>没有修改原始的数据帧，因此处理效率比802.1Q高</li><li>VLAN字段，15分比特目前用了十个，那么最多支持2的10次方&#x3D;1024个VLAN</li></ul><h3 id="802-1Q"><a href="#802-1Q" class="headerlink" title="802.1Q"></a>802.1Q</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(2).png"></p><ul><li>IEEE共有协议</li><li>插入Tag字段，同时重新计算FCS</li></ul><h2 id="Native-VLAN"><a href="#Native-VLAN" class="headerlink" title="Native VLAN"></a>Native VLAN</h2><ul><li>Native VLAN所属的帧在经过trunk时不打标签</li><li>Native VLAN在Trunk两端必须匹配，否则会出现VLAN流量互串</li><li>默认native vlan是vlan1</li><li>建议将一个生僻的VLAN配置成Native VLAN</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(1).png"></p><h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Router(config-if)# switchport trunk native vlan ? #在trunk设置native vlan</span><br><span class="line">Router(config)# vlan dot1q tag native #也对native vlan打标签</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 思科 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网络 </tag>
-            
-            <tag> CCNP </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Trunk VTP and pVLAN</title>
-      <link href="/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Trunk%20VTP%20and%20pVLAN/"/>
-      <url>/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Trunk%20VTP%20and%20pVLAN/</url>
-      
-        <content type="html"><![CDATA[<h2 id="VLAN范围（Dot1Q）"><a href="#VLAN范围（Dot1Q）" class="headerlink" title="VLAN范围（Dot1Q）"></a>VLAN范围（Dot1Q）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(4).png"></p><ul><li>0，4095保留，系统使用</li><li>1思科默认vlan</li><li>2-1001For Ethernet VLANs</li><li>1002-1005思科默认为FDDI及TokenRing</li><li>1006-4094只能为Ethernet使用，在一些特殊平台使用</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(2).png"></p><h2 id="Trunking配置"><a href="#Trunking配置" class="headerlink" title="Trunking配置"></a>Trunking配置</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(3).png"></p><ul><li>Trunk可以手工静态配置或者通过DTP进行协商</li><li>DTP是的交换机之间能够进行trunk协商</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(5).png"></p><h2 id="Trunk相关配置"><a href="#Trunk相关配置" class="headerlink" title="Trunk相关配置"></a>Trunk相关配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# switchport mode access#接口设置access模式</span><br><span class="line">Switch(config)# switchport mode encapsulation &#123;dot1q | ISL&#125;#如果接口是trunk，设置干道协议类型</span><br><span class="line">Switch(config)# switchport mode dynamic &#123;auto | desirable&#125;#将接口设置为DTP动态协商，可选auto或者desirable</span><br><span class="line">Switch(config)# switchport nonegotiate#将接口设置为nonegotiate，不发送DTP帧，如果配置非协商，那么就必须手工配置接口模式，为access或者trunk</span><br></pre></td></tr></table></figure><h2 id="VTP（VLAN-Trunking-Protocol）"><a href="#VTP（VLAN-Trunking-Protocol）" class="headerlink" title="VTP（VLAN Trunking Protocol）"></a>VTP（VLAN Trunking Protocol）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(7).png"></p><ul><li>思科的私有协议</li><li>只能传递VLAN信息</li><li>简化大型园区网中VLAN信息库同步的问题（同一个VTP管理域中）</li><li>只同步VLAN信息</li><li>需要交换机之间的trunk链路支持</li></ul><h2 id="VTP模式"><a href="#VTP模式" class="headerlink" title="VTP模式"></a>VTP模式</h2><h3 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h3><ul><li>可创建修改删除VLAN</li><li>发送&#x2F;转发信息宣告</li><li>同步</li><li>VLAN信息存储于NVRAM</li><li>Catalyst交换机默认是server模式</li></ul><h3 id="Client"><a href="#Client" class="headerlink" title="Client"></a>Client</h3><ul><li>不能创建修改删除VLAN</li><li>发送&#x2F;转发信息宣告</li><li>同步</li><li>VLAN信息不会存贮于NVRAM</li></ul><h3 id="Transparent"><a href="#Transparent" class="headerlink" title="Transparent"></a>Transparent</h3><ul><li>可创建修改删除VLAN </li><li>转发信息宣告</li><li>不同步 不始发</li><li>VLAN信息存贮于NVRAM</li></ul><h3 id="Tips："><a href="#Tips：" class="headerlink" title="Tips："></a>Tips：</h3><ul><li>删除VLAN配置请使用<code>delete flash:config.text</code>，切勿使用<code>delete flash:</code>，这将会清除flash中的IOS固件</li></ul><h2 id="VTP的运作"><a href="#VTP的运作" class="headerlink" title="VTP的运作"></a>VTP的运作</h2><ul><li>VTP协议通过组播地址0100-0CCC-CCCC在trunk链路上发送VTP通告</li><li>VTP Server和clients通过最高的修订号来同步数据部</li><li>VTP协议每隔5分钟发送一次VTP通告或者有变化时发生</li></ul><p><img src="https://img.picgo.net/2024/11/19/image-5b89cbafacef6088c.png"></p><h2 id="VTP的配置"><a href="#VTP的配置" class="headerlink" title="VTP的配置"></a>VTP的配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# vtp domain cisco#配置VTP域名</span><br><span class="line">Switch(config)# vtp mode &#123; server | client | transparent &#125;#配置本机VTP模式</span><br><span class="line">Switch(config)# vtp password x#（可选）配置密码</span><br></pre></td></tr></table></figure><h2 id="私有VLAN（PVLAN）"><a href="#私有VLAN（PVLAN）" class="headerlink" title="私有VLAN（PVLAN）"></a>私有VLAN（PVLAN）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(1).png"></p><ul><li>主VLAN</li><li>辅助VLAN</li><li>团体VLANs</li><li>混杂端口</li></ul><h2 id="PVLANs"><a href="#PVLANs" class="headerlink" title="PVLANs"></a>PVLANs</h2><ul><li>将一个VLAN划分成几个单独的VLAN，这些VLAN都使用同一个IP网段</li><li>可以提高安全性，降低子网数目，提高IP利用率</li><li>尽管网络设备处于同一个子网中，但是他们属于不同的pVlan，pVlans之间的通信还是必须通过默认网关来实现。 </li><li>每个pVLAN包括一个主VLAN以及多个辅助VLAN。</li><li>所有的辅助VLAN都映射到主VLAN。辅助VLAN分为团体VLAN和隔离VLAN。</li><li>相同团体VLAN能够互相通信(lay2)，但是团体VLAN之间必须通过设置SV或者路由器接口才能通信。</li><li>相同隔离VLAN内部(端口之间)以及隔离VLAN之间都是不能够互相通信的，只能与混杂接口通信。</li><li>一个主VLAN只能有一个Isolate vlan</li><li>混杂端口能够与PVLAN中的任何设备通信，不管对方是处于主VLAN，还是辅助VLAN.</li></ul><h2 id="VLAN-port-types"><a href="#VLAN-port-types" class="headerlink" title="VLAN port types"></a>VLAN port types</h2><ul><li>独立（Isolated）<ul><li>仅与混杂端口通信</li></ul></li><li>混杂（Promiscuous）<ul><li>与所有其他端口通信</li></ul></li><li>团体模式（Community）<ul><li>与团体其他接口和所有混杂接口进行沟通</li></ul></li></ul>]]></content>
       
       
       <categories>
@@ -1234,6 +1180,60 @@
     
     
     <entry>
+      <title>Lay2 Switching and VLAN</title>
+      <link href="/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Lay2%20Switching%20and%20VLAN/"/>
+      <url>/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Lay2%20Switching%20and%20VLAN/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Lay2-Switching"><a href="#Lay2-Switching" class="headerlink" title="Lay2 Switching"></a>Lay2 Switching</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul><li>基于硬件的交换</li><li>线速转发性能</li><li>低延迟</li><li>定义MAC地址</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(10).png"></p><h3 id="Lay2-Frame"><a href="#Lay2-Frame" class="headerlink" title="Lay2 Frame"></a>Lay2 Frame</h3><ul><li>类型字段取值为0800的帧代表IP协议</li><li>类型字段取值为0806的帧代表ARP协议帧</li><li>类型字段取值为0835的帧代表RARP协议帧</li><li>类型字段取值为8137的帧代表IPX和SPX传输协议帧</li></ul><p>Ethernet II帧</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(9).png"></p><p>802.3帧</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(8).png"></p><p>MAC<br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(7).png"></p><ul><li>MAC地址有48位，通常被表示为点分十六进制数</li><li>MAC地址全球唯一，由IEEE对这些地址进行管理和分配</li><li>每个地址由两部分组成，分别是供应商代码和序列号。其中前24位二进制代表该供应商代码。剩下的24位由厂商自己分配</li></ul><h2 id="VLAN概率回顾"><a href="#VLAN概率回顾" class="headerlink" title="VLAN概率回顾"></a>VLAN概率回顾</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(6).png"></p><ul><li>形成逻辑的广播域，不同之间的VLAN互相隔离</li><li>一个VLAN中所有设备都是在同一广播域内，不同的VLAN为不同的广播域VLAN之间互相隔离，广播不能跨越VLAN传播，因此不同VLAN之间的设备一般无法互访，不同VLAN间需通过三层设备实现相互通信</li><li>一个VLAN一般为一个逻辑子网，由被配置为此VLAN成员的设备组成VLAN中成员多基于交换机的端口分配，划分VLAN就是对交换机的接口划分</li><li>VLAN工作于OSI参考模型的第二层</li><li>VLAN是二层交换机的一个非常根本的工作机制</li></ul><h2 id="Trunk概念回顾"><a href="#Trunk概念回顾" class="headerlink" title="Trunk概念回顾"></a>Trunk概念回顾</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(5).png"></p><ul><li>当一条链路，需要承载多VLAN信息的时候，需使用trunk来实现</li><li>Trunk两端的交换机需擦用相同的干道协议</li><li>一般见于交换机之间或交换机与路由器、服务器之间</li></ul><h2 id="ISL与802-1Q"><a href="#ISL与802-1Q" class="headerlink" title="ISL与802.1Q"></a>ISL与802.1Q</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(4).png"></p><h3 id="ISL"><a href="#ISL" class="headerlink" title="ISL"></a>ISL</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(3).png"></p><ul><li>思科私有协议</li><li>支持PVST</li><li>在原始数据帧基础上封装ISL头及新的FCS</li><li>没有修改原始的数据帧，因此处理效率比802.1Q高</li><li>VLAN字段，15分比特目前用了十个，那么最多支持2的10次方&#x3D;1024个VLAN</li></ul><h3 id="802-1Q"><a href="#802-1Q" class="headerlink" title="802.1Q"></a>802.1Q</h3><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(2).png"></p><ul><li>IEEE共有协议</li><li>插入Tag字段，同时重新计算FCS</li></ul><h2 id="Native-VLAN"><a href="#Native-VLAN" class="headerlink" title="Native VLAN"></a>Native VLAN</h2><ul><li>Native VLAN所属的帧在经过trunk时不打标签</li><li>Native VLAN在Trunk两端必须匹配，否则会出现VLAN流量互串</li><li>默认native vlan是vlan1</li><li>建议将一个生僻的VLAN配置成Native VLAN</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/Lay2sw%26vlan%20(1).png"></p><h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Router(config-if)# switchport trunk native vlan ? #在trunk设置native vlan</span><br><span class="line">Router(config)# vlan dot1q tag native #也对native vlan打标签</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 思科 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络 </tag>
+            
+            <tag> CCNP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Trunk VTP and pVLAN</title>
+      <link href="/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Trunk%20VTP%20and%20pVLAN/"/>
+      <url>/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20Trunk%20VTP%20and%20pVLAN/</url>
+      
+        <content type="html"><![CDATA[<h2 id="VLAN范围（Dot1Q）"><a href="#VLAN范围（Dot1Q）" class="headerlink" title="VLAN范围（Dot1Q）"></a>VLAN范围（Dot1Q）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(4).png"></p><ul><li>0，4095保留，系统使用</li><li>1思科默认vlan</li><li>2-1001For Ethernet VLANs</li><li>1002-1005思科默认为FDDI及TokenRing</li><li>1006-4094只能为Ethernet使用，在一些特殊平台使用</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(2).png"></p><h2 id="Trunking配置"><a href="#Trunking配置" class="headerlink" title="Trunking配置"></a>Trunking配置</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(3).png"></p><ul><li>Trunk可以手工静态配置或者通过DTP进行协商</li><li>DTP是的交换机之间能够进行trunk协商</li></ul><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(5).png"></p><h2 id="Trunk相关配置"><a href="#Trunk相关配置" class="headerlink" title="Trunk相关配置"></a>Trunk相关配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# switchport mode access#接口设置access模式</span><br><span class="line">Switch(config)# switchport mode encapsulation &#123;dot1q | ISL&#125;#如果接口是trunk，设置干道协议类型</span><br><span class="line">Switch(config)# switchport mode dynamic &#123;auto | desirable&#125;#将接口设置为DTP动态协商，可选auto或者desirable</span><br><span class="line">Switch(config)# switchport nonegotiate#将接口设置为nonegotiate，不发送DTP帧，如果配置非协商，那么就必须手工配置接口模式，为access或者trunk</span><br></pre></td></tr></table></figure><h2 id="VTP（VLAN-Trunking-Protocol）"><a href="#VTP（VLAN-Trunking-Protocol）" class="headerlink" title="VTP（VLAN Trunking Protocol）"></a>VTP（VLAN Trunking Protocol）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(7).png"></p><ul><li>思科的私有协议</li><li>只能传递VLAN信息</li><li>简化大型园区网中VLAN信息库同步的问题（同一个VTP管理域中）</li><li>只同步VLAN信息</li><li>需要交换机之间的trunk链路支持</li></ul><h2 id="VTP模式"><a href="#VTP模式" class="headerlink" title="VTP模式"></a>VTP模式</h2><h3 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h3><ul><li>可创建修改删除VLAN</li><li>发送&#x2F;转发信息宣告</li><li>同步</li><li>VLAN信息存储于NVRAM</li><li>Catalyst交换机默认是server模式</li></ul><h3 id="Client"><a href="#Client" class="headerlink" title="Client"></a>Client</h3><ul><li>不能创建修改删除VLAN</li><li>发送&#x2F;转发信息宣告</li><li>同步</li><li>VLAN信息不会存贮于NVRAM</li></ul><h3 id="Transparent"><a href="#Transparent" class="headerlink" title="Transparent"></a>Transparent</h3><ul><li>可创建修改删除VLAN </li><li>转发信息宣告</li><li>不同步 不始发</li><li>VLAN信息存贮于NVRAM</li></ul><h3 id="Tips："><a href="#Tips：" class="headerlink" title="Tips："></a>Tips：</h3><ul><li>删除VLAN配置请使用<code>delete flash:config.text</code>，切勿使用<code>delete flash:</code>，这将会清除flash中的IOS固件</li></ul><h2 id="VTP的运作"><a href="#VTP的运作" class="headerlink" title="VTP的运作"></a>VTP的运作</h2><ul><li>VTP协议通过组播地址0100-0CCC-CCCC在trunk链路上发送VTP通告</li><li>VTP Server和clients通过最高的修订号来同步数据部</li><li>VTP协议每隔5分钟发送一次VTP通告或者有变化时发生</li></ul><p><img src="https://img.picgo.net/2024/11/19/image-5b89cbafacef6088c.png"></p><h2 id="VTP的配置"><a href="#VTP的配置" class="headerlink" title="VTP的配置"></a>VTP的配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# vtp domain cisco#配置VTP域名</span><br><span class="line">Switch(config)# vtp mode &#123; server | client | transparent &#125;#配置本机VTP模式</span><br><span class="line">Switch(config)# vtp password x#（可选）配置密码</span><br></pre></td></tr></table></figure><h2 id="私有VLAN（PVLAN）"><a href="#私有VLAN（PVLAN）" class="headerlink" title="私有VLAN（PVLAN）"></a>私有VLAN（PVLAN）</h2><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed/top/huang233893/imgs/blog/vtppvlan%20(1).png"></p><ul><li>主VLAN</li><li>辅助VLAN</li><li>团体VLANs</li><li>混杂端口</li></ul><h2 id="PVLANs"><a href="#PVLANs" class="headerlink" title="PVLANs"></a>PVLANs</h2><ul><li>将一个VLAN划分成几个单独的VLAN，这些VLAN都使用同一个IP网段</li><li>可以提高安全性，降低子网数目，提高IP利用率</li><li>尽管网络设备处于同一个子网中，但是他们属于不同的pVlan，pVlans之间的通信还是必须通过默认网关来实现。 </li><li>每个pVLAN包括一个主VLAN以及多个辅助VLAN。</li><li>所有的辅助VLAN都映射到主VLAN。辅助VLAN分为团体VLAN和隔离VLAN。</li><li>相同团体VLAN能够互相通信(lay2)，但是团体VLAN之间必须通过设置SV或者路由器接口才能通信。</li><li>相同隔离VLAN内部(端口之间)以及隔离VLAN之间都是不能够互相通信的，只能与混杂接口通信。</li><li>一个主VLAN只能有一个Isolate vlan</li><li>混杂端口能够与PVLAN中的任何设备通信，不管对方是处于主VLAN，还是辅助VLAN.</li></ul><h2 id="VLAN-port-types"><a href="#VLAN-port-types" class="headerlink" title="VLAN port types"></a>VLAN port types</h2><ul><li>独立（Isolated）<ul><li>仅与混杂端口通信</li></ul></li><li>混杂（Promiscuous）<ul><li>与所有其他端口通信</li></ul></li><li>团体模式（Community）<ul><li>与团体其他接口和所有混杂接口进行沟通</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 思科 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络 </tag>
+            
+            <tag> CCNP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux Bash Shell 脚本编写</title>
       <link href="/Linux/Linux%20Bash%20Shell%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99/"/>
       <url>/Linux/Linux%20Bash%20Shell%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99/</url>
@@ -1358,9 +1358,9 @@
       
         <tags>
             
-            <tag> 系统 </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> 系统 </tag>
             
             <tag> 刷机 </tag>
             
@@ -1389,9 +1389,9 @@
       
         <tags>
             
-            <tag> 系统 </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> 系统 </tag>
             
         </tags>
       

@@ -34,9 +34,9 @@
       <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
       
       
-      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
-      
       <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
       
       
       <comments>https://www.sumi233.top/Windows/win11dev5/#disqus_thread</comments>
@@ -107,9 +107,9 @@
       <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
       
       
-      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
-      
       <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
       
       
       <comments>https://www.sumi233.top/Windows/win11dev4/#disqus_thread</comments>
@@ -251,9 +251,9 @@
       <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
       
       
-      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
-      
       <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
       
       
       <comments>https://www.sumi233.top/Windows/win11dev3/#disqus_thread</comments>
@@ -349,9 +349,9 @@
       <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
       
       
-      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
-      
       <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
       
       
       <comments>https://www.sumi233.top/Windows/win11dev2/#disqus_thread</comments>
@@ -374,9 +374,9 @@
       <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
       
       
-      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
-      
       <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
       
       
       <comments>https://www.sumi233.top/Windows/win11dev1/#disqus_thread</comments>
@@ -399,9 +399,9 @@
       <category domain="https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/">系统类</category>
       
       
-      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
-      
       <category domain="https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/">系统</category>
+      
+      <category domain="https://www.sumi233.top/tags/Windows/">Windows</category>
       
       
       <comments>https://www.sumi233.top/Windows/win11dev/#disqus_thread</comments>
@@ -644,34 +644,6 @@
     </item>
     
     <item>
-      <title>EIGRP详解</title>
-      <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</link>
-      <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</guid>
-      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
-      
-        
-        
-      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul><li>思科私有的增强型的矢量路由协议</li><li>快速汇聚：采用DUAL来实现快速汇聚</li><li>触发更新</li><li>部分更新：EIGRP发送部分更新，把更新的部分传递给需要的路由器</li><li>使用多播和单播：使用多播和单播而不是广播，多播地址224.0.0.10</li><li>支持VLSM：支持无类</li><li>精密的度量值：能实现不等价的负载均衡</li></ul><h2 id="关键技术"><a href="#关键技术" class="headerlink" title="关键技术"></a>关键技术</h2><ul><li>邻居发现协议<ul><li>使用Hello包发现邻居，并动态的获悉其直连的网络中的其他路由器</li></ul></li><li>可靠传输协议（RTP）<ul><li>确保EIGRP分组按顺序以可靠的方式传输给所有邻居</li></ul></li><li>DUAL有限状态机<ul><li>选择最低的度量值和无环的路径到达目的网段</li></ul></li><li>协议无关模块<ul><li>EIGRP支持IP、IPv6、Appletalk和IPX，其都有独立EIGRP模块，负责处理网络层协议而异的需求。</li></ul></li></ul><h2 id="EIGRP的三张表"><a href="#EIGRP的三张表" class="headerlink" title="EIGRP的三张表"></a>EIGRP的三张表</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730161963616-a3e42c29-d0d2-4365-b3d0-f1e5f30550fc.png"></p><ul><li>邻居表</li><li>拓扑表</li><li>路由表</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162218489-49492311-099f-4492-ab81-1f7292fec172.png"></p><h2 id="EIGRP数据包"><a href="#EIGRP数据包" class="headerlink" title="EIGRP数据包"></a>EIGRP数据包</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162469491-ef6f6e0d-c93a-43a2-911c-db3f1413fa94.png"></p><h2 id="Metric的计算"><a href="#Metric的计算" class="headerlink" title="Metric的计算"></a>Metric的计算</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163258199-be43445b-6cd6-40ed-b80c-e8d37f27b360.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163274887-11941729-c27e-4e74-98e2-ef579f23049b.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163485100-1b7af06d-b867-41af-a48c-05d2e96f2577.png"></p><p>默认K1&#x3D;1,K2&#x3D;0,K3&#x3D;1,K4&#x3D;0,K5&#x3D;0</p><p>延迟取值沿路所有数据出接口(或路由入口)延迟的累加</p><p>DLY&#x3D; 延迟 (us) &#x2F; 10 x 256</p><p>带宽取值沿路所有数据出接口(或路由入口)带宽的最低值</p><p>BW&#x3D; [ 10000000 &#x2F; 带宽 (Kbps) ] x 256</p><p><strong>EIGRP路由metric默认为延迟+带宽</strong></p><hr><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163876261-21d8ff7a-5ece-432c-bf72-da5da25f67d7.png"></p><p>A路由器上，看到的3.3.3.0&#x2F;24的路由metric(路径1)?</p><p>BW&#x3D;10^7&#x2F;1544*256&#x3D;6476(去掉小数)*256&#x3D;1657856</p><p>DLY&#x3D;20000&#x2F;10<em>256+5000&#x2F;10</em>256&#x3D;640000</p><p>Metric&#x3D;640000+1657856&#x3D;2297856</p><h2 id="初始路由发现"><a href="#初始路由发现" class="headerlink" title="初始路由发现"></a>初始路由发现</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730164083165-6ad1f436-b29c-4e42-8178-0df9cd83b893.png"></p><p>机翻过程</p><ul><li>Hello包 1.我是路由器A，链接上是谁?</li><li>Hello包 2.你好，我是路由器B。</li><li>Update包 3.下面是我完整的路由信息。</li><li>ACK包 4.感谢提供的信息!</li><li>Update包 5.下面是我完整的路线信息。</li><li>ACK包 6.感谢提供的信息! （凝聚）</li></ul><h2 id="DUAL算法"><a href="#DUAL算法" class="headerlink" title="DUAL算法"></a>DUAL算法</h2><ul><li>Diffusing Update Algorithm 用于计算最佳无环路径和备用路径</li></ul><h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165228311-05385374-7357-431e-968e-97b968881d03.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165266167-e22f9b6a-06d3-4daa-b10a-16b88ae48a9f.png"></p><ul><li>将1.0的metric设置为不可达(-1表示不可达)</li><li>由于没有FS1.0被标记为Active状态</li><li>D向C及E发送查询信息，询问去往1.0的替代路径</li><li>D将C及E标记为未应答查询(q)</li><li>路由器C及E将经由D路由器前往网络1.0的路径标记为不可达</li><li>路由器C发送应答消息给D，指出到达1.0网段的路径没变</li><li>D收到C的应答，将C的查询未应答标记删除</li><li>保持前往1.0路由的active状态，同时等待E的应答</li><li>E由于从C前往1.0网段的AD值&#x3D;3，不小于原来的FD&#x3D;3，所以E将路由标记为active，且向C查询，并将C标记为查询未应答</li><li>D收到E的应答消息</li><li>删除E的查询未应答标记</li><li>计算新的FD将后继路由加入到拓扑表</li><li>将1.0路由切换到passive</li></ul><h2 id="几个术语"><a href="#几个术语" class="headerlink" title="几个术语"></a>几个术语</h2><p>后继路由器</p><p>可行距离(FD)</p><p>可行后继路由器(FS)</p><p>通告距离(AD)</p><p>可行条件，或称可行性条件(FC)</p><h2 id="配置和验证"><a href="#配置和验证" class="headerlink" title="配置和验证"></a>配置和验证</h2><h3 id="Passive-interface配置"><a href="#Passive-interface配置" class="headerlink" title="Passive-interface配置"></a>Passive-interface配置</h3><p><code>Router(config-router)#passive-interface &#123;type number&#125; | default</code></p><ul><li>该命令用于将特定接口设置为被动状态，defaut将所有路由器接白设置为被动状态</li></ul><p>被动接口作用如下</p><ul><li>禁止通过被动接口建立邻接关系</li><li>禁止通过被动接口接收或发送路由更新让EIGRP进程通告被动接口连接的子网查看:</li></ul><p><code>show ip protocols</code></p><p><code>show ip eigrp neighbor</code></p><h2 id="EIGRP路由汇总"><a href="#EIGRP路由汇总" class="headerlink" title="EIGRP路由汇总"></a>EIGRP路由汇总</h2><h3 id="EIGRP自动汇总"><a href="#EIGRP自动汇总" class="headerlink" title="EIGRP自动汇总"></a>EIGRP自动汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730170203332-86774a59-6816-4126-a00b-79a436b93c7e.png"></p><p><strong>关闭自动汇总</strong></p><p><code>Router(config-router)# no auto-summary</code></p><p><strong>配置手工汇总</strong></p><p><code>Router(config-if)# ip summary-address eigrp as-number address mask [admin-distance]</code></p><ul><li>手工配置汇总时，仅当路由选择表中至少有一条该汇总路由的明细路由时，汇总路由才被通告出去。</li><li>ip summary-address eigrp进行汇总的路由AD&#x3D;5</li></ul><h2 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h2><ul><li>等价负载均衡</li><li>EIGRP在度量值相同的所有路径之间分配数据流量，默认为4条等价路径之间均衡IP负载，最大可为16条</li><li><code>Router(config-router)# Maximum-paths maximum-path</code></li></ul><h3 id="非等价均衡"><a href="#非等价均衡" class="headerlink" title="非等价均衡"></a>非等价均衡</h3><p><strong>EIGRP也能在度量值不同的多条路径之间负载均衡</strong></p><p><code>Router(config-router)# Variance multiplier</code></p><ul><li>multplier默认值为1，范围1~128</li><li>只有可行路径才被用于负载均衡，可行条件为：<ul><li>路由必须是无环的。（即AD&lt;FD min）</li><li>FD&lt;&#x3D; FD min X multiplier</li></ul></li><li>注：variance不指定最大路径，而指定了度量值的范围</li></ul><h3 id="例："><a href="#例：" class="headerlink" title="例："></a>例：</h3><p><code>Router(config-router)# Variance 2</code></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188848991-445331a1-6714-448c-8a92-04f2e7af5376.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188866082-9c793dc2-be71-4394-9377-2c39b7231688.png"></p><h2 id="EIGRP认证"><a href="#EIGRP认证" class="headerlink" title="EIGRP认证"></a>EIGRP认证</h2><h3 id="路由器使用两种身份验证方式"><a href="#路由器使用两种身份验证方式" class="headerlink" title="路由器使用两种身份验证方式"></a>路由器使用两种身份验证方式</h3><ul><li>简单密码身份验证<ul><li>IS-IS</li><li>OSPF</li><li>RIPv2</li></ul></li><li>MD5身份验证<ul><li>OSPF</li><li>BGP</li><li>EIGRP</li><li>RIPv2</li></ul></li></ul><h3 id="EIGRP-MD5身份验证配置"><a href="#EIGRP-MD5身份验证配置" class="headerlink" title="EIGRP MD5身份验证配置"></a>EIGRP MD5身份验证配置</h3><ul><li>定义key chain（全局模式）<ul><li><code>Key chain name-of-chain</code></li><li><code>key key-id </code></li><li><code>key-string text</code></li><li><code>accept-lifetime start-time (infinite end-time duration seconds&#125;</code></li><li><code>send-lifetime start-time &#123;infinite | end-time | duration seconds&#125;</code></li></ul></li><li>关联key chain（接口模式）<ul><li><code>ip authentication key-chain eigrp autonomous-system name-of-chain</code></li></ul></li><li>启用认证（接口模式）<ul><li><code>ip authentication mode eigrp autonomous-system md5</code></li></ul></li></ul><h4 id="实例："><a href="#实例：" class="headerlink" title="实例："></a>实例：</h4><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730189387252-e032d95a-10b6-4916-a220-919f6941dd64.png"></p><p><code>show ip eigrp neighbors</code></p><p><code>show ip route</code></p><p><code>show ip eigrp interface detail</code></p><h2 id="大型网络EIGRP的可扩展性"><a href="#大型网络EIGRP的可扩展性" class="headerlink" title="大型网络EIGRP的可扩展性"></a>大型网络EIGRP的可扩展性</h2><p>大型EIGRP网络通常存在以下一些问题</p><ul><li>需要处理的路由表很大</li><li>大量的邻居，要维护庞大的拓扑表</li><li>需要交换大量的路由更新，发送大量的查询和应答</li></ul><p>这使得影响网络的可扩展性的变量变多，如：</p><ul><li>邻居间交换的信息量</li><li>路由器数量</li><li>拓扑深度</li><li>网络中的替代路径数</li></ul><h2 id="陷入主动状态"><a href="#陷入主动状态" class="headerlink" title="陷入主动状态"></a>陷入主动状态</h2><ul><li>路由器陷入主动状态并因此发起查询，仅当收到每个查询的应答后，该路由器才会脱离主动状态进入被动状态</li><li>如果路由器在3分钟肉没有收到查询应答，路由将陷入主动状态(SIA)此时路由器将重置与未应答的邻居之间的邻接关系。</li></ul><p>导致路由进入SIA的常见原因</p><ul><li>路由器太忙无法回答查询</li><li>路由器之间的链路质量低劣</li><li>单向链路</li></ul><h2 id="防范SIA"><a href="#防范SIA" class="headerlink" title="防范SIA"></a>防范SIA</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730249689117-deda2787-45c7-4c17-93c9-5d4919815bb5.png"></p><ul><li>EIGRP分组新增加了SIA-查询和SIA-应答，是由主动过程改进的</li></ul><p><strong>改进前</strong>:主动定时器到期后，A重置与B的邻接关系，但问题出在B和C之间的链路上</p><p><strong>改进后</strong>:主动定时器过半后，A发送SIA-查询，而B确认查询，从而保持邻接关系</p><h2 id="限制查询范围"><a href="#限制查询范围" class="headerlink" title="限制查询范围"></a>限制查询范围</h2><ul><li>确定好路由需求后，可提高EIGRP的可扩展性，使用以下两种方式<ul><li>在合适的路由器上使用路由汇总</li><li>将远程路由器设置有末节EIGRP路由器</li></ul></li><li>将远程路由器设置有末节EIGRP路由器</li><li>中央-分支网络拓扑中，stub路由器将所有非本地数据流转发给hub路由器，而无需保存完整的路由表。</li><li>对于hub路由器来说，不应将stub路由器最为中转路由器，禁止stub路由器将hub路由器通告给其他的hub。</li><li>stub路由器不会收到查询，与stub区域相连的hub路由器将代表末节i由器对查询做出应答。</li><li>未节路由器时指:该路由器与网络核心相连，且不会被用来中转数据未节路由器的EIGRP邻居全部都是中央路由器:</li></ul><h3 id="使用路由汇总"><a href="#使用路由汇总" class="headerlink" title="使用路由汇总"></a>使用路由汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730250750824-bcc81bb9-9bfe-45ec-a6ff-82e841cd2b18.png"></p><ul><li>查询在收到汇总路由的路由器结束</li><li>仅当路由表中有被查询的网络完全匹配的路由时，远程路由器才会进一步传播查询</li></ul><h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router eigrp autonomous-system</span><br><span class="line">#EIGRP将autonomous-system参数称为“自治系统”编号。</span><br><span class="line">Router(config-router)# network network-number [wildcard-mask]</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# lp default-network network-number</span><br><span class="line">#将路由表中某个网络宣告为缺省网络</span><br><span class="line">Router(config-router)# network network-number</span><br><span class="line">#将指定的网络号通告给其他的路由器</span><br></pre></td></tr></table></figure>]]></content:encoded>
-      
-      
-      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
-      
-      
-      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
-      
-      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
-      
-      
-      <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>BGP详解</title>
       <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20BGP/</link>
       <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20BGP/</guid>
@@ -724,6 +696,34 @@
       
       
       <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20OSPF%E5%92%8CLSA%E9%83%A8%E5%88%86/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EIGRP详解</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul><li>思科私有的增强型的矢量路由协议</li><li>快速汇聚：采用DUAL来实现快速汇聚</li><li>触发更新</li><li>部分更新：EIGRP发送部分更新，把更新的部分传递给需要的路由器</li><li>使用多播和单播：使用多播和单播而不是广播，多播地址224.0.0.10</li><li>支持VLSM：支持无类</li><li>精密的度量值：能实现不等价的负载均衡</li></ul><h2 id="关键技术"><a href="#关键技术" class="headerlink" title="关键技术"></a>关键技术</h2><ul><li>邻居发现协议<ul><li>使用Hello包发现邻居，并动态的获悉其直连的网络中的其他路由器</li></ul></li><li>可靠传输协议（RTP）<ul><li>确保EIGRP分组按顺序以可靠的方式传输给所有邻居</li></ul></li><li>DUAL有限状态机<ul><li>选择最低的度量值和无环的路径到达目的网段</li></ul></li><li>协议无关模块<ul><li>EIGRP支持IP、IPv6、Appletalk和IPX，其都有独立EIGRP模块，负责处理网络层协议而异的需求。</li></ul></li></ul><h2 id="EIGRP的三张表"><a href="#EIGRP的三张表" class="headerlink" title="EIGRP的三张表"></a>EIGRP的三张表</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730161963616-a3e42c29-d0d2-4365-b3d0-f1e5f30550fc.png"></p><ul><li>邻居表</li><li>拓扑表</li><li>路由表</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162218489-49492311-099f-4492-ab81-1f7292fec172.png"></p><h2 id="EIGRP数据包"><a href="#EIGRP数据包" class="headerlink" title="EIGRP数据包"></a>EIGRP数据包</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730162469491-ef6f6e0d-c93a-43a2-911c-db3f1413fa94.png"></p><h2 id="Metric的计算"><a href="#Metric的计算" class="headerlink" title="Metric的计算"></a>Metric的计算</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163258199-be43445b-6cd6-40ed-b80c-e8d37f27b360.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163274887-11941729-c27e-4e74-98e2-ef579f23049b.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163485100-1b7af06d-b867-41af-a48c-05d2e96f2577.png"></p><p>默认K1&#x3D;1,K2&#x3D;0,K3&#x3D;1,K4&#x3D;0,K5&#x3D;0</p><p>延迟取值沿路所有数据出接口(或路由入口)延迟的累加</p><p>DLY&#x3D; 延迟 (us) &#x2F; 10 x 256</p><p>带宽取值沿路所有数据出接口(或路由入口)带宽的最低值</p><p>BW&#x3D; [ 10000000 &#x2F; 带宽 (Kbps) ] x 256</p><p><strong>EIGRP路由metric默认为延迟+带宽</strong></p><hr><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730163876261-21d8ff7a-5ece-432c-bf72-da5da25f67d7.png"></p><p>A路由器上，看到的3.3.3.0&#x2F;24的路由metric(路径1)?</p><p>BW&#x3D;10^7&#x2F;1544*256&#x3D;6476(去掉小数)*256&#x3D;1657856</p><p>DLY&#x3D;20000&#x2F;10<em>256+5000&#x2F;10</em>256&#x3D;640000</p><p>Metric&#x3D;640000+1657856&#x3D;2297856</p><h2 id="初始路由发现"><a href="#初始路由发现" class="headerlink" title="初始路由发现"></a>初始路由发现</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730164083165-6ad1f436-b29c-4e42-8178-0df9cd83b893.png"></p><p>机翻过程</p><ul><li>Hello包 1.我是路由器A，链接上是谁?</li><li>Hello包 2.你好，我是路由器B。</li><li>Update包 3.下面是我完整的路由信息。</li><li>ACK包 4.感谢提供的信息!</li><li>Update包 5.下面是我完整的路线信息。</li><li>ACK包 6.感谢提供的信息! （凝聚）</li></ul><h2 id="DUAL算法"><a href="#DUAL算法" class="headerlink" title="DUAL算法"></a>DUAL算法</h2><ul><li>Diffusing Update Algorithm 用于计算最佳无环路径和备用路径</li></ul><h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165228311-05385374-7357-431e-968e-97b968881d03.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730165266167-e22f9b6a-06d3-4daa-b10a-16b88ae48a9f.png"></p><ul><li>将1.0的metric设置为不可达(-1表示不可达)</li><li>由于没有FS1.0被标记为Active状态</li><li>D向C及E发送查询信息，询问去往1.0的替代路径</li><li>D将C及E标记为未应答查询(q)</li><li>路由器C及E将经由D路由器前往网络1.0的路径标记为不可达</li><li>路由器C发送应答消息给D，指出到达1.0网段的路径没变</li><li>D收到C的应答，将C的查询未应答标记删除</li><li>保持前往1.0路由的active状态，同时等待E的应答</li><li>E由于从C前往1.0网段的AD值&#x3D;3，不小于原来的FD&#x3D;3，所以E将路由标记为active，且向C查询，并将C标记为查询未应答</li><li>D收到E的应答消息</li><li>删除E的查询未应答标记</li><li>计算新的FD将后继路由加入到拓扑表</li><li>将1.0路由切换到passive</li></ul><h2 id="几个术语"><a href="#几个术语" class="headerlink" title="几个术语"></a>几个术语</h2><p>后继路由器</p><p>可行距离(FD)</p><p>可行后继路由器(FS)</p><p>通告距离(AD)</p><p>可行条件，或称可行性条件(FC)</p><h2 id="配置和验证"><a href="#配置和验证" class="headerlink" title="配置和验证"></a>配置和验证</h2><h3 id="Passive-interface配置"><a href="#Passive-interface配置" class="headerlink" title="Passive-interface配置"></a>Passive-interface配置</h3><p><code>Router(config-router)#passive-interface &#123;type number&#125; | default</code></p><ul><li>该命令用于将特定接口设置为被动状态，defaut将所有路由器接白设置为被动状态</li></ul><p>被动接口作用如下</p><ul><li>禁止通过被动接口建立邻接关系</li><li>禁止通过被动接口接收或发送路由更新让EIGRP进程通告被动接口连接的子网查看:</li></ul><p><code>show ip protocols</code></p><p><code>show ip eigrp neighbor</code></p><h2 id="EIGRP路由汇总"><a href="#EIGRP路由汇总" class="headerlink" title="EIGRP路由汇总"></a>EIGRP路由汇总</h2><h3 id="EIGRP自动汇总"><a href="#EIGRP自动汇总" class="headerlink" title="EIGRP自动汇总"></a>EIGRP自动汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730170203332-86774a59-6816-4126-a00b-79a436b93c7e.png"></p><p><strong>关闭自动汇总</strong></p><p><code>Router(config-router)# no auto-summary</code></p><p><strong>配置手工汇总</strong></p><p><code>Router(config-if)# ip summary-address eigrp as-number address mask [admin-distance]</code></p><ul><li>手工配置汇总时，仅当路由选择表中至少有一条该汇总路由的明细路由时，汇总路由才被通告出去。</li><li>ip summary-address eigrp进行汇总的路由AD&#x3D;5</li></ul><h2 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h2><ul><li>等价负载均衡</li><li>EIGRP在度量值相同的所有路径之间分配数据流量，默认为4条等价路径之间均衡IP负载，最大可为16条</li><li><code>Router(config-router)# Maximum-paths maximum-path</code></li></ul><h3 id="非等价均衡"><a href="#非等价均衡" class="headerlink" title="非等价均衡"></a>非等价均衡</h3><p><strong>EIGRP也能在度量值不同的多条路径之间负载均衡</strong></p><p><code>Router(config-router)# Variance multiplier</code></p><ul><li>multplier默认值为1，范围1~128</li><li>只有可行路径才被用于负载均衡，可行条件为：<ul><li>路由必须是无环的。（即AD&lt;FD min）</li><li>FD&lt;&#x3D; FD min X multiplier</li></ul></li><li>注：variance不指定最大路径，而指定了度量值的范围</li></ul><h3 id="例："><a href="#例：" class="headerlink" title="例："></a>例：</h3><p><code>Router(config-router)# Variance 2</code></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188848991-445331a1-6714-448c-8a92-04f2e7af5376.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730188866082-9c793dc2-be71-4394-9377-2c39b7231688.png"></p><h2 id="EIGRP认证"><a href="#EIGRP认证" class="headerlink" title="EIGRP认证"></a>EIGRP认证</h2><h3 id="路由器使用两种身份验证方式"><a href="#路由器使用两种身份验证方式" class="headerlink" title="路由器使用两种身份验证方式"></a>路由器使用两种身份验证方式</h3><ul><li>简单密码身份验证<ul><li>IS-IS</li><li>OSPF</li><li>RIPv2</li></ul></li><li>MD5身份验证<ul><li>OSPF</li><li>BGP</li><li>EIGRP</li><li>RIPv2</li></ul></li></ul><h3 id="EIGRP-MD5身份验证配置"><a href="#EIGRP-MD5身份验证配置" class="headerlink" title="EIGRP MD5身份验证配置"></a>EIGRP MD5身份验证配置</h3><ul><li>定义key chain（全局模式）<ul><li><code>Key chain name-of-chain</code></li><li><code>key key-id </code></li><li><code>key-string text</code></li><li><code>accept-lifetime start-time (infinite end-time duration seconds&#125;</code></li><li><code>send-lifetime start-time &#123;infinite | end-time | duration seconds&#125;</code></li></ul></li><li>关联key chain（接口模式）<ul><li><code>ip authentication key-chain eigrp autonomous-system name-of-chain</code></li></ul></li><li>启用认证（接口模式）<ul><li><code>ip authentication mode eigrp autonomous-system md5</code></li></ul></li></ul><h4 id="实例："><a href="#实例：" class="headerlink" title="实例："></a>实例：</h4><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730189387252-e032d95a-10b6-4916-a220-919f6941dd64.png"></p><p><code>show ip eigrp neighbors</code></p><p><code>show ip route</code></p><p><code>show ip eigrp interface detail</code></p><h2 id="大型网络EIGRP的可扩展性"><a href="#大型网络EIGRP的可扩展性" class="headerlink" title="大型网络EIGRP的可扩展性"></a>大型网络EIGRP的可扩展性</h2><p>大型EIGRP网络通常存在以下一些问题</p><ul><li>需要处理的路由表很大</li><li>大量的邻居，要维护庞大的拓扑表</li><li>需要交换大量的路由更新，发送大量的查询和应答</li></ul><p>这使得影响网络的可扩展性的变量变多，如：</p><ul><li>邻居间交换的信息量</li><li>路由器数量</li><li>拓扑深度</li><li>网络中的替代路径数</li></ul><h2 id="陷入主动状态"><a href="#陷入主动状态" class="headerlink" title="陷入主动状态"></a>陷入主动状态</h2><ul><li>路由器陷入主动状态并因此发起查询，仅当收到每个查询的应答后，该路由器才会脱离主动状态进入被动状态</li><li>如果路由器在3分钟肉没有收到查询应答，路由将陷入主动状态(SIA)此时路由器将重置与未应答的邻居之间的邻接关系。</li></ul><p>导致路由进入SIA的常见原因</p><ul><li>路由器太忙无法回答查询</li><li>路由器之间的链路质量低劣</li><li>单向链路</li></ul><h2 id="防范SIA"><a href="#防范SIA" class="headerlink" title="防范SIA"></a>防范SIA</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730249689117-deda2787-45c7-4c17-93c9-5d4919815bb5.png"></p><ul><li>EIGRP分组新增加了SIA-查询和SIA-应答，是由主动过程改进的</li></ul><p><strong>改进前</strong>:主动定时器到期后，A重置与B的邻接关系，但问题出在B和C之间的链路上</p><p><strong>改进后</strong>:主动定时器过半后，A发送SIA-查询，而B确认查询，从而保持邻接关系</p><h2 id="限制查询范围"><a href="#限制查询范围" class="headerlink" title="限制查询范围"></a>限制查询范围</h2><ul><li>确定好路由需求后，可提高EIGRP的可扩展性，使用以下两种方式<ul><li>在合适的路由器上使用路由汇总</li><li>将远程路由器设置有末节EIGRP路由器</li></ul></li><li>将远程路由器设置有末节EIGRP路由器</li><li>中央-分支网络拓扑中，stub路由器将所有非本地数据流转发给hub路由器，而无需保存完整的路由表。</li><li>对于hub路由器来说，不应将stub路由器最为中转路由器，禁止stub路由器将hub路由器通告给其他的hub。</li><li>stub路由器不会收到查询，与stub区域相连的hub路由器将代表末节i由器对查询做出应答。</li><li>未节路由器时指:该路由器与网络核心相连，且不会被用来中转数据未节路由器的EIGRP邻居全部都是中央路由器:</li></ul><h3 id="使用路由汇总"><a href="#使用路由汇总" class="headerlink" title="使用路由汇总"></a>使用路由汇总</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1730250750824-bcc81bb9-9bfe-45ec-a6ff-82e841cd2b18.png"></p><ul><li>查询在收到汇总路由的路由器结束</li><li>仅当路由表中有被查询的网络完全匹配的路由时，远程路由器才会进一步传播查询</li></ul><h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# router eigrp autonomous-system</span><br><span class="line">#EIGRP将autonomous-system参数称为“自治系统”编号。</span><br><span class="line">Router(config-router)# network network-number [wildcard-mask]</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Router(config)# lp default-network network-number</span><br><span class="line">#将路由表中某个网络宣告为缺省网络</span><br><span class="line">Router(config-router)# network network-number</span><br><span class="line">#将指定的网络号通告给其他的路由器</span><br></pre></td></tr></table></figure>]]></content:encoded>
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E8%B7%AF%E7%94%B1%20EIGRP%E9%83%A8%E5%88%86/#disqus_thread</comments>
       
     </item>
     

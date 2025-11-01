@@ -587,7 +587,7 @@
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/CCNA/OSPF%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://www.sumi233.top/CCNA/OSI%E5%9F%BA%E7%A1%80/</loc>
     
     <lastmod>2025-08-02</lastmod>
     
@@ -596,7 +596,7 @@
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/CCNA/OSI%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://www.sumi233.top/CCNA/OSPF%E5%9F%BA%E7%A1%80/</loc>
     
     <lastmod>2025-08-02</lastmod>
     
@@ -794,27 +794,6 @@
 
   
   <url>
-    <loc>https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/CCNP/</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/CCNA/</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.sumi233.top/tags/Linux/</loc>
     <lastmod>2025-11-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -829,7 +808,35 @@
   </url>
   
   <url>
+    <loc>https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/tags/CCNA/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/tags/CCNP/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/tags/Windows/</loc>
     <lastmod>2025-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -844,13 +851,6 @@
   
   <url>
     <loc>https://www.sumi233.top/tags/%E9%85%A5%E7%B1%B3%E5%91%A8%E8%AE%B0/</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/Windows/</loc>
     <lastmod>2025-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -908,14 +908,14 @@
 
   
   <url>
-    <loc>https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/</loc>
+    <loc>https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/</loc>
     <lastmod>2025-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/categories/%E7%B3%BB%E7%BB%9F%E7%B1%BB/</loc>
+    <loc>https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/</loc>
     <lastmod>2025-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

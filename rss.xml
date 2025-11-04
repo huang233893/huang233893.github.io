@@ -633,34 +633,6 @@
     </item>
     
     <item>
-      <title>EtherChannal详解</title>
-      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/</link>
-      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/</guid>
-      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
-      
-        
-        
-      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729210282296-45cab1db-f0cb-412a-9681-ea25c5371e44.png"></p><ul><li>解决方案提供更多的带宽对类似链路进行逻辑聚合</li><li>看成一个逻辑链接</li><li>提供负载平衡和冗余支持</li><li>支持Switch ports和Routed ports</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729210552290-923b722e-fa59-400d-8ad0-01aeeb5febe7.png"></p><h2 id="PAgP-modes"><a href="#PAgP-modes" class="headerlink" title="PAgP modes"></a>PAgP modes</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729211184779-0808aa71-e83c-42d3-a943-ba7fa545e288.png"></p><ul><li>On通道成员不协商(无协议)</li><li>Desirable主动询问对方是否可以&#x2F;将</li><li>Auto被动等待对方询问</li><li>Off未在接口上配置的 EtherChannel</li></ul><h2 id="LACP-modes"><a href="#LACP-modes" class="headerlink" title="LACP modes"></a>LACP modes</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729211269400-1daba43d-af56-4eec-96ee-5d97aee5b79c.png"></p><ul><li>On通道成员不协商(无协议)</li><li>Active主动询问对方是否可以&#x2F;将</li><li>Passive被动等待对方询问</li><li>Off未在接口上配置的 EtherChannel</li></ul><h3 id="EtherChannel的配置"><a href="#EtherChannel的配置" class="headerlink" title="EtherChannel的配置"></a>EtherChannel的配置</h3><ul><li>选择用于Channel的端口</li><li>选择PAgP或LACP</li><li>在接口上配置channel-group<ul><li>设置channel-groupID</li><li>根据特定的协议，选择接口模式完成</li></ul></li><li>上述步骤后，逻辑的etherchannel接口就建立好了。<ul><li>可以进一步对这个逻辑的etherchannel接口进行配置</li></ul></li></ul><h2 id="EtherChannel的实施要点"><a href="#EtherChannel的实施要点" class="headerlink" title="EtherChannel的实施要点"></a>EtherChannel的实施要点</h2><ul><li><strong>Port-channel接口一旦建立完成后，就形成了一个个逻辑的接口，后续针对该接口的配置在port-channel逻辑接口中完成</strong></li><li><strong>最大支持8个端口做捆绑</strong></li><li><strong>Port-channel接口不能成为SPAN的目的接口</strong></li><li><strong>隶属于一个port-channel的物理接口需有相同的如下配置</strong><ul><li>相同的speed和duplex</li><li>相同的接口模式(access、trunk)</li><li>如果是trunk模式，那么native vlan及allowed vlan需相同</li><li>如果是access模式，所属vlan需相同</li></ul></li></ul><h2 id="EC的负载均衡"><a href="#EC的负载均衡" class="headerlink" title="EC的负载均衡"></a>EC的负载均衡</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729212993237-1a809b68-e3bc-4757-acee-38be5f7f66fe.png"> </p><ul><li>EtherChannel支持在同一个port-channel的链路中执行负载均衡</li><li>负载均衡动作可以基于MAC、端口、IP(源IP、目的IP或两者)</li><li>默认的行为:源目IP地址对(src-dst-ip)</li></ul><p><code>Switch(config)# port-channelload-balance type</code></p><p><code>Switch# show etherchannelload-balance</code></p><h2 id="EC的配置"><a href="#EC的配置" class="headerlink" title="EC的配置"></a>EC的配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# int range f0/1 - 2#进入接口范围</span><br><span class="line">Switch(config-if-range)# switchport#将接口配置为二层接口</span><br><span class="line">Switch(config-if-range)# switchport trunk encapsulation dot1q#trunk封装协议为dot1q</span><br><span class="line">Switch(config-if-range)# switchport mode trunk#设置接口模式为Trunk模式</span><br><span class="line">Switch(config-if-range)# channel-protocol pagp/lacp</span><br><span class="line">Switch(config-if-range)# channel-group 1 mode desirable#配置etherchannel，ID为1，模式为desirable</span><br></pre></td></tr></table></figure>]]></content:encoded>
-      
-      
-      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
-      
-      
-      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
-      
-      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
-      
-      
-      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>HSRP &amp; VRRP &amp; GLBP</title>
       <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20HSRP%20VRRP%20GLBP/</link>
       <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20HSRP%20VRRP%20GLBP/</guid>
@@ -685,6 +657,34 @@
       
       
       <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20HSRP%20VRRP%20GLBP/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EtherChannal详解</title>
+      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/</link>
+      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/</guid>
+      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729210282296-45cab1db-f0cb-412a-9681-ea25c5371e44.png"></p><ul><li>解决方案提供更多的带宽对类似链路进行逻辑聚合</li><li>看成一个逻辑链接</li><li>提供负载平衡和冗余支持</li><li>支持Switch ports和Routed ports</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729210552290-923b722e-fa59-400d-8ad0-01aeeb5febe7.png"></p><h2 id="PAgP-modes"><a href="#PAgP-modes" class="headerlink" title="PAgP modes"></a>PAgP modes</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729211184779-0808aa71-e83c-42d3-a943-ba7fa545e288.png"></p><ul><li>On通道成员不协商(无协议)</li><li>Desirable主动询问对方是否可以&#x2F;将</li><li>Auto被动等待对方询问</li><li>Off未在接口上配置的 EtherChannel</li></ul><h2 id="LACP-modes"><a href="#LACP-modes" class="headerlink" title="LACP modes"></a>LACP modes</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729211269400-1daba43d-af56-4eec-96ee-5d97aee5b79c.png"></p><ul><li>On通道成员不协商(无协议)</li><li>Active主动询问对方是否可以&#x2F;将</li><li>Passive被动等待对方询问</li><li>Off未在接口上配置的 EtherChannel</li></ul><h3 id="EtherChannel的配置"><a href="#EtherChannel的配置" class="headerlink" title="EtherChannel的配置"></a>EtherChannel的配置</h3><ul><li>选择用于Channel的端口</li><li>选择PAgP或LACP</li><li>在接口上配置channel-group<ul><li>设置channel-groupID</li><li>根据特定的协议，选择接口模式完成</li></ul></li><li>上述步骤后，逻辑的etherchannel接口就建立好了。<ul><li>可以进一步对这个逻辑的etherchannel接口进行配置</li></ul></li></ul><h2 id="EtherChannel的实施要点"><a href="#EtherChannel的实施要点" class="headerlink" title="EtherChannel的实施要点"></a>EtherChannel的实施要点</h2><ul><li><strong>Port-channel接口一旦建立完成后，就形成了一个个逻辑的接口，后续针对该接口的配置在port-channel逻辑接口中完成</strong></li><li><strong>最大支持8个端口做捆绑</strong></li><li><strong>Port-channel接口不能成为SPAN的目的接口</strong></li><li><strong>隶属于一个port-channel的物理接口需有相同的如下配置</strong><ul><li>相同的speed和duplex</li><li>相同的接口模式(access、trunk)</li><li>如果是trunk模式，那么native vlan及allowed vlan需相同</li><li>如果是access模式，所属vlan需相同</li></ul></li></ul><h2 id="EC的负载均衡"><a href="#EC的负载均衡" class="headerlink" title="EC的负载均衡"></a>EC的负载均衡</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729212993237-1a809b68-e3bc-4757-acee-38be5f7f66fe.png"> </p><ul><li>EtherChannel支持在同一个port-channel的链路中执行负载均衡</li><li>负载均衡动作可以基于MAC、端口、IP(源IP、目的IP或两者)</li><li>默认的行为:源目IP地址对(src-dst-ip)</li></ul><p><code>Switch(config)# port-channelload-balance type</code></p><p><code>Switch# show etherchannelload-balance</code></p><h2 id="EC的配置"><a href="#EC的配置" class="headerlink" title="EC的配置"></a>EC的配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# int range f0/1 - 2#进入接口范围</span><br><span class="line">Switch(config-if-range)# switchport#将接口配置为二层接口</span><br><span class="line">Switch(config-if-range)# switchport trunk encapsulation dot1q#trunk封装协议为dot1q</span><br><span class="line">Switch(config-if-range)# switchport mode trunk#设置接口模式为Trunk模式</span><br><span class="line">Switch(config-if-range)# channel-protocol pagp/lacp</span><br><span class="line">Switch(config-if-range)# channel-group 1 mode desirable#配置etherchannel，ID为1，模式为desirable</span><br></pre></td></tr></table></figure>]]></content:encoded>
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
+      
+      
+      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20EtherChannel/#disqus_thread</comments>
       
     </item>
     

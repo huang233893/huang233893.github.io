@@ -15,8 +15,33 @@
     <atom:link href="https://www.sumi233.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>酥米的技术和生活分享地，这里分享前沿技术文章、开发实践心得，以及科技与日常交织的思考。从代码实现到生活洞察，用简洁的文字记录成长轨迹，搭建起技术与人文之间的桥梁。</description>
-    <pubDate>Mon, 10 Nov 2025 14:44:19 GMT</pubDate>
+    <pubDate>Mon, 17 Nov 2025 13:16:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>没有显卡也能在Windows下开星露谷服务器啦！无显卡开设星露谷物语服务器</title>
+      <link>https://www.sumi233.top/%E6%95%99%E7%A8%8B/stardewvalleyserver/</link>
+      <guid>https://www.sumi233.top/%E6%95%99%E7%A8%8B/stardewvalleyserver/</guid>
+      <pubDate>Mon, 17 Nov 2025 11:50:13 GMT</pubDate>
+      
+      <description>无显卡在windows下开设星露谷物语服务器</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><div class="note danger flat"><p>星露谷物语本身不存在服务端这个概念，所谓服务器端仅是客户端加装模组的联机模式，望各位周知。 </p></div><p>众所周知，星露谷物语对于显卡驱动有要求，驱动打不对或者没有显卡就<strong>打不开</strong>游戏了，这对于一般不带集显（独显）的服务器就是一个十足的劣势了，其实也是有办法绕过的，但是大部分教程都是让你安装Linux还要配置docker容器，其中的难度已经劝退85%的人了，并且还没有算上网络环境导致的下载问题。</p><p>最近知道了一个方便的方法在无显卡的服务器在Windows下配置星露谷服务器，<strong>不需要Linux</strong>，<strong>不需要代码基础</strong>，<strong>仅需要点击鼠标键盘就行</strong>。</p><h2 id="需要的东西"><a href="#需要的东西" class="headerlink" title="需要的东西"></a>需要的东西</h2><ul><li>服务器VPS一个，Windows7系统以上（1核2g以上，建议2h2g，不然多人会卡）</li><li>星露谷物语本体（学习版steam版皆可，<em>建议学习版</em>）我这里使用的是1.6.15（<em>由于版权问题，学习版请自行搜索下载</em>）</li><li>SMAPI模组加载器（建议版本在4.1.10。网盘中有一个，可以不用跑去github下载，多人服务器模组据说在新版本的模组加载器上会出问题）</li><li>服务器的模组（我已经打包好放在网盘啦，仅在1.6.15上测试正常，其他版本需自行测试）</li><li>mesa驱动，可以在网盘链接中下载，也可以在github下载最新版</li></ul><h2 id="配置模组和服务端"><a href="#配置模组和服务端" class="headerlink" title="配置模组和服务端"></a>配置模组和服务端</h2><ol><li>解压游戏本体，安装模组加载器（这个网上有教程，比较容易，可以自行在网上搜教程）</li></ol><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/svs1-2.jpg"><br><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/svs1-4.jpg"></p><ol start="2"><li>复制压缩包的所有模组到打过模组加载器的游戏根目录Mods文件夹</li></ol><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/svs1-3.jpg"></p><p>至此，服务端的配置也就到这里了，接下来就是修复无独显导致游戏打不开的问题</p><h2 id="修复无独显导致打不开游戏的问题"><a href="#修复无独显导致打不开游戏的问题" class="headerlink" title="修复无独显导致打不开游戏的问题"></a>修复无独显导致打不开游戏的问题</h2><p>一般没有显卡的情况下，直接打开模组加载器启动游戏，会报一大段红色报错，大概意思就是找不到显卡设备（原版打开直接没有任何反应）。</p><p>此时我们就需要Mesa这个驱动啦，它可以虚拟一个3d显卡出来，供星露谷物语使用（实际仍使用cpu进行计算）</p><p>下载 <code>mesa3d-25.2.6-release-mingw.7z</code> 之后，解压它，里面有两个cmd文件，首先运行 <code>perappdeploy.cmd</code>（使用管理员权限），让它初始化显卡驱动<br>打开之后一直回车到窗口消失即可，之后运行 <code>systemwidedeploy.cmd</code>（使用管理员权限），安装Mesa3D驱动，需要下一步的地方直接回车，直到窗口消失，这样就安装完成啦。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/svs1-1.jpg"></p><p>此时可以直接打开游戏测试效果啦！本人亲测可以正常开服使用，并且没有太大的问题</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/svs1-5.jpg"></p><p>小小提一嘴，星露谷的联机挺不错的，和Minecraft基岩版一样，支持跨平台联机。</p><p><img src="https://cdn.sumi233.top/gh/huang233893/blog-image-bed@main/top/huang233893/imgs/blog/svs1-6.jpg"></p><p>不过星露谷的服务器可比mc服务器占用少太多了，我的i3 NAS随便带。</p><h2 id="公网问题"><a href="#公网问题" class="headerlink" title="公网问题"></a>公网问题</h2><p>纯原版开服建议使用樱花frp或其他内网穿透（<strong>有公网地址最好</strong>），星露谷物语原生不支持ipv6联机，有条件可以给客户端打ipv6补丁以支持v6公网链接（服务端模组自带ipv6支持）</p><h2 id="文件链接"><a href="#文件链接" class="headerlink" title="文件链接"></a>文件链接</h2><p>网盘链接：</p><div calss="anzhiyu-tag-link"><a class="tag-Link" target="_blank" href="https://wwtr.lanzouw.com/b0nzni3oh">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style>          <i class="anzhiyufont anzhiyu-icon-link" style></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">需要用到的材料（国内镜像） 密码:38zf</div>            <div class="tag-link-sitename">蓝奏云</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>以下是原项目地址链接：</p><div calss="anzhiyu-tag-link"><a class="tag-Link" target="_blank" href="https://github.com/pal1000/mesa-dist-win/releases">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style>          <i class="anzhiyufont anzhiyu-icon-link" style></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">mesa-dist-win</div>            <div class="tag-link-sitename">pal1000</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><div calss="anzhiyu-tag-link"><a class="tag-Link" target="_blank" href="https://github.com/Pathoschild/SMAPI/releases">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style>          <i class="anzhiyufont anzhiyu-icon-link" style></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">SMAPI</div>            <div class="tag-link-sitename">Pathoschild</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div>]]></content:encoded>
+      
+      
+      <category domain="https://www.sumi233.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/">教程类</category>
+      
+      
+      <category domain="https://www.sumi233.top/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      <category domain="https://www.sumi233.top/tags/%E6%B8%B8%E6%88%8F/">游戏</category>
+      
+      
+      <comments>https://www.sumi233.top/%E6%95%99%E7%A8%8B/stardewvalleyserver/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>酥米的碎碎念（4）</title>
@@ -733,34 +758,6 @@
       
       
       <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20HSRP%20VRRP%20GLBP/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>VLAN间的路由及三层交换机的部署</title>
-      <link>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20VLAN%E9%97%B4%E7%9A%84%E8%B7%AF%E7%94%B1%E5%8F%8A%E4%B8%89%E5%B1%82%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9A%84%E9%83%A8%E7%BD%B2/</link>
-      <guid>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20VLAN%E9%97%B4%E7%9A%84%E8%B7%AF%E7%94%B1%E5%8F%8A%E4%B8%89%E5%B1%82%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9A%84%E9%83%A8%E7%BD%B2/</guid>
-      <pubDate>Thu, 21 Nov 2024 01:01:46 GMT</pubDate>
-      
-        
-        
-      <description>&lt;meta name=&quot;referrer&quot; content=&quot;no-referr</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="referrer" content="no-referrer"><h2 id="Q-A"><a href="#Q-A" class="headerlink" title="Q &amp; A"></a>Q &amp; A</h2><h3 id="如何满足不同VLAN的互访需求？"><a href="#如何满足不同VLAN的互访需求？" class="headerlink" title="如何满足不同VLAN的互访需求？"></a>如何满足不同VLAN的互访需求？</h3><ul><li>解决方案1：单臂路由</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729153334630-a8c6d042-08e1-4b43-87f8-aa6252bf8900.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729153355876-a7ca5fed-7f69-4e14-82d7-b5d7aa717043.png"></p><h2 id="路由-VS-交换的园区网结构"><a href="#路由-VS-交换的园区网结构" class="headerlink" title="路由 VS. 交换的园区网结构"></a>路由 VS. 交换的园区网结构</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729162997065-d2ea58a5-246a-44d6-925d-3b16b41a0532.png"></p><ul><li>在过去，交换是基于硬件的转发，而路由是基于软件的转发，因此园区网络更多的采用交换网络的设计</li><li>而如今，路由已经几乎与交换一样快，也能够基于硬件做转发，与此同时路由的设计很好的解决了交换网络的二层环路问题，以及LAN的隔离问题</li></ul><h2 id="Switch-Virtual-interface（SVI）"><a href="#Switch-Virtual-interface（SVI）" class="headerlink" title="Switch Virtual interface（SVI）"></a>Switch Virtual interface（SVI）</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729163085261-9648ecce-8584-479f-a56a-bf5679c5b3bf.png"></p><h2 id="SVI-autostate-exclude-command"><a href="#SVI-autostate-exclude-command" class="headerlink" title="SVI autostate exclude command"></a>SVI autostate exclude command</h2><ul><li>SVI口的Line-state在以下条件满足的情况下才会是UP<ul><li>SVI对应的VLAN必须在vlan database中存在并且是激活的</li><li>Vlan interface存在并且不能说administratively down的</li><li>必须至少有一个二层接口（SVI对于VLAN的access接口或者trunk口）是UP的，而且必须是spanning-tree的forwarding状态</li></ul></li><li>SVI autostate exclude特性可以让特定接口跳出上述up-and-down的计算过程，也就是说该接口的up down与SVI口的up down无关了</li></ul><p><code>Switch(config)# int f0/24</code></p><p><code>Switch(config-if)# switchport auto-state exclude</code></p><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729164827120-91130c8c-63de-4e8f-8628-0259875e2c44.png"></p><h2 id="交换机管理VLAN"><a href="#交换机管理VLAN" class="headerlink" title="交换机管理VLAN"></a>交换机管理VLAN</h2><h3 id="二层交换机的管理VLAN"><a href="#二层交换机的管理VLAN" class="headerlink" title="二层交换机的管理VLAN"></a>二层交换机的管理VLAN</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729165022772-166a0a14-8a04-4f1f-be6f-226ecbf1918a.png"></p><ul><li>交换机的管理VLAN用于交换机本身的设备管理</li><li>二层交换机只能有一个VLAN接口可以拥有IP地址，具体的VLAN可以根据实际需求选定</li><li>有了这个VLAN接口，PC就能够telnet到交换机上执行管理操作</li><li>用户VLAN与交换管理VLAN重叠会有什么问题？</li></ul><h3 id="三层交换环境的管理VLAN"><a href="#三层交换环境的管理VLAN" class="headerlink" title="三层交换环境的管理VLAN"></a>三层交换环境的管理VLAN</h3><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729165215265-252a3155-b8c1-4065-9cc0-764a2291e798.png"></p><h2 id="三层交换机的端口模式"><a href="#三层交换机的端口模式" class="headerlink" title="三层交换机的端口模式"></a>三层交换机的端口模式</h2><p><img src="https://cdn.nlark.com/yuque/0/2024/png/44908083/1729163463953-598b285c-b189-41f6-80b0-e3a5a7637588.png"></p><ul><li>二层接口：access模式，trunk模式</li><li>三层接口：路由接口（no switchport或称为routed port）、SVI接口</li></ul><h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">Switch(config)# ip routing</span><br><span class="line">#开启三层交换机路由功能</span><br><span class="line"></span><br><span class="line">Switch(config)# vlan 10</span><br><span class="line">Switch(config-vlan)# name name</span><br><span class="line"># 创建VLAN</span><br><span class="line"></span><br><span class="line">Switch(config)# int vlan 10 </span><br><span class="line">Switch(config-Vlanif10)# ip add x.x.x.x mask </span><br><span class="line">Switch(config-Vlanif10)# no sh</span><br><span class="line">#配置VLAN对于SVI接口</span><br><span class="line"></span><br><span class="line">Switch(config)# int f0/1</span><br><span class="line">Switch(config-if)# no switchport</span><br><span class="line">Switch(config-if)# ip add x.x.x.x mask</span><br><span class="line">Switch(config-if)# no sh</span><br><span class="line">#配置no switchport（routed port）三层接口</span><br><span class="line"></span><br><span class="line">Switch(config)# ip route 0.0.0.0 0.0.0.0 x.x.x.x</span><br><span class="line">#配置静态路由</span><br></pre></td></tr></table></figure>]]></content:encoded>
-      
-      
-      <category domain="https://www.sumi233.top/categories/%E6%80%9D%E7%A7%91/">思科</category>
-      
-      
-      <category domain="https://www.sumi233.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
-      
-      <category domain="https://www.sumi233.top/tags/CCNP/">CCNP</category>
-      
-      
-      <comments>https://www.sumi233.top/CCNP/CCNP%E4%BA%A4%E6%8D%A2%20VLAN%E9%97%B4%E7%9A%84%E8%B7%AF%E7%94%B1%E5%8F%8A%E4%B8%89%E5%B1%82%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9A%84%E9%83%A8%E7%BD%B2/#disqus_thread</comments>
       
     </item>
     

@@ -917,20 +917,6 @@
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/tags/%E9%95%BF%E7%AF%87%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
-    <lastmod>2025-12-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/%E9%85%A5%E7%B1%B3%E5%91%A8%E8%AE%B0/</loc>
-    <lastmod>2025-12-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.sumi233.top/tags/Windows/</loc>
     <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -987,6 +973,20 @@
   </url>
   
   <url>
+    <loc>https://www.sumi233.top/tags/%E9%95%BF%E7%AF%87%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/tags/%E9%85%A5%E7%B1%B3%E5%91%A8%E8%AE%B0/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -1010,13 +1010,6 @@
   </url>
   
   <url>
-    <loc>https://www.sumi233.top/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95%E7%B1%BB/</loc>
-    <lastmod>2025-12-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.sumi233.top/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -1032,6 +1025,13 @@
   
   <url>
     <loc>https://www.sumi233.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sumi233.top/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95%E7%B1%BB/</loc>
     <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

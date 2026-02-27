@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>https://www.sumi233.top/footprint/index.html</loc>
+    
+    <lastmod>2026-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/%E9%85%A5%E7%B1%B3%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B512/</loc>
     
     <lastmod>2026-02-27</lastmod>
@@ -192,15 +201,6 @@
   
   <url>
     <loc>https://www.sumi233.top/json/footprint.json</loc>
-    
-    <lastmod>2025-11-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/footprint/index.html</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -1000,6 +1000,13 @@
   </url>
   
   <url>
+    <loc>https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sumi233.top/tags/%E9%95%BF%E7%AF%87%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1015,13 +1022,6 @@
   
   <url>
     <loc>https://www.sumi233.top/tags/Windows/</loc>
-    <lastmod>2026-02-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sumi233.top/tags/%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

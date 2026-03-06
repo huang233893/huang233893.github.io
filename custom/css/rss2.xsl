@@ -98,11 +98,11 @@
                     <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
                         <a href="{rss/channel/link}" target="_blank"
                            class="bg-white text-primary px-4 py-2 rounded-lg font-medium hover:bg-blue-50 transition-colors flex items-center justify-center">
-                            <i class="fa fa-globe mr-2"></i> 访问网站
+                            <i class="fa fa-globe mr-2"></i> 博客
                         </a>
                         <a href="{rss/channel/atom:link[@rel='self']/@href}"
                            class="bg-dark text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-800 transition-colors flex items-center justify-center">
-                            <i class="fa fa-rss mr-2"></i> RSS 源
+                            <i class="fa fa-rss mr-2"></i> RSS
                         </a>
                     </div>
                 </div>

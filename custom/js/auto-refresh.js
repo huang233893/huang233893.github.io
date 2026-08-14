@@ -1,0 +1,1 @@
+let isReloading=!1;"serviceWorker"in navigator&&navigator.serviceWorker.addEventListener("controllerchange",()=>{isReloading||(isReloading=!0,console.log("检测到 Service Worker 更新，自动刷新页面..."),window.location.reload())});
